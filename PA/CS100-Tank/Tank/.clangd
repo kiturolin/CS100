@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [-I., -I./detail, -xc, -std=c17] 

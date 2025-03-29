@@ -12,11 +12,17 @@
 //
 //
 //
+#include "Base.h"
 #include "Config.h"
 #include "Renderer.h"
+#include "Scene.h"
 
 #include <time.h>
 
+#define CLOCKWISE 1 
+#define ANTICLOCKWISE 0
+#define FORWARD 1 
+#define BACKWARD 0
 typedef struct {
   char keyHit; // The keyboard key hit by the player at this frame.
 } Game;
@@ -27,6 +33,74 @@ static Game game;
 // The keyboard key "ESC".
 static const char keyESC = '\033';
 
+bool TankPosValidity(Vec *pos);
+void TankTurn(Tank *tank, bool direction);
+void TankPlayerTankUpdate(Tank *tank, char key);
+
+inline bool 
+TankPosValidity(Vec *pos)
+{
+  return  pos->x <= map.size.x - 3 && 
+          pos->x >= 2 &&
+          pos->y <= map.size.y - 3 &&
+          pos->y >= 2;
+}
+
+inline void 
+TankTurn(Tank *pTank, bool direction)
+{
+  pTank->dir = direction ? ((pTank->dir + 1) % eDirInvalid) : ((pTank->dir - 1 + eDirInvalid) % eDirInvalid);
+  // 如果转到了Center位置, 就再转一次
+  if(pTank->dir == eDirOO) {TankTurn(pTank, direction);}
+}
+
+void TankMove(Tank *tank, bool direction)
+{
+  Vec vecForward;
+  switch (tank->dir) {
+    default:
+      vecForward = vecNN; break;
+    case eDirNN:
+      vecForward = vecNN; break;
+    case eDirNO:
+      vecForward = vecNO; break;
+    case eDirNP:
+      vecForward = vecNP; break;
+    case eDirON:
+      vecForward = vecON; break;
+    case eDirOP:
+      vecForward = vecOP; break;
+    case eDirPN:
+      vecForward = vecPN; break;
+    case eDirPO:
+      vecForward = vecPO; break;
+    case eDirPP:
+      vecForward = vecPP; break;
+  }
+ 
+  Vec tmp_pos = direction ? Add(tank->pos, vecForward) : Sub(tank->pos, vecForward); 
+  tank->pos = TankPosValidity(&tmp_pos) ? tmp_pos : tank->pos;
+}
+
+
+void
+TankPlayerTankUpdate(Tank *tank, char key){
+  switch (key) {
+    case 'a':
+      TankTurn(tank, CLOCKWISE);
+      break;
+    case 'd':
+      TankTurn(tank, ANTICLOCKWISE);
+      break;
+    case 'w':
+      TankMove(tank, FORWARD);
+      break;
+    case 's':
+      TankMove(tank, BACKWARD);
+    default:
+      ;
+  }
+}
 //
 //
 //
@@ -54,42 +128,56 @@ void GameInit(void) {
   RegInit(regBullet);
 
   map.flags = (Flag *)malloc(sizeof(Flag) * map.size.x * map.size.y);
-  for (int y = 0; y < map.size.y; ++y)
+  // 初始化地图
+  for (int y = 0; y < map.size.y; ++y) {
     for (int x = 0; x < map.size.x; ++x) {
       Vec pos = {x, y};
 
+      // 默认将此坐标初始化为空None
       Flag flag = eFlagNone;
-      if (x == 0 || y == 0 || x == map.size.x - 1 || y == map.size.y - 1)
+      // 将边界设置为不可穿过的墙
+      if (x == 0 || y == 0 || x == map.size.x - 1 || y == map.size.y - 1) {
         flag = eFlagSolid;
+      }
 
       map.flags[Idx(pos)] = flag;
     }
+  }
 
+  // 初始化玩家tank
   {
     Tank *tank = RegNew(regTank);
+    // 默认出生点为(2, 2)
     tank->pos = (Vec){2, 2};
+    // 默认方向朝上
     tank->dir = eDirOP;
     tank->color = TK_GREEN;
     tank->isPlayer = true;
   }
 
   // Initialize renderer.
+  // 初始化renderer, 渲染器(renderer)实质上是四个字符数组, 每个数组的大小为map size 
+  // 使用double buffering技术, 此处先为四个数组分配内存空间
   renderer.csPrev = (char *)malloc(sizeof(char) * map.size.x * map.size.y);
   renderer.colorsPrev = (Color *)malloc(sizeof(Color) * map.size.x * map.size.y);
   renderer.cs = (char *)malloc(sizeof(char) * map.size.x * map.size.y);
   renderer.colors = (Color *)malloc(sizeof(Color) * map.size.x * map.size.y);
 
+  // 初始化渲染器内的"前一帧", 因为malloc不会零初始化内存
   for (int i = 0; i < map.size.x * map.size.y; ++i) {
     renderer.csPrev[i] = renderer.cs[i] = ' ';
     renderer.colorsPrev[i] = renderer.colors[i] = TK_NORMAL;
   }
 
   // Render scene.
-  for (int y = 0; y < map.size.y; ++y)
+  // 使用二重for循环来渲染场景
+  for (int y = 0; y < map.size.y; ++y) {
     for (int x = 0; x < map.size.x; ++x) {
       Vec pos = {x, y};
+      // 在Vec坐标上放置字符c, 并设置其颜色为TK_AUTO_COLOR
       RdrPutChar(pos, map.flags[Idx(pos)], TK_AUTO_COLOR);
     }
+  }
   RdrRender();
   RdrFlush();
 }
@@ -115,11 +203,12 @@ void GameInput(void) {
 void GameUpdate(void) {
   RdrClear();
 
-  // TODO: You may need to delete or add codes here.
+  // TODO(kituro): You may need to delete or add codes here.
   for (RegIterator it = RegBegin(regTank); it != RegEnd(regTank); it = RegNext(it)) {
     Tank *tank = RegEntry(regTank, it);
-    if (tank->pos.y < map.size.y - 3)
-      ++tank->pos.y;
+    
+    if (tank->isPlayer)
+      {TankPlayerTankUpdate(tank, game.keyHit);}
   }
 
   RdrRender();
@@ -159,6 +248,7 @@ void GameTerminate(void) {
 void GameLifecycle(void) {
   GameInit();
 
+  // 每帧时间, 单位为ms
   double frameTime = (double)1000 / (double)config.fps;
   clock_t frameBegin = clock();
 

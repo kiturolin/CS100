@@ -17,18 +17,21 @@
 
 /// \brief Enums of the 2D directions.
 typedef enum {
+  // N代表Negative, P代表Positive, 前后两个出现顺序对应x, y
+  // 这个命名方式太妙了!
+  eDirNO, // Left.
   eDirNN, // Left-down.
   eDirON, // Down.
   eDirPN, // Right-down.
-
-  eDirNO, // Left.
-  eDirOO, // Center.
   eDirPO, // Right.
-
-  eDirNP, // Left-up.
-  eDirOP, // Up.
+  eDirOO, // Center.
   eDirPP, // Right-up.
+  eDirOP, // Up.
+  eDirNP, // Left-up.
 
+
+  // !!!此处的invalid变量简直是天才设计!!!
+  // !!!给遍历enum类型带来了极大的便利!!!
   eDirInvalid, // Invalid.
 } Dir;
 

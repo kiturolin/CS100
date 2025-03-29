@@ -70,7 +70,7 @@
 + 核心逻辑：用户通过键盘输入操纵坦克，场景中子弹、坦克的状态每时每刻都会自动地发生变化。
 + 画面呈现：为场景中的物体定义合适的字符和颜色，并将它们好看地显示出来。
 
-正巧的是，`Tank` 目录下恰好有这么两个文件：`Game.h` (游戏) 和 `Renderer.h` (渲染器)，并且它们拥有这样的结构关系：
+正巧的是，`Tank` 目录下恰好有这么两个文件：`Game.h` (游戏) 和 `Renderer.h` (渲染器)，并且它们拥有这样的结构关系
 ```bash
 Main.c
 ├─ Game.h
@@ -304,7 +304,7 @@ static Map map;
 /// \example ```c
 /// Vec pos = {x, y};
 /// Flag flag = map.flags[Idx(pos)];
-/// ```
+/// 
 int Idx(Vec pos) {
   return pos.x + pos.y * map.size.x;
 }
@@ -350,8 +350,7 @@ Main.c
 /// RdrPutChar(pos, 'o', TK_RED);
 /// // Let the renderer automatically deduce the color.
 /// RdrPutChar(pos, eFlagWall, TK_AUTO_COLOR);
-/// ```
-void RdrPutChar(Vec pos, char c, Color color);
+/// void RdrPutChar(Vec pos, char c, Color color);
 ```
 
 通过阅读注释，我们了解到这个函数或许就是渲染器的核心，因为正是它负责将某个 `char` 显示在屏幕上的。我们来详细介绍一下它的三个参数：

@@ -12,6 +12,10 @@
   #error Your MinGW version is too old. Please update it to a newer version.
 #endif
 
+#define _DEFAULT_SOURCE
+
+
+
 #include "detail/Macros.h"
 
 #include <limits.h>
