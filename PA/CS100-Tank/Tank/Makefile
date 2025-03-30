@@ -1,6 +1,6 @@
 
 CC = gcc
-CFLAGS = -std=c17 -I./detail/ -Wall -Wpedantic -Wextra  -fdiagnostics-color=always -fsanitize=undefined -fsanitize=address -lm -ggdb -O0  # 自定义编译标志
+CFLAGS = -std=c17 -I./detail/ -Wall -Wpedantic -Wextra -Wno-unused-variable -fdiagnostics-color=always  # 自定义编译标志
 
 # 获取所有.c文件并生成对应的.out文件名
 SRCS = $(wildcard *.c)
