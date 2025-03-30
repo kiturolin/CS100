@@ -12,6 +12,8 @@
 //
 //
 //
+#include "Base.h"
+#include "Config.h"
 #include "Registry.h"
 #include "Terminal.h"
 
@@ -46,6 +48,11 @@ typedef enum {
   eFlagInvalid = '\0', // Invalid.
 } Flag;
 
+typedef enum {
+  eBlockTypeSolid,  // Destrucable.
+  eBlockTypeWall,   // indestructable.
+} BlockType;
+
 /// \example It is easy to create or delete a `Tank` with the help of registries, see `Registry.h`.
 /// ```c
 /// Tank *tank = RegNew(regTank); //! `malloc` is called here.
@@ -55,10 +62,12 @@ typedef enum {
 /// ```
 typedef struct {
   TK_REG_AUTH;   // Authorize `Tank` to make it compatible with registries, see `Registry.h`.
+  int32_t hp;    // Health point.
   Vec pos;       // Position.
   Dir dir;       // Direction.
   Color color;   // Color of the tank and its bullets.
   bool isPlayer; // Whether this tank is player or enemy.
+  bool isEnemy;  // Whether this tank is enemy. 
 } Tank;
 
 /// \example It is easy to create or delete a `Bullet` with the help of registries, see `Registry.h`.
@@ -74,7 +83,14 @@ typedef struct {
   Dir dir;       // Direction.
   Color color;   // Color.
   bool isPlayer; // Whether this bullet was shot by player or enemy.
+  bool removed;  // Whether this bullet need to be delete;
 } Bullet;
+
+typedef struct{
+  TK_REG_AUTH;
+  Vec pos;
+  BlockType type;
+} Block;
 
 typedef struct {
   // Width (x) and height (y) of the map.
@@ -93,6 +109,8 @@ static TK_REG_DEF(Tank, regTank);
 
 // Define a registry for `Bullet`, see `Registry.h`.
 static TK_REG_DEF(Bullet, regBullet);
+
+static TK_REG_DEF(Block, regBlock);
 
 // The map singleton.
 static Map map;
@@ -126,3 +144,5 @@ void MoveCursor(Vec pos) {
 Vec RandPos(void) {
   return RandVec(map.size);
 }
+
+

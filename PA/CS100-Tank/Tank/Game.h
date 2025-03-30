@@ -14,18 +14,34 @@
 //
 #include "Base.h"
 #include "Config.h"
+#include "Registry.h"
 #include "Renderer.h"
 #include "Scene.h"
 
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 #define CLOCKWISE 1 
 #define ANTICLOCKWISE 0
 #define FORWARD 1 
 #define BACKWARD 0
+#define BLOCK_POS_VALIDITY 3
+#define DEFAULT_POS_VALIDITY 2
+
 typedef struct {
   char keyHit; // The keyboard key hit by the player at this frame.
 } Game;
+
+
+typedef enum {
+  eViolationTypeNone,
+  eViolationTypeBorder,
+  eViolationTypeTank,
+  eViolationTypeSolid,
+  eViolationTypeWall
+} ViolationType;
 
 // The game singleton.
 static Game game;
@@ -33,31 +49,100 @@ static Game game;
 // The keyboard key "ESC".
 static const char keyESC = '\033';
 
-bool TankPosValidity(Vec *pos);
+Vec vecImpossible = {INT16_MAX, INT16_MAX};
+
+Vec  UtilDirection2Vec(const Dir *dir);
+ViolationType UtilPosViolation(const Vec *pos, Vec ignoredBlock);
+ViolationType UtilBlockViolation(const Vec *block_pos, Vec ignoredBlock);
 void TankTurn(Tank *tank, bool direction);
+void TankShoot(const Tank *tank);
 void TankPlayerTankUpdate(Tank *tank, char key);
+void BulletMove(Bullet *bullet);
+void BulletHit(Bullet *bullet);
 
-inline bool 
-TankPosValidity(Vec *pos)
+void
+SceneGenerateRandomBlock(void)
 {
-  return  pos->x <= map.size.x - 3 && 
-          pos->x >= 2 &&
-          pos->y <= map.size.y - 3 &&
-          pos->y >= 2;
+  Vec vecBlock;
+  for (int i = 0; i < config.nSolids + config.nWalls; )
+  {
+    vecBlock = RandPos();
+      Block *blockSolid = RegNew(regBlock);
+      blockSolid->pos = vecBlock;
+      blockSolid->type = eBlockTypeSolid;
+      ++i;
+  }
+
 }
 
-inline void 
-TankTurn(Tank *pTank, bool direction)
+// 传入的位置pos是否有重叠： 是否与边界重叠, 是否与tank重叠, 是否与block重叠 
+ViolationType 
+UtilPosViolation(const Vec *pos, const Vec ignoredBlock)
 {
-  pTank->dir = direction ? ((pTank->dir + 1) % eDirInvalid) : ((pTank->dir - 1 + eDirInvalid) % eDirInvalid);
-  // 如果转到了Center位置, 就再转一次
-  if(pTank->dir == eDirOO) {TankTurn(pTank, direction);}
+  bool border_flag =  pos->x <= map.size.x - 2 && 
+                      pos->x >= 1 &&
+                      pos->y <= map.size.y - 2 &&
+                      pos->y >= 1;
+  
+  if (!border_flag) {return eViolationTypeBorder;}
+  
+  Vec relative_pos;
+  // 监测是否与tank有violation
+  for (RegIterator itT = RegBegin(regTank); itT != RegEnd(regTank); itT = RegNext(itT))
+  {
+    Tank *tank = RegEntry(regTank, itT);
+    if (Eq(tank->pos, ignoredBlock)) {continue;}
+    relative_pos = Sub(tank->pos, *pos);
+    if (abs(relative_pos.x) <= 1 && abs(relative_pos.y) <= 1)
+    {return eViolationTypeTank;}
+  }
+  // 监测是否与block有violation
+  for (RegIterator itS = RegBegin(regBlock); itS != RegEnd(regBlock); itS = RegNext(itS))
+  {
+    Block *block = RegEntry(regBlock, itS);
+    if (Eq(block->pos, ignoredBlock)) {continue;}
+    relative_pos = Sub(block->pos, *pos);
+    if (abs(relative_pos.x) <= 1 && abs(relative_pos.y) <= 1 && block->type == eBlockTypeSolid)
+    {return eViolationTypeSolid;}
+    if (Eq(*pos, block->pos) && block->type == eBlockTypeWall)
+    {return eViolationTypeWall;}
+  }
+  return eViolationTypeNone;
 }
 
-void TankMove(Tank *tank, bool direction)
+// 监测block的位置是否与其他对象重叠: tank, wall, solid或border 
+ViolationType
+UtilBlockViolation(const Vec *block_pos, const Vec ignoredBlock)
+{
+  ViolationType violation = eViolationTypeNone;
+  Vec particle;
+
+  // 检查八个方位是否有重叠
+  particle = Add(*block_pos, vecNN); 
+  violation = UtilPosViolation(&particle, ignoredBlock);
+  particle = Add(*block_pos, vecNO); 
+  violation = UtilPosViolation(&particle, ignoredBlock);
+  particle = Add(*block_pos, vecNP); 
+  violation = UtilPosViolation(&particle, ignoredBlock);
+  particle = Add(*block_pos, vecPN); 
+  violation = UtilPosViolation(&particle, ignoredBlock);
+  particle = Add(*block_pos, vecPO); 
+  violation = UtilPosViolation(&particle, ignoredBlock);
+  particle = Add(*block_pos, vecPP); 
+  violation = UtilPosViolation(&particle, ignoredBlock);
+  particle = Add(*block_pos, vecON); 
+  violation = UtilPosViolation(&particle, ignoredBlock);
+  particle = Add(*block_pos, vecOP); 
+  violation = UtilPosViolation(&particle, ignoredBlock);
+  
+  return violation;
+}
+
+Vec
+UtilDirection2Vec(const Dir *dir)
 {
   Vec vecForward;
-  switch (tank->dir) {
+  switch (*dir) {
     default:
       vecForward = vecNN; break;
     case eDirNN:
@@ -77,11 +162,73 @@ void TankMove(Tank *tank, bool direction)
     case eDirPP:
       vecForward = vecPP; break;
   }
- 
-  Vec tmp_pos = direction ? Add(tank->pos, vecForward) : Sub(tank->pos, vecForward); 
-  tank->pos = TankPosValidity(&tmp_pos) ? tmp_pos : tank->pos;
+  return vecForward;
 }
 
+inline void 
+TankTurn(Tank *pTank, bool direction)
+{
+  pTank->dir = direction ? ((pTank->dir + 1) % eDirInvalid) : ((pTank->dir - 1 + eDirInvalid) % eDirInvalid);
+  // 如果转到了Center位置, 就再转一次
+  if(pTank->dir == eDirOO) {TankTurn(pTank, direction);}
+}
+
+void 
+TankMove(Tank *tank, bool direction)
+{
+  Vec vecForward = UtilDirection2Vec(&tank->dir);
+  Vec tmp_pos = direction ? Add(tank->pos, vecForward) : Sub(tank->pos, vecForward); 
+  tank->pos = UtilBlockViolation(&tmp_pos, tank->pos) == eViolationTypeNone ? tmp_pos : tank->pos;
+}
+
+// 子弹向前移动一格
+void 
+BulletMove(Bullet *bullet)
+{
+  Vec vecForward = UtilDirection2Vec(&bullet->dir);
+  Vec tmp_pos = Add(bullet->pos, vecForward); 
+  bullet->pos = tmp_pos;
+}
+
+// 监测子弹是否打中了某个坦克或某个Wall
+void 
+BulletHit(Bullet *bullet)
+{
+  ViolationType bullet_violation = UtilPosViolation(&bullet->pos, vecImpossible);
+  if (bullet_violation == eViolationTypeBorder) 
+  {bullet->removed = true; return;}
+
+  if (bullet_violation == eViolationTypeWall) 
+  {
+    // TODO(kituro): 
+  }
+  Vec relative_pos;
+  for (RegIterator itT = RegBegin(regTank); itT != RegEnd(regTank); itT = RegNext(itT))
+  {
+    Tank *tank = RegEntry(regTank, itT);
+    relative_pos = Sub(tank->pos, bullet->pos);
+    // 如果子弹打中了敌方坦克
+    if (abs(relative_pos.x) <= 1 && abs(relative_pos.y) <= 1 && tank->isEnemy)
+    {
+      tank->hp--;
+      bullet->removed = true;
+    }
+  }
+}
+
+void
+TankShoot(const Tank *tank)
+{
+  Bullet *bullet = RegNew(regBullet);
+  Vec bulletRelativeVec = UtilDirection2Vec(&tank->dir);
+  // 将定位向量乘2: 避免子弹在Tank内部刷新
+  bulletRelativeVec = Mul(bulletRelativeVec, 2);
+  bullet->dir = tank->dir;
+  bullet->pos = Add(tank->pos, bulletRelativeVec);
+  bullet->isPlayer = tank->isPlayer;
+  bullet->color = tank->color;
+  bullet->removed = false;
+}
 
 void
 TankPlayerTankUpdate(Tank *tank, char key){
@@ -97,6 +244,10 @@ TankPlayerTankUpdate(Tank *tank, char key){
       break;
     case 's':
       TankMove(tank, BACKWARD);
+      break;
+    case 'k':
+      TankShoot(tank);
+      break;
     default:
       ;
   }
@@ -126,6 +277,7 @@ void GameInit(void) {
   // Initialize scene.
   RegInit(regTank);
   RegInit(regBullet);
+  RegInit(regBlock);
 
   map.flags = (Flag *)malloc(sizeof(Flag) * map.size.x * map.size.y);
   // 初始化地图
@@ -209,6 +361,15 @@ void GameUpdate(void) {
     
     if (tank->isPlayer)
       {TankPlayerTankUpdate(tank, game.keyHit);}
+  }
+
+  for (RegIterator it = RegBegin(regBullet); it != RegEnd(regBullet);) {
+    Bullet *bullet = RegEntry(regBullet, it);
+    it = RegNext(it);
+    BulletMove(bullet);
+    BulletHit(bullet);
+    if (bullet->removed)
+      RegDelete(bullet);
   }
 
   RdrRender();
