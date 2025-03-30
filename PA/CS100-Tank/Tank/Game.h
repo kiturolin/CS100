@@ -18,6 +18,7 @@
 #include "Renderer.h"
 #include "Scene.h"
 
+#include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -49,16 +50,40 @@ static Game game;
 // The keyboard key "ESC".
 static const char keyESC = '\033';
 
+static uint64_t frame;
+
 Vec vecImpossible = {INT16_MAX, INT16_MAX};
 
 Vec  UtilDirection2Vec(const Dir *dir);
 ViolationType UtilPosViolation(const Vec *pos, Vec ignoredBlock);
 ViolationType UtilBlockViolation(const Vec *block_pos, Vec ignoredBlock);
 void TankTurn(Tank *tank, bool direction);
-void TankShoot(const Tank *tank);
+void TankShoot(Tank *tank);
 void TankPlayerTankUpdate(Tank *tank, char key);
 void BulletMove(Bullet *bullet);
 void BulletHit(Bullet *bullet);
+void ScenePlaceWall(Block *block);
+void SceneGenerateRandomBlock(void);
+void SceneGenerateEnemy(void);
+
+// 放置可破坏的墙体
+void 
+ScenePlaceWall(Block *block)
+{
+  Vec particle;
+  for (int y = -1; y <= 1; ++y) {
+    for (int x = -1; x <= 1; ++x) {
+      particle = Add(block->pos, (Vec){x, y}); 
+      if (!Eq(particle, block->pos))
+      {
+        Block *block_wall = RegNew(regBlock);
+        block_wall->pos = particle;
+        block_wall->type = eBlockTypeWall;
+      }
+    }
+  }
+}
+
 
 void
 SceneGenerateRandomBlock(void)
@@ -67,12 +92,49 @@ SceneGenerateRandomBlock(void)
   for (int i = 0; i < config.nSolids + config.nWalls; )
   {
     vecBlock = RandPos();
-      Block *blockSolid = RegNew(regBlock);
-      blockSolid->pos = vecBlock;
-      blockSolid->type = eBlockTypeSolid;
+    if (UtilBlockViolation(&vecBlock, vecImpossible) == eViolationTypeNone)
+    {
+      Block *block = RegNew(regBlock);
+      block->pos = vecBlock;
+      block->type = i < config.nSolids ? eBlockTypeSolid : eBlockTypeWall;
+      if (block->type == eBlockTypeWall) {ScenePlaceWall(block);}
       ++i;
+    }
   }
+}
 
+void
+SceneSearchDeleteWall(const Vec wall_pos)
+{
+  for (RegIterator it = RegBegin(regBlock); it != RegEnd(regBlock); ) {
+    Block *block = RegEntry(regBlock, it);
+    it = RegNext(it);
+    if (Eq(block->pos, wall_pos) && block->type == eBlockTypeWall)
+    {
+      RegDelete(block);
+    }
+  }
+}
+
+void
+SceneGenerateEnemy(void)
+{
+  Vec vecTank;
+  for (int i = 0; i < config.nEnemies; )
+  {
+    vecTank = RandPos();
+    if (UtilBlockViolation(&vecTank, vecImpossible) == eViolationTypeNone)
+    {
+      Tank *tank = RegNew(regTank);
+      tank->pos = vecTank;
+      tank->color = TK_RED;
+      tank->dir = eDirOP;
+      tank->hp = 15;
+      tank->isPlayer = false;
+      tank->last_shoot = 0;
+      ++i;
+    }
+  } 
 }
 
 // 传入的位置pos是否有重叠： 是否与边界重叠, 是否与tank重叠, 是否与block重叠 
@@ -116,26 +178,18 @@ UtilBlockViolation(const Vec *block_pos, const Vec ignoredBlock)
 {
   ViolationType violation = eViolationTypeNone;
   Vec particle;
-
   // 检查八个方位是否有重叠
-  particle = Add(*block_pos, vecNN); 
-  violation = UtilPosViolation(&particle, ignoredBlock);
-  particle = Add(*block_pos, vecNO); 
-  violation = UtilPosViolation(&particle, ignoredBlock);
-  particle = Add(*block_pos, vecNP); 
-  violation = UtilPosViolation(&particle, ignoredBlock);
-  particle = Add(*block_pos, vecPN); 
-  violation = UtilPosViolation(&particle, ignoredBlock);
-  particle = Add(*block_pos, vecPO); 
-  violation = UtilPosViolation(&particle, ignoredBlock);
-  particle = Add(*block_pos, vecPP); 
-  violation = UtilPosViolation(&particle, ignoredBlock);
-  particle = Add(*block_pos, vecON); 
-  violation = UtilPosViolation(&particle, ignoredBlock);
-  particle = Add(*block_pos, vecOP); 
-  violation = UtilPosViolation(&particle, ignoredBlock);
+  for (int y = -1; y <= 1; ++y) {
+    for (int x = -1; x <= 1; ++x) {
+      particle = Add(*block_pos, (Vec){x, y}); 
+      violation = UtilPosViolation(&particle, ignoredBlock);
+      if (violation != eViolationTypeNone) {
+        return violation;
+      }
+    }
+  }
   
-  return violation;
+  return eViolationTypeNone;
 }
 
 Vec
@@ -195,39 +249,50 @@ void
 BulletHit(Bullet *bullet)
 {
   ViolationType bullet_violation = UtilPosViolation(&bullet->pos, vecImpossible);
-  if (bullet_violation == eViolationTypeBorder) 
+  if (bullet_violation == eViolationTypeBorder ||
+      bullet_violation == eViolationTypeSolid) 
   {bullet->removed = true; return;}
 
   if (bullet_violation == eViolationTypeWall) 
   {
-    // TODO(kituro): 
+    SceneSearchDeleteWall(bullet->pos);
+    bullet->removed = true;
+    return ;
   }
   Vec relative_pos;
-  for (RegIterator itT = RegBegin(regTank); itT != RegEnd(regTank); itT = RegNext(itT))
+  for (RegIterator itT = RegBegin(regTank); itT != RegEnd(regTank); )
   {
-    Tank *tank = RegEntry(regTank, itT);
+    Tank *tank = RegEntry(regTank, itT); 
+    itT = RegNext(itT);
     relative_pos = Sub(tank->pos, bullet->pos);
     // 如果子弹打中了敌方坦克
-    if (abs(relative_pos.x) <= 1 && abs(relative_pos.y) <= 1 && tank->isEnemy)
+    if (abs(relative_pos.x) <= 1 && abs(relative_pos.y) <= 1)
     {
-      tank->hp--;
+      if(--tank->hp == 0)
+      {
+        RegDelete(tank);  
+      }
       bullet->removed = true;
     }
   }
 }
 
 void
-TankShoot(const Tank *tank)
+TankShoot(Tank *tank)
 {
-  Bullet *bullet = RegNew(regBullet);
-  Vec bulletRelativeVec = UtilDirection2Vec(&tank->dir);
-  // 将定位向量乘2: 避免子弹在Tank内部刷新
-  bulletRelativeVec = Mul(bulletRelativeVec, 2);
-  bullet->dir = tank->dir;
-  bullet->pos = Add(tank->pos, bulletRelativeVec);
-  bullet->isPlayer = tank->isPlayer;
-  bullet->color = tank->color;
-  bullet->removed = false;
+  if (frame - tank->last_shoot > 15) 
+  {
+    Bullet *bullet = RegNew(regBullet);
+    Vec bulletRelativeVec = UtilDirection2Vec(&tank->dir);
+    bullet->dir = tank->dir;
+    bullet->pos = Add(tank->pos, bulletRelativeVec);
+    bullet->isPlayer = tank->isPlayer;
+    bullet->color = tank->color;
+    bullet->removed = false;
+
+    tank->last_shoot = frame;
+  }
+  
 }
 
 void
@@ -305,6 +370,8 @@ void GameInit(void) {
     tank->dir = eDirOP;
     tank->color = TK_GREEN;
     tank->isPlayer = true;
+    tank->hp = 15;
+    tank->last_shoot = 0;
   }
 
   // Initialize renderer.
@@ -330,6 +397,10 @@ void GameInit(void) {
       RdrPutChar(pos, map.flags[Idx(pos)], TK_AUTO_COLOR);
     }
   }
+
+  SceneGenerateRandomBlock();
+  SceneGenerateEnemy();
+
   RdrRender();
   RdrFlush();
 }
@@ -355,12 +426,21 @@ void GameInput(void) {
 void GameUpdate(void) {
   RdrClear();
 
-  // TODO(kituro): You may need to delete or add codes here.
   for (RegIterator it = RegBegin(regTank); it != RegEnd(regTank); it = RegNext(it)) {
     Tank *tank = RegEntry(regTank, it);
     
     if (tank->isPlayer)
       {TankPlayerTankUpdate(tank, game.keyHit);}
+    else
+    {
+      int8_t action = rand() % 3;
+      if (action == 0)
+      {TankMove(tank, FORWARD);}
+      if (action == 1)
+      {TankTurn(tank, ANTICLOCKWISE);}
+      if (action == 2)
+      {TankShoot(tank);}
+    }
   }
 
   for (RegIterator it = RegBegin(regBullet); it != RegEnd(regBullet);) {
@@ -368,8 +448,9 @@ void GameUpdate(void) {
     it = RegNext(it);
     BulletMove(bullet);
     BulletHit(bullet);
-    if (bullet->removed)
+    if (bullet->removed) {
       RegDelete(bullet);
+    }
   }
 
   RdrRender();
@@ -389,8 +470,10 @@ void GameTerminate(void) {
   while (RegSize(regBullet) > 0)
     RegDelete(RegEntry(regBullet, RegBegin(regBullet)));
 
-  free(map.flags);
+  while (RegSize(regBlock) > 0)
+    RegDelete(RegEntry(regBlock, RegBegin(regBlock)));
 
+  free(map.flags);
   free(renderer.csPrev);
   free(renderer.colorsPrev);
   free(renderer.cs);
@@ -418,6 +501,7 @@ void GameLifecycle(void) {
     if (game.keyHit == keyESC)
       break;
 
+    frame++;
     GameUpdate();
 
     while (((double)(clock() - frameBegin) / CLOCKS_PER_SEC) * 1000.0 < frameTime - 0.5)

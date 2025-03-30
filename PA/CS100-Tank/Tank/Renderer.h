@@ -162,6 +162,24 @@ void RdrRender(void) {
 
     RdrPutChar(pos, 'o', color);
   }
+
+  // 渲染solid与wall.
+  for (RegIterator it = RegBegin(regBlock); it != RegEnd(regBlock); it = RegNext(it)) {
+    Block *block = RegEntry(regBlock, it);
+    Vec pos;
+    Color color = TK_NORMAL;
+    if (block->type == eBlockTypeSolid){
+      for (int y = -1; y <= 1; ++y) {
+        for (int x = -1; x <= 1; ++x) {
+          pos = Add(block->pos, (Vec){x, y}); 
+          RdrPutChar(pos, '%', color);
+        } 
+      }
+    }
+    else {
+      RdrPutChar(block->pos, '*', color);
+    }
+  }
 }
 
 /// \brief Flush the previously rendered frame to screen to

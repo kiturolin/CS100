@@ -63,11 +63,11 @@ typedef enum {
 typedef struct {
   TK_REG_AUTH;   // Authorize `Tank` to make it compatible with registries, see `Registry.h`.
   int32_t hp;    // Health point.
+  uint64 last_shoot;
   Vec pos;       // Position.
   Dir dir;       // Direction.
   Color color;   // Color of the tank and its bullets.
   bool isPlayer; // Whether this tank is player or enemy.
-  bool isEnemy;  // Whether this tank is enemy. 
 } Tank;
 
 /// \example It is easy to create or delete a `Bullet` with the help of registries, see `Registry.h`.
