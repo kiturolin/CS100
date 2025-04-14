@@ -64,6 +64,7 @@ typedef struct {
   TK_REG_AUTH;   // Authorize `Tank` to make it compatible with registries, see `Registry.h`.
   int32_t hp;    // Health point.
   uint64 last_shoot;
+  uint64 last_action;
   Vec pos;       // Position.
   Dir dir;       // Direction.
   Color color;   // Color of the tank and its bullets.

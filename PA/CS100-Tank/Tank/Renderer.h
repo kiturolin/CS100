@@ -167,17 +167,17 @@ void RdrRender(void) {
   for (RegIterator it = RegBegin(regBlock); it != RegEnd(regBlock); it = RegNext(it)) {
     Block *block = RegEntry(regBlock, it);
     Vec pos;
-    Color color = TK_NORMAL;
+    Color color = TK_BLUE;
     if (block->type == eBlockTypeSolid){
       for (int y = -1; y <= 1; ++y) {
         for (int x = -1; x <= 1; ++x) {
           pos = Add(block->pos, (Vec){x, y}); 
-          RdrPutChar(pos, '%', color);
+          RdrPutChar(pos, '%', TK_AUTO_COLOR);
         } 
       }
     }
     else {
-      RdrPutChar(block->pos, '*', color);
+      RdrPutChar(block->pos, '#', TK_AUTO_COLOR);
     }
   }
 }

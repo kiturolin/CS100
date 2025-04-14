@@ -136,12 +136,14 @@ SceneGenerateEnemy (void)
       tank->hp = 15;
       tank->isPlayer = false;
       tank->last_shoot = 0;
+      tank->last_action = 0;
       ++i;
     }
   }
 }
 
-// 传入的位置pos是否有重叠： 是否与边界重叠, 是否与tank重叠, 是否与block重叠
+/// \brief Check if pos violated existing objects(Tank, Wall, Solid, Border)
+///         and return violation type;
 ViolationType
 UtilPosViolation (const Vec *pos, const Vec ignoredBlock)
 {
@@ -188,6 +190,7 @@ UtilBlockViolation (const Vec *block_pos, const Vec ignoredBlock)
   return eViolationTypeNone;
 }
 
+/// \brief Transform dir to relative Vec
 Vec
 UtilDirection2Vec (const Dir *dir)
 {
@@ -249,6 +252,8 @@ BulletMove (Bullet *bullet)
   bullet->pos = tmp_pos;
 }
 
+/// \brief Check if the bullet hits wall or another tank.
+/// 
 // 监测子弹是否打中了某个坦克或某个Wall
 void
 BulletHit (Bullet *bullet)
@@ -293,6 +298,8 @@ TankShoot (Tank *tank)
   }
 }
 
+/// \brief Update Player's tank state.
+/// 
 void
 TankPlayerTankUpdate (Tank *tank, char key)
 {
@@ -372,6 +379,7 @@ GameInit (void)
     tank->isPlayer = true;
     tank->hp = 15;
     tank->last_shoot = 0;
+    tank->last_action = 0;
   }
 
   // Initialize renderer.
@@ -438,10 +446,13 @@ GameUpdate (void)
     if (tank->isPlayer) {
       TankPlayerTankUpdate (tank, game.keyHit);
     } else {
-      int8_t action = rand () % 3;
-      if (action == 0) { TankMove (tank, FORWARD); }
-      if (action == 1) { TankTurn (tank, ANTICLOCKWISE); }
-      if (action == 2) { TankShoot (tank); }
+      if (frame - tank->last_action > 15){
+        int8_t action = rand () % 3;
+        if (action == 0) { TankMove (tank, FORWARD); }
+        if (action == 1) { TankTurn (tank, ANTICLOCKWISE); }
+        if (action == 2) { TankShoot (tank); }
+        tank->last_action = frame;
+      }
     }
   }
 

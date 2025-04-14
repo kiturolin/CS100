@@ -25,9 +25,9 @@ main (void)
   // Configure the game.
   config.fps = 30;
   config.mapSize = (Vec){80, 50};
-  config.nEnemies = 0;
-  config.nSolids = 0;
-  config.nWalls = 10;
+  config.nEnemies = 5;
+  config.nSolids = 5;
+  config.nWalls = 5;
 
   // Run the game.
   GameLifecycle ();

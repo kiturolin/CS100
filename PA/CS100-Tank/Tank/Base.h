@@ -135,7 +135,7 @@ void SleepMs(uint time) {
 #ifdef _WIN32
   Sleep(time);
 #else
-  usleep(time * 1000);
+  time++;
 #endif // _WIN32
 }
 
