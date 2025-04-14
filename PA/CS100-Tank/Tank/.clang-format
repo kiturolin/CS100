@@ -18,3 +18,10 @@ PPIndentWidth: 2
 
 # Avoid indenting lambda bodies
 LambdaBodyIndentation: OuterScope
+
+SpaceBeforeParens: Always
+
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: true
+BreakAfterReturnType: TopLevel
+BreakBeforeBraces: Linux

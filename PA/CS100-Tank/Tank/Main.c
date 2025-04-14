@@ -7,7 +7,6 @@
 /// Getting started:
 /// 1. Compile with `gcc Tank/Main.c`.
 /// 2. Run the executable.
-/// 3. Move with "WASD" and shoot with "K".
 /// 4. Exit with "ESC".
 
 //
@@ -17,19 +16,21 @@
 //
 #include "Game.h"
 
-int main(void) {
+int
+main (void)
+{
   // Uses the current time as a seed for the pseudo-random number generator.
-  srand(time(NULL));
+  srand (time (NULL));
 
   // Configure the game.
   config.fps = 30;
   config.mapSize = (Vec){80, 50};
-  config.nEnemies = 8;
-  config.nSolids = 8;
-  config.nWalls = 5;
+  config.nEnemies = 0;
+  config.nSolids = 0;
+  config.nWalls = 10;
 
   // Run the game.
-  GameLifecycle();
+  GameLifecycle ();
 
   return 0;
 }
