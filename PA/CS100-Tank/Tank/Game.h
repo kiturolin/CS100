@@ -133,7 +133,7 @@ SceneGenerateEnemy (void)
       tank->pos = vecTank;
       tank->color = TK_RED;
       tank->dir = eDirOP;
-      tank->hp = 15;
+      tank->hp = 5;
       tank->isPlayer = false;
       tank->last_shoot = 0;
       tank->last_action = 0;
@@ -377,7 +377,7 @@ GameInit (void)
     tank->dir = eDirOP;
     tank->color = TK_GREEN;
     tank->isPlayer = true;
-    tank->hp = 15;
+    tank->hp = 5;
     tank->last_shoot = 0;
     tank->last_action = 0;
   }
@@ -450,7 +450,6 @@ GameUpdate (void)
         int8_t action = rand () % 3;
         if (action == 0) { TankMove (tank, FORWARD); }
         if (action == 1) { TankTurn (tank, ANTICLOCKWISE); }
-        if (action == 2) { TankShoot (tank); }
         tank->last_action = frame;
       }
     }
