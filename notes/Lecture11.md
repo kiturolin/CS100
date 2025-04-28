@@ -51,23 +51,24 @@
     std::cout << s1 << std::endl; // aaaaaaa
     std::string s; // "" (empty string)
     ``` 
+
     4. 存储std::string的内存会被自动的分配和释放, 同时, 修改字符串的长度导致的内存重新分配也会被自动完成, std::string不需要以'\0'结尾!它能自动识别字符串结尾!
         当你写std::string时, 你不要有太多心智负担, 只考虑内部的内容即可, 不需要关注它的底层实现
     5. 成员函数
         1. str.size(): 返回字符串的长度, 不要使用strlen()或者sizeof()!
         2. str.empty(): 返回字符串是否为空
     6. 字符串拼接: 直接使用 + 或 += ! 完全不需要担心内存重新分配的问题
-        ```cpp
-        std::string s1 = "Hello";
-        std::string s2 = "world";
-        std::string s3 = s1 + ' ' + s2; // "Hello world"
-        s1 += s2; // s1 becomes "Helloworld"
-        s2 += "C++string"; // s2 becomes "worldC++string"
+    ```cpp
+    std::string s1 = "Hello";
+    std::string s2 = "world";
+    std::string s3 = s1 + ' ' + s2; // "Hello world"
+    s1 += s2; // s1 becomes "Helloworld"
+    s2 += "C++string"; // s2 becomes "worldC++string"
 
-        std::string hello{"hello"};
-        std::string s = hello + "world" + "C++";
-        // + is left-associated. (hello + "world") is of type std::string
-        ```
+    std::string hello{"hello"};
+    std::string s = hello + "world" + "C++";
+    // + is left-associated. (hello + "world") is of type std::string
+    ```
     7. 你应该尽量使用+=, 在C++中, a = a + b不一定完全等价于 a += b, 在字符串操作中, a = a + b创建一个临时变量, 将a b的值分别拷贝到这块内存中, 再将其复制到a中, 
         这非常慢! 而使用 += ,是在原字符串末尾直接添加b, 更快
         ```cpp
@@ -81,6 +82,7 @@
         ```
     8. 使用 "="等号能够直接复制字符串! s1 = s2说明我们将字符串s2的内容整个拷贝到了s1! 不需要strcpy!
         使用 "==", "<="等操作符直接比较字符串!(字典序), 不需要使用strcmp!
+        需要注意的是, str1==str2的返回值类型为true or false! 而非strcmp奇奇怪怪的返回值
 
     9. range-based for loops
         类似Python的for循环结构, 比C Style的遍历字符串更加现代, 更加简洁, 推荐使用!

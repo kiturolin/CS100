@@ -1,0 +1,50 @@
+BasedOnStyle: GNU 
+
+Standard: c++17
+ColumnLimit: 120 
+IndentWidth: 2
+AlwaysBreakTemplateDeclarations: Yes
+BinPackParameters: false
+AllowShortFunctionsOnASingleLine: Inline
+
+InsertNewlineAtEOF: true
+SeparateDefinitionBlocks: Always
+AllowShortBlocksOnASingleLine: Always
+
+AlignConsecutiveMacros: Consecutive
+
+# Indenting preprocessor directives for complex PP in platform.h
+IndentPPDirectives: BeforeHash
+PPIndentWidth: 2
+
+# Avoid indenting lambda bodies
+LambdaBodyIndentation: OuterScope
+
+SpaceBeforeParens: Always
+
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLambdasOnASingleLine: All
+AlignConsecutiveAssignments: true
+BinPackArguments: false
+BitFieldColonSpacing: Both
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterComma
+BreakStringLiterals: true
+EmptyLineBeforeAccessModifier: LogicalBlock
+EmptyLineAfterAccessModifier: Never
+IncludeBlocks: Regroup
+IndentAccessModifiers: false
+BreakAfterReturnType: TopLevel
+BreakBeforeBraces: Linux
+PackConstructorInitializers: CurrentLine
+PointerAlignment: Right
+QualifierAlignment: Left
+ReferenceAlignment: Right
+ReflowComments: true
+SpaceBeforeCaseColon: false
+SpacesBeforeTrailingComments: 4
+UseTab: Always
+
+
+AttributeMacros: ['__capability', '__output', '__ununsed']

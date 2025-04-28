@@ -23,8 +23,8 @@ main (void)
   srand (time (NULL));
 
   // Configure the game.
-  config.fps = 30;
-  config.mapSize = (Vec){80, 50};
+  config.fps = 20;
+  config.mapSize = (Vec){40, 40};
   config.nEnemies = 5;
   config.nSolids = 5;
   config.nWalls = 5;
