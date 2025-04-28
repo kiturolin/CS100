@@ -65,6 +65,8 @@
             if (this != &other) {
                 delete[] m_storage;
                 m_storage = other.m_storage; m_length = other.m_length;
+
+                // 移动操作应将被移动的对象置于有效的、可被安全析构的状态。
                 other.m_storage = nullptr; other.m_length = 0;
             }
             return *this;
@@ -78,14 +80,26 @@
         这是因为在这个赋值操作前, this的m_storage已经有值!(与Move Constructor不同的地方)
         因此在抢占前你必须手动释放之前分配的内存, 避免内存泄漏
     - 抢占资源(最简单)
-    - 确保other可以被安全地析构
+    - 移动操作应将被移动的对象置于有效的、可被安全析构的状态。
 
     ```cpp
     a = concat(b, c); // calls move assignment operator,
     // because `concat(b, c)` generates an rvalue.
     a = b; // copy assignment operator
     ```
-
+    小练习: 以下的代码有什么问题? Look at my eyes! 回答我!
+    ```cpp
+    class Dynarray {
+    public:
+        Dynarray &operator=(const Dynarray &other) {
+            auto new_data = new int[other.m_length];
+            std::copy_n(other.m_storage, other.m_length, new_data);
+            m_storage = new_data;
+            m_length = other.m_length;
+            return *this;
+        }
+    };
+    ```
     3. 编译器自动合成的移动操作constructor与运算符重载
     ```cpp
     struct X {
@@ -95,6 +109,24 @@
     ```
 
     使用=default关键字要求编译器为你手动合成一个移动构造器
+
+    4. 使用std::exchange来更方便地实现移动构造函数:
+    ```cpp
+    class Dynarray {
+    public:
+        Dynarray(Dynarray &&other) noexcept
+        : m_length{std::exchange(other.m_length, 0)},
+            m_storage{std::exchange(other.m_storage, nullptr)} {}
+        Dynarray &operator=(Dynarray &&other) noexcept {
+            if (this != &other) {
+                delete[] m_storage;
+                // !!! !!!
+                m_length = std::exchange(other.m_length, 0);
+                m_storage = std::exchange(other.m_storage, nullptr);
+            }
+        }
+    };
+    ```
 
 3. The Rule of Five:
     以下的"拷贝控制成员", 你要么全部定义(定义五个), 要么一个也不定义
@@ -211,4 +243,55 @@
     对于右值输入 (移动情况): 会有一次移动（初始化 contents）+ 一次移动（初始化 m_contents），而两个构造函数的版本只需要一次移动。
 
 
-    
+8. Copy-and-swap
+问题的起因: 赋值 = 拷贝新值 + 析构(销毁)旧值, 我们能不能利用拷贝构造函数和析构函数来实现重载赋值运算符?
+先实现一个简单的swap函数: 只交换指针, 几乎零开销!又快又好
+```cpp
+class Dynarray {
+public:
+    void swap(Dynarray &other) noexcept {
+        std::swap(m_storage, other.m_storage);
+        std::swap(m_length, other.m_length);
+    }
+};
+```
+注意以下的代码:
+```cpp
+class Dynarray {
+public:
+    Dynarray &operator=(const Dynarray &other) {
+        auto tmp = other;
+        swap(tmp);
+        return *this;
+    }
+};
+```
+拷贝构造函数会负责正确的将值从other搬运到tmp中
+随后调用swap, 将当前对象的值与tmp的值互换: 此时已经完成了赋值!
+最后离开函数作用域, tmp将被析构(注意! 此时tmp内的内容就是对象本来的内容! 因为swap过)
+
+进化! 又好写又简单而且自我赋值安全
+```cpp
+class Dynarray {
+public:
+    Dynarray &operator=(const Dynarray &other) {
+        Dynarray(other).swap(*this); // C++23: auto{other}.swap(*this);
+        return *this;
+    }
+};
+```
+
+更进一步, 我们可以直接在传参的时候就做好拷贝: 参数采用值传递而非引用!
+```cpp
+class Dynarray {
+public:
+    Dynarray &operator=(Dynarray other) noexcept {
+        swap(other);
+        return *this;
+    }
+};
+```
+在传参时, 如果传入右值, other会被移动初始化, 如果传入左值, 那么会被拷贝初始化
+因此, 对于传入右值或者左值的情况都能胜任
+这既是一个拷贝赋值运算符, 又是一个移动赋值运算符!
+

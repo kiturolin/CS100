@@ -142,6 +142,12 @@ public:
 };
 ```
 2. 创建智能指针: 使用std::make_shared()
+make_shared 并不是“无中生有”，它执行了在堆上分配内存并调用构造函数来创建和初始化对象的操作，只是这个过程被封装在了函数内部。
+std::make_shared()是一个方便且高效的方式，用于在堆上动态创建一个 T 类型的对象（使用 args... 作为构造函数参数进行初始化），
+并立即用一个 std::shared_ptr<T> 来管理这个新对象的生命周期。
+你不需要（也不应该）先手动 new 一个对象再传给 shared_ptr 的构造函数（虽然也可以，但效率较低且有异常安全风险），
+
+__make_shared 一步就帮你完成了内存分配、对象构造和智能指针设置__
 ```cpp
 // sp points to a string "cccccccccc".
 auto sp = std::make_shared<std::string>(10, 'c');
@@ -160,3 +166,17 @@ std::cout << sp.use_count() << std::endl; // 1
 ```
 
 4. shared_ptr不是零成本抽象! 因为你需要维护一个引用计数器!
+
+5. 完美转发: make_shared和make_unique会把传入的参数忠实的完整地完美地传递给对应类型的构造函数!
+    传入右值就会触发对应类型构造函数的移动语义, 完全保留传入参数的类型与左右值状态, 这被称作完美转发
+```cpp
+auto sp = std::make_shared<std::string>(10, 'c'); // "cccccccccc"
+
+// 传入右值, 意为说明"你可以窃取sp的资源", 因此出发了std::string的Move Constructor, 将sp指向的资源抢夺走了!
+// 因此sp指向的对象会被"归零"
+auto sp3 = std::make_shared<std::string>(std::move(*sp));
+std::cout << *sp << std::endl; // empty string
+                                // 这确实证明了我们成功出发了Move Constructor!
+```
+
+6. 
