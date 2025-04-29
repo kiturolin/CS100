@@ -39,6 +39,14 @@ Checks: >
   -readability-magic-numbers,
   -readability-redundant-access-specifiers,
   -readability-identifier-naming,
+  -performance-enum-size,
+  -readability-math-missing-parentheses,
+  -cppcoreguidelines-avoid-c-arrays,
+  -cppcoreguidelines-avoid-const-or-ref-data-members,
+  -cppcoreguidelines-use-default-member-init,
+  -modernize-avoid-c-arrays,
+  -modernize-use-default-member-init,
+  -cppcoreguidelines-pro-bounds-array-to-pointer-decay,
   -misc-include-cleaner,
 
 # Disable it for now, we might need more precise report on errors.
