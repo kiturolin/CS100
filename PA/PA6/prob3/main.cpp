@@ -1,11 +1,11 @@
-#include "ScoreBoard_hint1.hpp"
+#include "ScoreBoard.hpp"
 #include "CommandController.hpp"
 
 int main() {
   clear_screen ();
-  ScoreBoard scoreBoard("Ma Long", "Fan Zhendong", detail::PadLayout::Vertical);
+  ScoreBoard scoreBoard("Ma Long", "Fan Zhendong", detail::PadLayout::Horizontal);
 
-  CommandController cmdCtl{"Enter command:", 2 * FrameHeight + 2};
+  CommandController cmdCtl{"Enter command:", FrameHeight + 2};
 
   while (true) {
     auto cmd = cmdCtl.receiveCommand();
