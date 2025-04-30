@@ -32,15 +32,20 @@ class ScoreBoard
 
   static void scrollDigit (ScrollDirection dir, int oldDigit, int newDigit, int baseRow, int baseCol)
   {
+    // 绘图的坐标原点在左上角!
     // 如果dir为Up, 那么scroll后的新数字为bottomDigit
     // 如果dir为Down, 那么scroll后的新数字为topDigit
     int topDigit    = dir == ScrollDirection::Up ? oldDigit : newDigit;
     // 如果topDigit为newDigit, 那么bottomDigit为oldDigit, 反之亦然
     int bottomDigit = oldDigit + newDigit - topDigit;
     // 实现翻页的酷炫动画
+    // 最外层的for循环每次打印一帧
     for (int tick = 0; tick != DigitHeight + 1; ++tick) {
       int mid = dir == ScrollDirection::Up ? tick : DigitHeight - tick;
+      // 每次从Pad的最上方一行开始打印
       int row = baseRow;
+      // 打印一行
+      // 两个循环加在一起运行的次数就是DigitalHeight
       for (int i = mid; i != DigitHeight; ++i) {
         move_cursor (row++, baseCol);
         std::cout << ArtDigit[topDigit][i];
