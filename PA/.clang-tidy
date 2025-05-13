@@ -41,6 +41,7 @@ Checks: >
   -readability-identifier-naming,
   -performance-enum-size,
   -readability-math-missing-parentheses,
+  -readability-named-parameter,
   -cppcoreguidelines-avoid-c-arrays,
   -cppcoreguidelines-avoid-const-or-ref-data-members,
   -cppcoreguidelines-use-default-member-init,
