@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kituro/workflow/cs100/PA/PA8/attachment/cmake_install.cmake",
+		"/home/kituro/workflow/cs100/PA/PA8/attachment/SOIL/cmake_install.cmake",
+		"/home/kituro/workflow/cs100/PA/PA8/attachment/freeglut/cmake_install.cmake",
+		"/home/kituro/workflow/cs100/PA/PA8/attachment/src/Framework/cmake_install.cmake",
+		"/home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject/cmake_install.cmake",
+		"/home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libFramework.a CMakeFiles/Framework.dir/ObjectBase.cpp.o CMakeFiles/Framework.dir/TextBase.cpp.o CMakeFiles/Framework.dir/GameManager.cpp.o CMakeFiles/Framework.dir/SpriteManager.cpp.o
+/usr/bin/ranlib ../../lib/libFramework.a

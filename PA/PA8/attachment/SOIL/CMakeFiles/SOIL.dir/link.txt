@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libSOIL.a CMakeFiles/SOIL.dir/src/image_dxt.c.o CMakeFiles/SOIL.dir/src/image_helper.c.o CMakeFiles/SOIL.dir/src/soil.c.o CMakeFiles/SOIL.dir/src/stb_image_aug.c.o
+/usr/bin/ranlib ../lib/libSOIL.a
