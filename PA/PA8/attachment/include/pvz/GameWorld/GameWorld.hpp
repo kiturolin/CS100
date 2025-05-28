@@ -26,6 +26,7 @@ public:
   void CleanUp() override;
 
 private: 
+  std::list<class GameObject *> m_GameObjects;
 
 };
 

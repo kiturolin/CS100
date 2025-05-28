@@ -225,6 +225,8 @@ GameManager::Display ()
   glClear (GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
   // Display all GameObjects
+  // 这是在调用函数! 而不是定义函数!
+  // DisplayAllObjects的参数列表是一个极长的lambda函数!
   ObjectBase::DisplayAllObjects ([=] (ImageID imageID, AnimID animID, double x, double y, std::size_t frame) {
     return GameManager::Instance ().DrawOneObject (imageID, animID, x, y, frame);
   });
@@ -316,6 +318,7 @@ GameManager::DrawOneObject (ImageID imageID, AnimID animID, double x, double y, 
   return (frame + 1) % spriteInfo.frames;
 }
 
+// 显示提示词
 void
 GameManager::Prompt (const char *title, const char *subtitle) const
 {
