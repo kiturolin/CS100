@@ -13,39 +13,41 @@
 static const std::string ASSET_DIR = "../../assets/";
 #else
 static const std::string ASSET_DIR = "../assets/";
-#endif // __APPLE__
+#endif	  // __APPLE__
 
 // Returns a random integer within [min, max] (inclusive).
-inline int randInt(int min, int max) {
-  if (max < min)
-    std::swap(max, min);
+inline int
+randInt (int min, int max)
+{
+  if (max < min) std::swap (max, min);
   static std::random_device rd;
-  static std::mt19937 generator(rd());
-  std::uniform_int_distribution<> distro(min, max);
-  return distro(generator);
+  static std::mt19937 generator (rd ());
+  std::uniform_int_distribution<> distro (min, max);
+  return distro (generator);
 }
 
 // 游戏进程枚举类, 是"正在进行"还是"失败"
 enum class LevelStatus { ONGOING, LOSING };
 
+enum class PlantType { SUNFLOWER, PEASHOOTER, WALLNUT, CHERRYBOMB, REPEATER};
 enum class KeyCode {
   NONE,
-  ENTER, // Enter
-  QUIT   // Esc
+  ENTER,    // Enter
+  QUIT	    // Esc
 };
 
-const int WINDOW_WIDTH = 800;
+const int WINDOW_WIDTH	= 800;
 const int WINDOW_HEIGHT = 600;
 
-const int LAWN_GRID_WIDTH = 80;
+const int LAWN_GRID_WIDTH  = 80;
 const int LAWN_GRID_HEIGHT = 100;
 
 const int FIRST_ROW_CENTER = 75;
 const int FIRST_COL_CENTER = 75;
-const int GAME_ROWS = 5;
-const int GAME_COLS = 9;
+const int GAME_ROWS	   = 5;
+const int GAME_COLS	   = 9;
 
-const int SEED_WIDTH = 50;
+const int SEED_WIDTH  = 50;
 const int SEED_HEIGHT = 70;
 
 // 图像ID
@@ -95,4 +97,4 @@ enum class LayerID {
 
 const int MS_PER_FRAME = 33;
 
-#endif // !UTILS_HPP__
+#endif	  // !UTILS_HPP__

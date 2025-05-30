@@ -52,6 +52,7 @@ private:
   inline int DenormalizeCoord (double normalizedCoord, double totalPixels) const;
   // 将给定的归一化坐标转换为像素坐标
   inline void Rotate (double x, double y, double degrees, double &xout, double &yout) const;
+  // 显示提示词
   void Prompt (const char *title, const char *subtitle) const;
   void ShowZombiesWon () const;
 

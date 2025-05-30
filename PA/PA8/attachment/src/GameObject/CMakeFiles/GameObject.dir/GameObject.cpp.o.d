@@ -1,7 +1,7 @@
 src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o: \
  /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject/GameObject.cpp \
  /usr/include/stdc-predef.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/GameObject/GameObject.hpp \
+ /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/Framework/GameManager.hpp \
  /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/Framework/ObjectBase.hpp \
  /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
@@ -140,9 +140,27 @@ src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o: \
  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
- /usr/include/c++/14.2.1/bits/istream.tcc /usr/include/c++/14.2.1/set \
- /usr/include/c++/14.2.1/bits/stl_tree.h \
+ /usr/include/c++/14.2.1/bits/istream.tcc /usr/include/c++/14.2.1/memory \
+ /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+ /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/14.2.1/bits/align.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h \
+ /usr/include/c++/14.2.1/bits/unique_ptr.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr_base.h \
+ /usr/include/c++/14.2.1/bits/allocated_ptr.h \
  /usr/include/c++/14.2.1/ext/aligned_buffer.h \
+ /usr/include/c++/14.2.1/ext/concurrence.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/14.2.1/bits/atomic_base.h \
+ /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/14.2.1/backward/auto_ptr.h \
+ /usr/include/c++/14.2.1/pstl/glue_memory_defs.h \
+ /usr/include/c++/14.2.1/pstl/execution_defs.h \
+ /usr/include/c++/14.2.1/set /usr/include/c++/14.2.1/bits/stl_tree.h \
  /usr/include/c++/14.2.1/bits/node_handle.h \
  /usr/include/c++/14.2.1/bits/stl_set.h \
  /usr/include/c++/14.2.1/bits/stl_multiset.h \
@@ -169,13 +187,8 @@ src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o: \
  /usr/include/c++/14.2.1/tr1/poly_hermite.tcc \
  /usr/include/c++/14.2.1/tr1/poly_laguerre.tcc \
  /usr/include/c++/14.2.1/tr1/riemann_zeta.tcc \
- /usr/include/c++/14.2.1/cstdint \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h /usr/include/c++/14.2.1/bits/random.h \
- /usr/include/c++/14.2.1/vector \
- /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/14.2.1/bits/stl_vector.h \
+ /usr/include/c++/14.2.1/cstdint /usr/include/c++/14.2.1/bits/random.h \
+ /usr/include/c++/14.2.1/vector /usr/include/c++/14.2.1/bits/stl_vector.h \
  /usr/include/c++/14.2.1/bits/stl_bvector.h \
  /usr/include/c++/14.2.1/bits/vector.tcc \
  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
@@ -183,4 +196,11 @@ src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o: \
  /usr/include/c++/14.2.1/bits/random.tcc /usr/include/c++/14.2.1/numeric \
  /usr/include/c++/14.2.1/bits/stl_numeric.h \
  /usr/include/c++/14.2.1/pstl/glue_numeric_defs.h \
- /usr/include/c++/14.2.1/pstl/execution_defs.h
+ /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/Framework/WorldBase.hpp \
+ /usr/include/c++/14.2.1/map /usr/include/c++/14.2.1/bits/stl_map.h \
+ /usr/include/c++/14.2.1/bits/stl_multimap.h \
+ /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/GameObject/GameObject.hpp \
+ /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/GameWorld/GameWorld.hpp \
+ /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/Framework/TextBase.hpp \
+ /usr/include/c++/14.2.1/list /usr/include/c++/14.2.1/bits/stl_list.h \
+ /usr/include/c++/14.2.1/bits/list.tcc

@@ -1,5 +1,7 @@
 #include "pvz/Framework/GameManager.hpp"
 
+#include <memory>
+
 #ifdef __APPLE__
   #include <GLUT/glut.h>
 #else
@@ -84,7 +86,12 @@ displayText (double x, double y, double z, const char *str, bool centering, void
   glPopMatrix ();
 }
 
-GameManager::GameManager () : m_gameState (GameManager::GameState::TITLE), m_pause (false), m_pressedKeys () {}
+GameManager::GameManager () :
+    m_gameState (GameManager::GameState::TITLE),
+    m_pause (false),
+    m_pressedKeys ()
+    // 默认点击草地无反应
+{}
 
 void
 GameManager::Play (int argc, char **argv, std::shared_ptr<WorldBase> world)

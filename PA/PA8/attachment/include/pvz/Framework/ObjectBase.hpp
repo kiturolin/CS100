@@ -2,12 +2,13 @@
 #define OBJECTBASE_H__
 
 #include <iostream>
+#include <memory>
 #include <set>
 
 #include "pvz/utils.hpp"
 
 // "游戏对象"基类
-class ObjectBase {
+class ObjectBase{
 public:
   // 初始化对象的外形图片与坐标, 图层数, 宽度与高度
   ObjectBase(ImageID imageID, int x, int y, LayerID layer, int width, int height, AnimID animID);
