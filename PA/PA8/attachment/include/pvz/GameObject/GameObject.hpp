@@ -7,6 +7,7 @@
 #include <cstdint>
 #include <memory>
 #include <type_traits>
+#include <vector>
 
 // Declares the class name GameWorld so that its pointers can be used.
 class GameWorld;
@@ -26,6 +27,14 @@ public:
   static std::shared_ptr<GameWorld> world;
   void SetDead ();
   bool IsDead () const;
+
+  virtual bool IsPea () { return false; };
+
+  virtual bool IsZombie () { return false; };
+
+  virtual bool IsExplosion () { return false; };
+
+  virtual bool IsPlant () { return false; };
 
 private:
   bool m_is_dead;
@@ -79,6 +88,9 @@ class Explosion : public GameObject
 public:
   Explosion (int x, int y);
   int present_time;
+
+  bool IsExplosion () override { return true; }
+
   void Update () override;
 
   void OnClick () override {}
@@ -118,6 +130,9 @@ public:
   Plant (ImageID imageID, int x, int y, AnimID animID, int hp);
   std::string plantType;
 
+  bool IsPlant () override { return true; }
+
+  void AdjustHp (int delta);
   void OnClick () override;
   bool CheckHpDead ();
 };
@@ -262,10 +277,49 @@ public:
   void CoolDown ();
 };
 
-class Zombie : public GameObject
+class Zombie : public GameObject,
+	       public std::enable_shared_from_this<Zombie>
 {
+  using std::enable_shared_from_this<Zombie>::shared_from_this;
+
 public:
+  enum class ZombieType { REGULAR, BUCKET, POLE };
   std::shared_ptr<GameObject> collided_object;
+  Zombie (ImageID imageID,
+	  int row,
+	  int x,
+	  int y,
+	  int hp,
+	  ZombieType type,
+	  AnimID animeID);
+  void CheckCollision ();
+  static void RemoveZombie (int row, std::shared_ptr<Zombie> &zombie);
+  void OnClick () override {};
+  ZombieType type;
+  int row;
+  int hp;
+
+  static std::vector<std::vector<std::shared_ptr<Zombie>>> zombies;
 };
 
+class RegularZombie : public Zombie
+{
+public:
+  RegularZombie (int row, int x, int y);
+  void Update () override;
+};
+
+class BucketZombie: public Zombie
+{
+public:
+  BucketZombie(int row, int x, int y);
+  void Update () override;
+};
+class PoleZombie : public Zombie
+{
+public:
+  PoleZombie (int row, int x, int y);
+  void Update () override;
+  bool running;
+};
 #endif	  // !GAMEOBJECT_HPP__

@@ -20,6 +20,7 @@ public:
   static std::shared_ptr<TextBase> sunText;
   static uint32_t sun_time_interval;
   static std::shared_ptr<Actions> spotClickEvent;
+  static std::list<std::shared_ptr<GameObject>> m_GameObjects;
 
   GameWorld ()	= default;
   ~GameWorld () = default;
@@ -40,7 +41,6 @@ public:
   void CleanUp () override;
 
 private:
-  static std::list<std::shared_ptr<GameObject>> m_GameObjects;
 };
 
 #endif	  // !GAMEWORLD_HPP__

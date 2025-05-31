@@ -1,5 +1,5 @@
 SOIL/CMakeFiles/SOIL.dir/src/soil.c.o: \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/src/soil.c \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/src/soil.c \
  /usr/include/stdc-predef.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
@@ -31,8 +31,8 @@ SOIL/CMakeFiles/SOIL.dir/src/soil.c.o: \
  /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
  /usr/include/X11/keysymdef.h /usr/include/GL/glxext.h \
  /usr/include/inttypes.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include/SOIL/SOIL.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include/SOIL/stb_image_aug.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include/SOIL/SOIL.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include/SOIL/stb_image_aug.h \
  /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
@@ -41,8 +41,8 @@ SOIL/CMakeFiles/SOIL.dir/src/soil.c.o: \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
  /usr/include/bits/floatn-common.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include/SOIL/image_helper.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include/SOIL/image_dxt.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include/SOIL/image_helper.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include/SOIL/image_dxt.h \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
  /usr/include/bits/waitstatus.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/string.h \

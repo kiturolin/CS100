@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DHAVE_CONFIG_H -Dfreeglut_EXPORTS
 
-C_INCLUDES = -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment
+C_INCLUDES = -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 C_FLAGS =  -Wall -pedantic -fPIC
 

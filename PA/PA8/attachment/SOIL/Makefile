@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles /home/kituro/workflow/cs100/PA/PA8/attachment/SOIL//CMakeFiles/progress.marks
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOIL/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 0
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/SOIL//CMakeFiles/progress.marks
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOIL/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOIL/clean
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOIL/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOIL/preinstall
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOIL/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOIL/preinstall
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOIL/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 SOIL/CMakeFiles/SOIL.dir/rule:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOIL/CMakeFiles/SOIL.dir/rule
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOIL/CMakeFiles/SOIL.dir/rule
 .PHONY : SOIL/CMakeFiles/SOIL.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ SOIL: SOIL/CMakeFiles/SOIL.dir/rule
 
 # fast build rule for target.
 SOIL/fast:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/build
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/build
 .PHONY : SOIL/fast
 
 src/image_dxt.o: src/image_dxt.c.o
@@ -180,7 +180,7 @@ src/image_dxt.o: src/image_dxt.c.o
 
 # target to build an object file
 src/image_dxt.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/image_dxt.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/image_dxt.c.o
 .PHONY : src/image_dxt.c.o
 
 src/image_dxt.i: src/image_dxt.c.i
@@ -188,7 +188,7 @@ src/image_dxt.i: src/image_dxt.c.i
 
 # target to preprocess a source file
 src/image_dxt.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/image_dxt.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/image_dxt.c.i
 .PHONY : src/image_dxt.c.i
 
 src/image_dxt.s: src/image_dxt.c.s
@@ -196,7 +196,7 @@ src/image_dxt.s: src/image_dxt.c.s
 
 # target to generate assembly for a file
 src/image_dxt.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/image_dxt.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/image_dxt.c.s
 .PHONY : src/image_dxt.c.s
 
 src/image_helper.o: src/image_helper.c.o
@@ -204,7 +204,7 @@ src/image_helper.o: src/image_helper.c.o
 
 # target to build an object file
 src/image_helper.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/image_helper.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/image_helper.c.o
 .PHONY : src/image_helper.c.o
 
 src/image_helper.i: src/image_helper.c.i
@@ -212,7 +212,7 @@ src/image_helper.i: src/image_helper.c.i
 
 # target to preprocess a source file
 src/image_helper.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/image_helper.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/image_helper.c.i
 .PHONY : src/image_helper.c.i
 
 src/image_helper.s: src/image_helper.c.s
@@ -220,7 +220,7 @@ src/image_helper.s: src/image_helper.c.s
 
 # target to generate assembly for a file
 src/image_helper.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/image_helper.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/image_helper.c.s
 .PHONY : src/image_helper.c.s
 
 src/soil.o: src/soil.c.o
@@ -228,7 +228,7 @@ src/soil.o: src/soil.c.o
 
 # target to build an object file
 src/soil.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/soil.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/soil.c.o
 .PHONY : src/soil.c.o
 
 src/soil.i: src/soil.c.i
@@ -236,7 +236,7 @@ src/soil.i: src/soil.c.i
 
 # target to preprocess a source file
 src/soil.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/soil.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/soil.c.i
 .PHONY : src/soil.c.i
 
 src/soil.s: src/soil.c.s
@@ -244,7 +244,7 @@ src/soil.s: src/soil.c.s
 
 # target to generate assembly for a file
 src/soil.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/soil.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/soil.c.s
 .PHONY : src/soil.c.s
 
 src/stb_image_aug.o: src/stb_image_aug.c.o
@@ -252,7 +252,7 @@ src/stb_image_aug.o: src/stb_image_aug.c.o
 
 # target to build an object file
 src/stb_image_aug.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/stb_image_aug.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/stb_image_aug.c.o
 .PHONY : src/stb_image_aug.c.o
 
 src/stb_image_aug.i: src/stb_image_aug.c.i
@@ -260,7 +260,7 @@ src/stb_image_aug.i: src/stb_image_aug.c.i
 
 # target to preprocess a source file
 src/stb_image_aug.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/stb_image_aug.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/stb_image_aug.c.i
 .PHONY : src/stb_image_aug.c.i
 
 src/stb_image_aug.s: src/stb_image_aug.c.s
@@ -268,7 +268,7 @@ src/stb_image_aug.s: src/stb_image_aug.c.s
 
 # target to generate assembly for a file
 src/stb_image_aug.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/stb_image_aug.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/src/stb_image_aug.c.s
 .PHONY : src/stb_image_aug.c.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

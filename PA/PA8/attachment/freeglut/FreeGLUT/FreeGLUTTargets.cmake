@@ -63,7 +63,7 @@ set_target_properties(FreeGLUT::freeglut_static PROPERTIES
 # Import target "FreeGLUT::freeglut" for configuration ""
 set_property(TARGET FreeGLUT::freeglut APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(FreeGLUT::freeglut PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/kituro/workflow/cs100/PA/PA8/attachment/lib/libglut.so.3.11.1"
+  IMPORTED_LOCATION_NOCONFIG "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/lib/libglut.so.3.11.1"
   IMPORTED_SONAME_NOCONFIG "libglut.so.3"
   )
 
@@ -71,7 +71,7 @@ set_target_properties(FreeGLUT::freeglut PROPERTIES
 set_property(TARGET FreeGLUT::freeglut_static APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(FreeGLUT::freeglut_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
-  IMPORTED_LOCATION_NOCONFIG "/home/kituro/workflow/cs100/PA/PA8/attachment/lib/libglut.a"
+  IMPORTED_LOCATION_NOCONFIG "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/lib/libglut.a"
   )
 
 # This file does not depend on other imported targets which have

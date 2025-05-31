@@ -1,8 +1,8 @@
 src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.o: \
- /home/kituro/workflow/cs100/PA/PA8/attachment/src/Framework/GameManager.cpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework/GameManager.cpp \
  /usr/include/stdc-predef.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/Framework/GameManager.hpp \
- /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/Framework/ObjectBase.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/GameManager.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/ObjectBase.hpp \
  /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -165,7 +165,7 @@ src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.o: \
  /usr/include/c++/14.2.1/bits/stl_set.h \
  /usr/include/c++/14.2.1/bits/stl_multiset.h \
  /usr/include/c++/14.2.1/bits/erase_if.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/utils.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/utils.hpp \
  /usr/include/c++/14.2.1/cassert /usr/include/assert.h \
  /usr/include/c++/14.2.1/random /usr/include/c++/14.2.1/cmath \
  /usr/include/math.h /usr/include/bits/math-vector.h \
@@ -196,15 +196,15 @@ src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.o: \
  /usr/include/c++/14.2.1/bits/random.tcc /usr/include/c++/14.2.1/numeric \
  /usr/include/c++/14.2.1/bits/stl_numeric.h \
  /usr/include/c++/14.2.1/pstl/glue_numeric_defs.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/Framework/WorldBase.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/WorldBase.hpp \
  /usr/include/c++/14.2.1/map /usr/include/c++/14.2.1/bits/stl_map.h \
  /usr/include/c++/14.2.1/bits/stl_multimap.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/glut.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_std.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/glut.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_std.h \
  /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h /usr/include/GL/glu.h \
  /usr/include/c++/14.2.1/stdlib.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/Framework/SpriteManager.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/SpriteManager.hpp \
  /usr/include/c++/14.2.1/filesystem /usr/include/c++/14.2.1/bits/fs_fwd.h \
  /usr/include/c++/14.2.1/bits/chrono.h /usr/include/c++/14.2.1/ratio \
  /usr/include/c++/14.2.1/ctime \
@@ -226,4 +226,4 @@ src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.o: \
  /usr/include/c++/14.2.1/bits/hashtable.h \
  /usr/include/c++/14.2.1/bits/hashtable_policy.h \
  /usr/include/c++/14.2.1/bits/enable_special_members.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/Framework/TextBase.hpp
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/TextBase.hpp

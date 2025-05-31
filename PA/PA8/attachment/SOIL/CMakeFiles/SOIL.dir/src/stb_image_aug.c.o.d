@@ -1,7 +1,7 @@
 SOIL/CMakeFiles/SOIL.dir/src/stb_image_aug.c.o: \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/src/stb_image_aug.c \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/src/stb_image_aug.c \
  /usr/include/stdc-predef.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include/SOIL/stb_image_aug.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include/SOIL/stb_image_aug.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
@@ -41,5 +41,5 @@ SOIL/CMakeFiles/SOIL.dir/src/stb_image_aug.c.o: \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/memory.h \
  /usr/include/assert.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include/SOIL/stbi_dds_aug.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include/SOIL/stbi_dds_aug_c.h
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include/SOIL/stbi_dds_aug.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include/SOIL/stbi_dds_aug_c.h

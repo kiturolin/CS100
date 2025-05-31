@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 # Include any dependencies generated for this target.
 include src/GameObject/CMakeFiles/GameObject.dir/depend.make
@@ -75,16 +75,16 @@ src/GameObject/CMakeFiles/GameObject.dir/codegen:
 src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o: src/GameObject/CMakeFiles/GameObject.dir/flags.make
 src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o: src/GameObject/GameObject.cpp
 src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o"
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o -MF CMakeFiles/GameObject.dir/GameObject.cpp.o.d -o CMakeFiles/GameObject.dir/GameObject.cpp.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject/GameObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o -MF CMakeFiles/GameObject.dir/GameObject.cpp.o.d -o CMakeFiles/GameObject.dir/GameObject.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/GameObject.cpp
 
 src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/GameObject.cpp.i"
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject/GameObject.cpp > CMakeFiles/GameObject.dir/GameObject.cpp.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/GameObject.cpp > CMakeFiles/GameObject.dir/GameObject.cpp.i
 
 src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/GameObject.cpp.s"
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject/GameObject.cpp -o CMakeFiles/GameObject.dir/GameObject.cpp.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/GameObject.cpp -o CMakeFiles/GameObject.dir/GameObject.cpp.s
 
 # Object files for target GameObject
 GameObject_OBJECTS = \
@@ -96,19 +96,19 @@ GameObject_EXTERNAL_OBJECTS =
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/build.make
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libGameObject.a"
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject && $(CMAKE_COMMAND) -P CMakeFiles/GameObject.dir/cmake_clean_target.cmake
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameObject.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libGameObject.a"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && $(CMAKE_COMMAND) -P CMakeFiles/GameObject.dir/cmake_clean_target.cmake
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameObject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/GameObject/CMakeFiles/GameObject.dir/build: lib/libGameObject.a
 .PHONY : src/GameObject/CMakeFiles/GameObject.dir/build
 
 src/GameObject/CMakeFiles/GameObject.dir/clean:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject && $(CMAKE_COMMAND) -P CMakeFiles/GameObject.dir/cmake_clean.cmake
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && $(CMAKE_COMMAND) -P CMakeFiles/GameObject.dir/cmake_clean.cmake
 .PHONY : src/GameObject/CMakeFiles/GameObject.dir/clean
 
 src/GameObject/CMakeFiles/GameObject.dir/depend:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kituro/workflow/cs100/PA/PA8/attachment /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject /home/kituro/workflow/cs100/PA/PA8/attachment /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject/CMakeFiles/GameObject.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/CMakeFiles/GameObject.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/GameObject/CMakeFiles/GameObject.dir/depend
 

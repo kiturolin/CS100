@@ -1,7 +1,7 @@
 SOIL/CMakeFiles/SOIL.dir/src/image_dxt.c.o: \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/src/image_dxt.c \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/src/image_dxt.c \
  /usr/include/stdc-predef.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include/SOIL/image_dxt.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include/SOIL/image_dxt.h \
  /usr/include/math.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \

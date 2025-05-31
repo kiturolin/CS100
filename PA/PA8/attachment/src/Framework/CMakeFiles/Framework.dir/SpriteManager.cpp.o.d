@@ -1,7 +1,7 @@
 src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.o: \
- /home/kituro/workflow/cs100/PA/PA8/attachment/src/Framework/SpriteManager.cpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework/SpriteManager.cpp \
  /usr/include/stdc-predef.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/Framework/SpriteManager.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/SpriteManager.hpp \
  /usr/include/c++/14.2.1/filesystem \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -173,12 +173,12 @@ src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.o: \
  /usr/include/c++/14.2.1/bits/enable_special_members.h \
  /usr/include/c++/14.2.1/bits/node_handle.h \
  /usr/include/c++/14.2.1/bits/erase_if.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/glut.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_std.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/glut.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_std.h \
  /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h /usr/include/GL/glu.h \
  /usr/include/c++/14.2.1/stdlib.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/include/pvz/utils.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/utils.hpp \
  /usr/include/c++/14.2.1/cassert /usr/include/assert.h \
  /usr/include/c++/14.2.1/random /usr/include/c++/14.2.1/cmath \
  /usr/include/math.h /usr/include/bits/math-vector.h \
@@ -211,5 +211,5 @@ src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.o: \
  /usr/include/c++/14.2.1/bits/stl_numeric.h \
  /usr/include/c++/14.2.1/pstl/glue_numeric_defs.h \
  /usr/include/c++/14.2.1/pstl/execution_defs.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include/SOIL/SOIL.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include/SOIL/SOIL.h \
  /usr/include/c++/14.2.1/iostream

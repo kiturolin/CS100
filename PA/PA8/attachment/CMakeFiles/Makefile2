@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -200,14 +200,14 @@ CMakeFiles/PvZ.dir/all: src/GameObject/CMakeFiles/GameObject.dir/all
 CMakeFiles/PvZ.dir/all: src/GameWorld/CMakeFiles/GameWorld.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PvZ.dir/build.make CMakeFiles/PvZ.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PvZ.dir/build.make CMakeFiles/PvZ.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=9,10 "Built target PvZ"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=9,10 "Built target PvZ"
 .PHONY : CMakeFiles/PvZ.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PvZ.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 57
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PvZ.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 0
 .PHONY : CMakeFiles/PvZ.dir/rule
 
 # Convenience name for target.
@@ -217,7 +217,7 @@ PvZ: CMakeFiles/PvZ.dir/rule
 # codegen rule for target.
 CMakeFiles/PvZ.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PvZ.dir/build.make CMakeFiles/PvZ.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=9,10 "Finished codegen for target PvZ"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=9,10 "Finished codegen for target PvZ"
 .PHONY : CMakeFiles/PvZ.dir/codegen
 
 # clean rule for target.
@@ -232,14 +232,14 @@ CMakeFiles/PvZ.dir/clean:
 SOIL/CMakeFiles/SOIL.dir/all:
 	$(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/depend
 	$(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=11,12,13,14,15 "Built target SOIL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=11,12,13,14,15 "Built target SOIL"
 .PHONY : SOIL/CMakeFiles/SOIL.dir/all
 
 # Build rule for subdir invocation for target.
 SOIL/CMakeFiles/SOIL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SOIL/CMakeFiles/SOIL.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 0
 .PHONY : SOIL/CMakeFiles/SOIL.dir/rule
 
 # Convenience name for target.
@@ -249,7 +249,7 @@ SOIL: SOIL/CMakeFiles/SOIL.dir/rule
 # codegen rule for target.
 SOIL/CMakeFiles/SOIL.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f SOIL/CMakeFiles/SOIL.dir/build.make SOIL/CMakeFiles/SOIL.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=11,12,13,14,15 "Finished codegen for target SOIL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=11,12,13,14,15 "Finished codegen for target SOIL"
 .PHONY : SOIL/CMakeFiles/SOIL.dir/codegen
 
 # clean rule for target.
@@ -264,14 +264,14 @@ SOIL/CMakeFiles/SOIL.dir/clean:
 freeglut/CMakeFiles/freeglut.dir/all:
 	$(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/depend
 	$(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57 "Built target freeglut"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57 "Built target freeglut"
 .PHONY : freeglut/CMakeFiles/freeglut.dir/all
 
 # Build rule for subdir invocation for target.
 freeglut/CMakeFiles/freeglut.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/CMakeFiles/freeglut.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 0
 .PHONY : freeglut/CMakeFiles/freeglut.dir/rule
 
 # Convenience name for target.
@@ -281,7 +281,7 @@ freeglut: freeglut/CMakeFiles/freeglut.dir/rule
 # codegen rule for target.
 freeglut/CMakeFiles/freeglut.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57 "Finished codegen for target freeglut"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57 "Finished codegen for target freeglut"
 .PHONY : freeglut/CMakeFiles/freeglut.dir/codegen
 
 # clean rule for target.
@@ -296,14 +296,14 @@ freeglut/CMakeFiles/freeglut.dir/clean:
 freeglut/CMakeFiles/freeglut_static.dir/all:
 	$(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/depend
 	$(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target freeglut_static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target freeglut_static"
 .PHONY : freeglut/CMakeFiles/freeglut_static.dir/all
 
 # Build rule for subdir invocation for target.
 freeglut/CMakeFiles/freeglut_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/CMakeFiles/freeglut_static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 0
 .PHONY : freeglut/CMakeFiles/freeglut_static.dir/rule
 
 # Convenience name for target.
@@ -313,7 +313,7 @@ freeglut_static: freeglut/CMakeFiles/freeglut_static.dir/rule
 # codegen rule for target.
 freeglut/CMakeFiles/freeglut_static.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Finished codegen for target freeglut_static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Finished codegen for target freeglut_static"
 .PHONY : freeglut/CMakeFiles/freeglut_static.dir/codegen
 
 # clean rule for target.
@@ -329,14 +329,14 @@ src/Framework/CMakeFiles/Framework.dir/all: SOIL/CMakeFiles/SOIL.dir/all
 src/Framework/CMakeFiles/Framework.dir/all: freeglut/CMakeFiles/freeglut.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=1,2,3,4 "Built target Framework"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=1,2,3,4 "Built target Framework"
 .PHONY : src/Framework/CMakeFiles/Framework.dir/all
 
 # Build rule for subdir invocation for target.
 src/Framework/CMakeFiles/Framework.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 51
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Framework/CMakeFiles/Framework.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 0
 .PHONY : src/Framework/CMakeFiles/Framework.dir/rule
 
 # Convenience name for target.
@@ -346,7 +346,7 @@ Framework: src/Framework/CMakeFiles/Framework.dir/rule
 # codegen rule for target.
 src/Framework/CMakeFiles/Framework.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target Framework"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target Framework"
 .PHONY : src/Framework/CMakeFiles/Framework.dir/codegen
 
 # clean rule for target.
@@ -363,14 +363,14 @@ src/GameObject/CMakeFiles/GameObject.dir/all: freeglut/CMakeFiles/freeglut.dir/a
 src/GameObject/CMakeFiles/GameObject.dir/all: src/Framework/CMakeFiles/Framework.dir/all
 	$(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=5,6 "Built target GameObject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=5,6 "Built target GameObject"
 .PHONY : src/GameObject/CMakeFiles/GameObject.dir/all
 
 # Build rule for subdir invocation for target.
 src/GameObject/CMakeFiles/GameObject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 53
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GameObject/CMakeFiles/GameObject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 0
 .PHONY : src/GameObject/CMakeFiles/GameObject.dir/rule
 
 # Convenience name for target.
@@ -380,7 +380,7 @@ GameObject: src/GameObject/CMakeFiles/GameObject.dir/rule
 # codegen rule for target.
 src/GameObject/CMakeFiles/GameObject.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=5,6 "Finished codegen for target GameObject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=5,6 "Finished codegen for target GameObject"
 .PHONY : src/GameObject/CMakeFiles/GameObject.dir/codegen
 
 # clean rule for target.
@@ -398,14 +398,14 @@ src/GameWorld/CMakeFiles/GameWorld.dir/all: src/Framework/CMakeFiles/Framework.d
 src/GameWorld/CMakeFiles/GameWorld.dir/all: src/GameObject/CMakeFiles/GameObject.dir/all
 	$(MAKE) $(MAKESILENT) -f src/GameWorld/CMakeFiles/GameWorld.dir/build.make src/GameWorld/CMakeFiles/GameWorld.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/GameWorld/CMakeFiles/GameWorld.dir/build.make src/GameWorld/CMakeFiles/GameWorld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=7,8 "Built target GameWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=7,8 "Built target GameWorld"
 .PHONY : src/GameWorld/CMakeFiles/GameWorld.dir/all
 
 # Build rule for subdir invocation for target.
 src/GameWorld/CMakeFiles/GameWorld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 55
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 55
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GameWorld/CMakeFiles/GameWorld.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 0
 .PHONY : src/GameWorld/CMakeFiles/GameWorld.dir/rule
 
 # Convenience name for target.
@@ -415,7 +415,7 @@ GameWorld: src/GameWorld/CMakeFiles/GameWorld.dir/rule
 # codegen rule for target.
 src/GameWorld/CMakeFiles/GameWorld.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/GameWorld/CMakeFiles/GameWorld.dir/build.make src/GameWorld/CMakeFiles/GameWorld.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=7,8 "Finished codegen for target GameWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=7,8 "Finished codegen for target GameWorld"
 .PHONY : src/GameWorld/CMakeFiles/GameWorld.dir/codegen
 
 # clean rule for target.

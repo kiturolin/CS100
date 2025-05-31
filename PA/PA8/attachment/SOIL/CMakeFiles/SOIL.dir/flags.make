@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include
+C_INCLUDES = -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include
 
 C_FLAGS = 
 

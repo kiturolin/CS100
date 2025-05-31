@@ -1,4 +1,4 @@
-# Install script for directory: /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut
+# Install script for directory: /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -55,8 +55,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/kituro/workflow/cs100/PA/PA8/attachment/lib/libglut.so.3.11.1"
-    "/home/kituro/workflow/cs100/PA/PA8/attachment/lib/libglut.so.3"
+    "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/lib/libglut.so.3.11.1"
+    "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/lib/libglut.so.3"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libglut.so.3.11.1"
@@ -72,32 +72,32 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kituro/workflow/cs100/PA/PA8/attachment/lib/libglut.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/lib/libglut.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/kituro/workflow/cs100/PA/PA8/attachment/lib/libglut.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/lib/libglut.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Devel" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/GL" TYPE FILE FILES
-    "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut.h"
-    "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_ucall.h"
-    "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_ext.h"
-    "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_std.h"
-    "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/glut.h"
+    "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut.h"
+    "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_ucall.h"
+    "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_ext.h"
+    "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_std.h"
+    "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/glut.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE RENAME "glut.pc" FILES "/home/kituro/workflow/cs100/PA/PA8/attachment/freeglut.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE RENAME "glut.pc" FILES "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT/FreeGLUTTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT/FreeGLUTTargets.cmake"
-         "/home/kituro/workflow/cs100/PA/PA8/attachment/freeglut/CMakeFiles/Export/6f3d6babffe806515ac5156322d25f7d/FreeGLUTTargets.cmake")
+         "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut/CMakeFiles/Export/6f3d6babffe806515ac5156322d25f7d/FreeGLUTTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT/FreeGLUTTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -110,22 +110,22 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT" TYPE FILE FILES "/home/kituro/workflow/cs100/PA/PA8/attachment/freeglut/CMakeFiles/Export/6f3d6babffe806515ac5156322d25f7d/FreeGLUTTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT" TYPE FILE FILES "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut/CMakeFiles/Export/6f3d6babffe806515ac5156322d25f7d/FreeGLUTTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT" TYPE FILE FILES "/home/kituro/workflow/cs100/PA/PA8/attachment/freeglut/CMakeFiles/Export/6f3d6babffe806515ac5156322d25f7d/FreeGLUTTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT" TYPE FILE FILES "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut/CMakeFiles/Export/6f3d6babffe806515ac5156322d25f7d/FreeGLUTTargets-noconfig.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Devel" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT" TYPE FILE FILES
-    "/home/kituro/workflow/cs100/PA/PA8/attachment/freeglut/FreeGLUT/FreeGLUTConfig.cmake"
-    "/home/kituro/workflow/cs100/PA/PA8/attachment/freeglut/FreeGLUT/FreeGLUTConfigVersion.cmake"
+    "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut/FreeGLUT/FreeGLUTConfig.cmake"
+    "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut/FreeGLUT/FreeGLUTConfigVersion.cmake"
     )
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/kituro/workflow/cs100/PA/PA8/attachment/freeglut/install_local_manifest.txt"
+  file(WRITE "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

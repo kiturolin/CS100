@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles /home/kituro/workflow/cs100/PA/PA8/attachment/src/Framework//CMakeFiles/progress.marks
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Framework/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 0
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework//CMakeFiles/progress.marks
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Framework/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Framework/clean
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Framework/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Framework/preinstall
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Framework/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Framework/preinstall
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Framework/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Framework/CMakeFiles/Framework.dir/rule:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Framework/CMakeFiles/Framework.dir/rule
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Framework/CMakeFiles/Framework.dir/rule
 .PHONY : src/Framework/CMakeFiles/Framework.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ Framework: src/Framework/CMakeFiles/Framework.dir/rule
 
 # fast build rule for target.
 Framework/fast:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/build
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/build
 .PHONY : Framework/fast
 
 GameManager.o: GameManager.cpp.o
@@ -180,7 +180,7 @@ GameManager.o: GameManager.cpp.o
 
 # target to build an object file
 GameManager.cpp.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.o
 .PHONY : GameManager.cpp.o
 
 GameManager.i: GameManager.cpp.i
@@ -188,7 +188,7 @@ GameManager.i: GameManager.cpp.i
 
 # target to preprocess a source file
 GameManager.cpp.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.i
 .PHONY : GameManager.cpp.i
 
 GameManager.s: GameManager.cpp.s
@@ -196,7 +196,7 @@ GameManager.s: GameManager.cpp.s
 
 # target to generate assembly for a file
 GameManager.cpp.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.s
 .PHONY : GameManager.cpp.s
 
 ObjectBase.o: ObjectBase.cpp.o
@@ -204,7 +204,7 @@ ObjectBase.o: ObjectBase.cpp.o
 
 # target to build an object file
 ObjectBase.cpp.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.o
 .PHONY : ObjectBase.cpp.o
 
 ObjectBase.i: ObjectBase.cpp.i
@@ -212,7 +212,7 @@ ObjectBase.i: ObjectBase.cpp.i
 
 # target to preprocess a source file
 ObjectBase.cpp.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.i
 .PHONY : ObjectBase.cpp.i
 
 ObjectBase.s: ObjectBase.cpp.s
@@ -220,7 +220,7 @@ ObjectBase.s: ObjectBase.cpp.s
 
 # target to generate assembly for a file
 ObjectBase.cpp.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.s
 .PHONY : ObjectBase.cpp.s
 
 SpriteManager.o: SpriteManager.cpp.o
@@ -228,7 +228,7 @@ SpriteManager.o: SpriteManager.cpp.o
 
 # target to build an object file
 SpriteManager.cpp.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.o
 .PHONY : SpriteManager.cpp.o
 
 SpriteManager.i: SpriteManager.cpp.i
@@ -236,7 +236,7 @@ SpriteManager.i: SpriteManager.cpp.i
 
 # target to preprocess a source file
 SpriteManager.cpp.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.i
 .PHONY : SpriteManager.cpp.i
 
 SpriteManager.s: SpriteManager.cpp.s
@@ -244,7 +244,7 @@ SpriteManager.s: SpriteManager.cpp.s
 
 # target to generate assembly for a file
 SpriteManager.cpp.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.s
 .PHONY : SpriteManager.cpp.s
 
 TextBase.o: TextBase.cpp.o
@@ -252,7 +252,7 @@ TextBase.o: TextBase.cpp.o
 
 # target to build an object file
 TextBase.cpp.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.o
 .PHONY : TextBase.cpp.o
 
 TextBase.i: TextBase.cpp.i
@@ -260,7 +260,7 @@ TextBase.i: TextBase.cpp.i
 
 # target to preprocess a source file
 TextBase.cpp.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.i
 .PHONY : TextBase.cpp.i
 
 TextBase.s: TextBase.cpp.s
@@ -268,7 +268,7 @@ TextBase.s: TextBase.cpp.s
 
 # target to generate assembly for a file
 TextBase.cpp.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/Framework/CMakeFiles/Framework.dir/build.make src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.s
 .PHONY : TextBase.cpp.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

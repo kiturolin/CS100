@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 # Include any dependencies generated for this target.
 include src/GameWorld/CMakeFiles/GameWorld.dir/depend.make
@@ -75,16 +75,16 @@ src/GameWorld/CMakeFiles/GameWorld.dir/codegen:
 src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.o: src/GameWorld/CMakeFiles/GameWorld.dir/flags.make
 src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.o: src/GameWorld/GameWorld.cpp
 src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.o: src/GameWorld/CMakeFiles/GameWorld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.o"
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.o -MF CMakeFiles/GameWorld.dir/GameWorld.cpp.o.d -o CMakeFiles/GameWorld.dir/GameWorld.cpp.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld/GameWorld.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.o"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.o -MF CMakeFiles/GameWorld.dir/GameWorld.cpp.o.d -o CMakeFiles/GameWorld.dir/GameWorld.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld/GameWorld.cpp
 
 src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameWorld.dir/GameWorld.cpp.i"
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld/GameWorld.cpp > CMakeFiles/GameWorld.dir/GameWorld.cpp.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld/GameWorld.cpp > CMakeFiles/GameWorld.dir/GameWorld.cpp.i
 
 src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameWorld.dir/GameWorld.cpp.s"
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld/GameWorld.cpp -o CMakeFiles/GameWorld.dir/GameWorld.cpp.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld/GameWorld.cpp -o CMakeFiles/GameWorld.dir/GameWorld.cpp.s
 
 # Object files for target GameWorld
 GameWorld_OBJECTS = \
@@ -96,19 +96,19 @@ GameWorld_EXTERNAL_OBJECTS =
 lib/libGameWorld.a: src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.o
 lib/libGameWorld.a: src/GameWorld/CMakeFiles/GameWorld.dir/build.make
 lib/libGameWorld.a: src/GameWorld/CMakeFiles/GameWorld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libGameWorld.a"
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld && $(CMAKE_COMMAND) -P CMakeFiles/GameWorld.dir/cmake_clean_target.cmake
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameWorld.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libGameWorld.a"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld && $(CMAKE_COMMAND) -P CMakeFiles/GameWorld.dir/cmake_clean_target.cmake
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameWorld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/GameWorld/CMakeFiles/GameWorld.dir/build: lib/libGameWorld.a
 .PHONY : src/GameWorld/CMakeFiles/GameWorld.dir/build
 
 src/GameWorld/CMakeFiles/GameWorld.dir/clean:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld && $(CMAKE_COMMAND) -P CMakeFiles/GameWorld.dir/cmake_clean.cmake
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld && $(CMAKE_COMMAND) -P CMakeFiles/GameWorld.dir/cmake_clean.cmake
 .PHONY : src/GameWorld/CMakeFiles/GameWorld.dir/clean
 
 src/GameWorld/CMakeFiles/GameWorld.dir/depend:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kituro/workflow/cs100/PA/PA8/attachment /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld /home/kituro/workflow/cs100/PA/PA8/attachment /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld/CMakeFiles/GameWorld.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld/CMakeFiles/GameWorld.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/GameWorld/CMakeFiles/GameWorld.dir/depend
 

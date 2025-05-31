@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject//CMakeFiles/progress.marks
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GameObject/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 0
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject//CMakeFiles/progress.marks
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GameObject/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GameObject/clean
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GameObject/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GameObject/preinstall
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GameObject/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GameObject/preinstall
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GameObject/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/GameObject/CMakeFiles/GameObject.dir/rule:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GameObject/CMakeFiles/GameObject.dir/rule
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/GameObject/CMakeFiles/GameObject.dir/rule
 .PHONY : src/GameObject/CMakeFiles/GameObject.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ GameObject: src/GameObject/CMakeFiles/GameObject.dir/rule
 
 # fast build rule for target.
 GameObject/fast:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/build
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/build
 .PHONY : GameObject/fast
 
 GameObject.o: GameObject.cpp.o
@@ -180,7 +180,7 @@ GameObject.o: GameObject.cpp.o
 
 # target to build an object file
 GameObject.cpp.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o
 .PHONY : GameObject.cpp.o
 
 GameObject.i: GameObject.cpp.i
@@ -188,7 +188,7 @@ GameObject.i: GameObject.cpp.i
 
 # target to preprocess a source file
 GameObject.cpp.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.i
 .PHONY : GameObject.cpp.i
 
 GameObject.s: GameObject.cpp.s
@@ -196,7 +196,7 @@ GameObject.s: GameObject.cpp.s
 
 # target to generate assembly for a file
 GameObject.cpp.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.s
 .PHONY : GameObject.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

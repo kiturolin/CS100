@@ -1,5 +1,5 @@
 freeglut/CMakeFiles/freeglut.dir/src/util/xparsegeometry_repl.c.o: \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/util/xparsegeometry_repl.c \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/util/xparsegeometry_repl.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -25,4 +25,4 @@ freeglut/CMakeFiles/freeglut.dir/src/util/xparsegeometry_repl.c.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/util/xparsegeometry_repl.h
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/util/xparsegeometry_repl.h

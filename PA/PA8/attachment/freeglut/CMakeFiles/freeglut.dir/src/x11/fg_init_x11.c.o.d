@@ -1,5 +1,5 @@
 freeglut/CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.o: \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_init_x11.c \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_init_x11.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h \
@@ -12,8 +12,8 @@ freeglut/CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.o: \
  /usr/include/linux/limits.h \
  /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/bits/pthread_stack_min.h /usr/include/bits/posix2_lim.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_std.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_std.h \
  /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
@@ -39,13 +39,13 @@ freeglut/CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_ext.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_ext.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_ucall.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_internal.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/config.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_version.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_callback_macros.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include/GL/freeglut_ucall.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_internal.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/config.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_version.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_callback_macros.h \
  /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
  /usr/include/bits/types/__mbstate_t.h \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
@@ -64,13 +64,13 @@ freeglut/CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.o: \
  /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
  /usr/include/sys/time.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdbool.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_internal_x11.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_internal_x11.h \
  /usr/include/GL/glx.h /usr/include/X11/Xlib.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
  /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
  /usr/include/X11/keysymdef.h /usr/include/GL/glxext.h \
  /usr/include/inttypes.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_internal_x11_glx.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_internal_x11_glx.h \
  /usr/include/X11/Xatom.h /usr/include/X11/extensions/XInput.h \
  /usr/include/X11/extensions/XI.h /usr/include/X11/extensions/xf86vmode.h \
  /usr/include/X11/Xmd.h /usr/include/X11/extensions/xf86vm.h \
@@ -94,5 +94,5 @@ freeglut/CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.o: \
  /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
  /usr/include/asm/posix_types_64.h /usr/include/asm-generic/posix_types.h \
  /usr/include/linux/input.h /usr/include/linux/input-event-codes.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_init.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/egl/fg_init_egl.h
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_init.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/egl/fg_init_egl.h

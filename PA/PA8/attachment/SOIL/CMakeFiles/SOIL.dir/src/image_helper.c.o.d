@@ -1,7 +1,7 @@
 SOIL/CMakeFiles/SOIL.dir/src/image_helper.c.o: \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/src/image_helper.c \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/src/image_helper.c \
  /usr/include/stdc-predef.h \
- /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include/SOIL/image_helper.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include/SOIL/image_helper.h \
  /usr/include/stdlib.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \

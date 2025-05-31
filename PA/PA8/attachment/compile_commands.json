@@ -1,572 +1,572 @@
 [
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build",
-  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/PvZ.dir/src/main.cpp.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/src/main.cpp",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/src/main.cpp",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment",
+  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/PvZ.dir/src/main.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/main.cpp",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/main.cpp",
   "output": "CMakeFiles/PvZ.dir/src/main.cpp.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/SOIL",
-  "command": "/usr/bin/cc  -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include  -o CMakeFiles/SOIL.dir/src/image_dxt.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/src/image_dxt.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/src/image_dxt.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/SOIL",
+  "command": "/usr/bin/cc  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include  -o CMakeFiles/SOIL.dir/src/image_dxt.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/src/image_dxt.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/src/image_dxt.c",
   "output": "SOIL/CMakeFiles/SOIL.dir/src/image_dxt.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/SOIL",
-  "command": "/usr/bin/cc  -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include  -o CMakeFiles/SOIL.dir/src/image_helper.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/src/image_helper.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/src/image_helper.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/SOIL",
+  "command": "/usr/bin/cc  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include  -o CMakeFiles/SOIL.dir/src/image_helper.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/src/image_helper.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/src/image_helper.c",
   "output": "SOIL/CMakeFiles/SOIL.dir/src/image_helper.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/SOIL",
-  "command": "/usr/bin/cc  -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include  -o CMakeFiles/SOIL.dir/src/soil.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/src/soil.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/src/soil.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/SOIL",
+  "command": "/usr/bin/cc  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include  -o CMakeFiles/SOIL.dir/src/soil.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/src/soil.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/src/soil.c",
   "output": "SOIL/CMakeFiles/SOIL.dir/src/soil.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/SOIL",
-  "command": "/usr/bin/cc  -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include  -o CMakeFiles/SOIL.dir/src/stb_image_aug.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/src/stb_image_aug.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/src/stb_image_aug.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/SOIL",
+  "command": "/usr/bin/cc  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include  -o CMakeFiles/SOIL.dir/src/stb_image_aug.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/src/stb_image_aug.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/src/stb_image_aug.c",
   "output": "SOIL/CMakeFiles/SOIL.dir/src/stb_image_aug.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_callbacks.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_callbacks.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_callbacks.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_callbacks.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_callbacks.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_callbacks.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_callbacks.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_cursor.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_cursor.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_cursor.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_cursor.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_cursor.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_cursor.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_cursor.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_display.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_display.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_display.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_display.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_display.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_display.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_display.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_ext.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_ext.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_ext.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_ext.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_ext.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_ext.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_ext.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_font_data.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_font_data.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_font_data.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_font_data.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_font_data.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_font_data.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_font_data.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_gamemode.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_gamemode.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_gamemode.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_gamemode.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_gamemode.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_gamemode.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_gamemode.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_geometry.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_geometry.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_geometry.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_geometry.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_geometry.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_geometry.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_geometry.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_gl2.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_gl2.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_gl2.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_gl2.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_gl2.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_gl2.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_gl2.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_init.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_init.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_init.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_init.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_init.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_init.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_init.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_input_devices.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_input_devices.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_input_devices.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_input_devices.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_input_devices.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_input_devices.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_input_devices.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_joystick.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_joystick.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_joystick.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_joystick.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_joystick.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_joystick.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_joystick.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_main.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_main.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_main.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_main.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_main.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_main.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_main.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_misc.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_misc.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_misc.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_misc.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_misc.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_misc.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_misc.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_overlay.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_overlay.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_overlay.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_overlay.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_overlay.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_overlay.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_overlay.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_spaceball.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_spaceball.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_spaceball.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_spaceball.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_spaceball.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_spaceball.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_spaceball.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_state.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_state.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_state.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_state.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_state.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_state.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_state.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_stroke_mono_roman.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_mono_roman.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_mono_roman.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_stroke_mono_roman.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_mono_roman.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_mono_roman.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_mono_roman.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_stroke_roman.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_roman.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_roman.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_stroke_roman.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_roman.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_roman.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_roman.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_structure.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_structure.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_structure.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_structure.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_structure.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_structure.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_structure.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_teapot.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_teapot.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_teapot.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_teapot.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_teapot.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_teapot.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_teapot.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_videoresize.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_videoresize.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_videoresize.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_videoresize.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_videoresize.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_videoresize.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_videoresize.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_window.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_window.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_window.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_window.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_window.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_window.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_window.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_font.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_font.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_font.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_font.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_font.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_font.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_font.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_menu.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_menu.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_menu.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/fg_menu.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_menu.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_menu.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/fg_menu.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_cursor_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_cursor_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_cursor_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_cursor_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_cursor_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_cursor_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_cursor_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_ext_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_ext_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_ext_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_ext_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_ext_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_ext_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_ext_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_gamemode_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_gamemode_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_gamemode_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_gamemode_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_gamemode_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_gamemode_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_gamemode_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_glutfont_definitions_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_glutfont_definitions_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_glutfont_definitions_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_glutfont_definitions_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_glutfont_definitions_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_glutfont_definitions_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_glutfont_definitions_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_init_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_init_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_init_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_init_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_input_devices_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_input_devices_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_input_devices_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_input_devices_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_input_devices_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_input_devices_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_input_devices_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_joystick_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_joystick_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_joystick_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_joystick_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_joystick_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_joystick_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_joystick_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_main_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_main_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_main_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_main_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_main_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_main_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_main_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_menu_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_menu_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_menu_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_menu_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_menu_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_menu_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_menu_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_spaceball_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_spaceball_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_spaceball_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_spaceball_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_spaceball_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_spaceball_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_spaceball_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_state_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_state_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_structure_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_structure_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_structure_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_structure_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_structure_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_structure_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_structure_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_window_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_window_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_xinput_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_xinput_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_xinput_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_xinput_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_xinput_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_xinput_x11.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_xinput_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_display_x11_glx.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_display_x11_glx.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_display_x11_glx.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_display_x11_glx.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_display_x11_glx.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_display_x11_glx.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_display_x11_glx.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_state_x11_glx.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11_glx.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11_glx.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_state_x11_glx.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11_glx.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11_glx.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11_glx.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_window_x11_glx.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11_glx.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11_glx.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/x11/fg_window_x11_glx.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11_glx.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11_glx.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11_glx.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/util/xparsegeometry_repl.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/util/xparsegeometry_repl.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/util/xparsegeometry_repl.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -Dfreeglut_EXPORTS -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -fPIC -o CMakeFiles/freeglut.dir/src/util/xparsegeometry_repl.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/util/xparsegeometry_repl.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/util/xparsegeometry_repl.c",
   "output": "freeglut/CMakeFiles/freeglut.dir/src/util/xparsegeometry_repl.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_callbacks.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_callbacks.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_callbacks.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_callbacks.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_callbacks.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_callbacks.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_callbacks.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_cursor.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_cursor.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_cursor.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_cursor.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_cursor.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_cursor.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_cursor.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_display.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_display.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_display.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_display.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_display.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_display.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_display.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_ext.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_ext.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_ext.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_ext.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_ext.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_ext.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_ext.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_font_data.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_font_data.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_font_data.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_font_data.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_font_data.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_font_data.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_font_data.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_gamemode.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_gamemode.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_gamemode.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_gamemode.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_gamemode.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_gamemode.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_gamemode.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_geometry.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_geometry.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_geometry.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_geometry.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_geometry.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_geometry.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_geometry.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_gl2.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_gl2.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_gl2.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_gl2.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_gl2.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_gl2.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_gl2.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_init.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_init.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_init.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_init.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_init.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_init.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_init.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_input_devices.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_input_devices.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_input_devices.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_input_devices.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_input_devices.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_input_devices.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_input_devices.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_joystick.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_joystick.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_joystick.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_joystick.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_joystick.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_joystick.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_joystick.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_main.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_main.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_main.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_main.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_main.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_main.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_main.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_misc.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_misc.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_misc.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_misc.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_misc.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_misc.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_misc.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_overlay.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_overlay.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_overlay.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_overlay.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_overlay.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_overlay.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_overlay.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_spaceball.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_spaceball.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_spaceball.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_spaceball.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_spaceball.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_spaceball.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_spaceball.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_state.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_state.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_state.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_state.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_state.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_state.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_state.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_stroke_mono_roman.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_mono_roman.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_mono_roman.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_stroke_mono_roman.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_mono_roman.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_mono_roman.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_mono_roman.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_stroke_roman.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_roman.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_roman.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_stroke_roman.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_roman.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_stroke_roman.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_roman.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_structure.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_structure.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_structure.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_structure.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_structure.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_structure.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_structure.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_teapot.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_teapot.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_teapot.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_teapot.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_teapot.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_teapot.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_teapot.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_videoresize.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_videoresize.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_videoresize.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_videoresize.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_videoresize.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_videoresize.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_videoresize.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_window.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_window.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_window.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_window.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_window.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_window.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_window.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_font.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_font.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_font.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_font.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_font.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_font.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_font.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_menu.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_menu.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/fg_menu.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/fg_menu.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_menu.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/fg_menu.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/fg_menu.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_cursor_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_cursor_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_cursor_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_cursor_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_cursor_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_cursor_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_cursor_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_ext_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_ext_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_ext_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_ext_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_ext_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_ext_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_ext_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_gamemode_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_gamemode_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_gamemode_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_gamemode_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_gamemode_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_gamemode_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_gamemode_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_glutfont_definitions_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_glutfont_definitions_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_glutfont_definitions_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_glutfont_definitions_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_glutfont_definitions_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_glutfont_definitions_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_glutfont_definitions_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_init_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_init_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_init_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_init_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_init_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_init_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_init_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_input_devices_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_input_devices_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_input_devices_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_input_devices_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_input_devices_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_input_devices_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_input_devices_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_joystick_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_joystick_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_joystick_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_joystick_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_joystick_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_joystick_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_joystick_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_main_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_main_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_main_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_main_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_main_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_main_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_main_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_menu_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_menu_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_menu_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_menu_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_menu_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_menu_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_menu_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_spaceball_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_spaceball_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_spaceball_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_spaceball_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_spaceball_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_spaceball_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_spaceball_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_structure_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_structure_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_structure_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_structure_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_structure_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_structure_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_structure_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_xinput_x11.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_xinput_x11.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_xinput_x11.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_xinput_x11.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_xinput_x11.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_xinput_x11.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_xinput_x11.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_display_x11_glx.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_display_x11_glx.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_display_x11_glx.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_display_x11_glx.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_display_x11_glx.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_display_x11_glx.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_display_x11_glx.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11_glx.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11_glx.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11_glx.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11_glx.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11_glx.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_state_x11_glx.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11_glx.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11_glx.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11_glx.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11_glx.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11_glx.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11_glx.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/x11/fg_window_x11_glx.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11_glx.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/freeglut",
-  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/build  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/util/xparsegeometry_repl.c.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/util/xparsegeometry_repl.c",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/src/util/xparsegeometry_repl.c",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment  -Wall -pedantic -o CMakeFiles/freeglut_static.dir/src/util/xparsegeometry_repl.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/util/xparsegeometry_repl.c",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/src/util/xparsegeometry_repl.c",
   "output": "freeglut/CMakeFiles/freeglut_static.dir/src/util/xparsegeometry_repl.c.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/src/Framework",
-  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/Framework.dir/ObjectBase.cpp.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/src/Framework/ObjectBase.cpp",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/src/Framework/ObjectBase.cpp",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework",
+  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/Framework.dir/ObjectBase.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework/ObjectBase.cpp",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework/ObjectBase.cpp",
   "output": "src/Framework/CMakeFiles/Framework.dir/ObjectBase.cpp.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/src/Framework",
-  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/Framework.dir/TextBase.cpp.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/src/Framework/TextBase.cpp",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/src/Framework/TextBase.cpp",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework",
+  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/Framework.dir/TextBase.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework/TextBase.cpp",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework/TextBase.cpp",
   "output": "src/Framework/CMakeFiles/Framework.dir/TextBase.cpp.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/src/Framework",
-  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/Framework.dir/GameManager.cpp.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/src/Framework/GameManager.cpp",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/src/Framework/GameManager.cpp",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework",
+  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/Framework.dir/GameManager.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework/GameManager.cpp",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework/GameManager.cpp",
   "output": "src/Framework/CMakeFiles/Framework.dir/GameManager.cpp.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/src/Framework",
-  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/Framework.dir/SpriteManager.cpp.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/src/Framework/SpriteManager.cpp",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/src/Framework/SpriteManager.cpp",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework",
+  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/Framework.dir/SpriteManager.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework/SpriteManager.cpp",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/Framework/SpriteManager.cpp",
   "output": "src/Framework/CMakeFiles/Framework.dir/SpriteManager.cpp.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/src/GameObject",
-  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/GameObject.dir/GameObject.cpp.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject/GameObject.cpp",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/src/GameObject/GameObject.cpp",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject",
+  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/GameObject.dir/GameObject.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/GameObject.cpp",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/GameObject.cpp",
   "output": "src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o"
 },
 {
-  "directory": "/home/kituro/workflow/cs100/PA/PA8/attachment/build/src/GameWorld",
-  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/GameWorld.dir/GameWorld.cpp.o -c /home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld/GameWorld.cpp",
-  "file": "/home/kituro/workflow/cs100/PA/PA8/attachment/src/GameWorld/GameWorld.cpp",
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld",
+  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include -std=gnu++17 -o CMakeFiles/GameWorld.dir/GameWorld.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld/GameWorld.cpp",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld/GameWorld.cpp",
   "output": "src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.o"
 }
 ]

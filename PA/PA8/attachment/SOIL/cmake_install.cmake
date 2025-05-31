@@ -1,4 +1,4 @@
-# Install script for directory: /home/kituro/workflow/cs100/PA/PA8/attachment/third_party/SOIL
+# Install script for directory: /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,6 +45,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/kituro/workflow/cs100/PA/PA8/attachment/SOIL/install_local_manifest.txt"
+  file(WRITE "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/SOIL/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

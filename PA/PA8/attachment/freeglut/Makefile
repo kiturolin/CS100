@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_SOURCE_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA/PA8/attachment
+CMAKE_BINARY_DIR = /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles /home/kituro/workflow/cs100/PA/PA8/attachment/freeglut//CMakeFiles/progress.marks
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA/PA8/attachment/CMakeFiles 0
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/freeglut//CMakeFiles/progress.marks
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/clean
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/preinstall
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/preinstall
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 freeglut/CMakeFiles/freeglut.dir/rule:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/CMakeFiles/freeglut.dir/rule
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/CMakeFiles/freeglut.dir/rule
 .PHONY : freeglut/CMakeFiles/freeglut.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ freeglut: freeglut/CMakeFiles/freeglut.dir/rule
 
 # fast build rule for target.
 freeglut/fast:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/build
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/build
 .PHONY : freeglut/fast
 
 # Convenience name for target.
 freeglut/CMakeFiles/freeglut_static.dir/rule:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/CMakeFiles/freeglut_static.dir/rule
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freeglut/CMakeFiles/freeglut_static.dir/rule
 .PHONY : freeglut/CMakeFiles/freeglut_static.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ freeglut_static: freeglut/CMakeFiles/freeglut_static.dir/rule
 
 # fast build rule for target.
 freeglut_static/fast:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/build
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/build
 .PHONY : freeglut_static/fast
 
 src/fg_callbacks.o: src/fg_callbacks.c.o
@@ -194,8 +194,8 @@ src/fg_callbacks.o: src/fg_callbacks.c.o
 
 # target to build an object file
 src/fg_callbacks.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_callbacks.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_callbacks.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_callbacks.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_callbacks.c.o
 .PHONY : src/fg_callbacks.c.o
 
 src/fg_callbacks.i: src/fg_callbacks.c.i
@@ -203,8 +203,8 @@ src/fg_callbacks.i: src/fg_callbacks.c.i
 
 # target to preprocess a source file
 src/fg_callbacks.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_callbacks.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_callbacks.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_callbacks.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_callbacks.c.i
 .PHONY : src/fg_callbacks.c.i
 
 src/fg_callbacks.s: src/fg_callbacks.c.s
@@ -212,8 +212,8 @@ src/fg_callbacks.s: src/fg_callbacks.c.s
 
 # target to generate assembly for a file
 src/fg_callbacks.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_callbacks.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_callbacks.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_callbacks.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_callbacks.c.s
 .PHONY : src/fg_callbacks.c.s
 
 src/fg_cursor.o: src/fg_cursor.c.o
@@ -221,8 +221,8 @@ src/fg_cursor.o: src/fg_cursor.c.o
 
 # target to build an object file
 src/fg_cursor.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_cursor.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_cursor.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_cursor.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_cursor.c.o
 .PHONY : src/fg_cursor.c.o
 
 src/fg_cursor.i: src/fg_cursor.c.i
@@ -230,8 +230,8 @@ src/fg_cursor.i: src/fg_cursor.c.i
 
 # target to preprocess a source file
 src/fg_cursor.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_cursor.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_cursor.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_cursor.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_cursor.c.i
 .PHONY : src/fg_cursor.c.i
 
 src/fg_cursor.s: src/fg_cursor.c.s
@@ -239,8 +239,8 @@ src/fg_cursor.s: src/fg_cursor.c.s
 
 # target to generate assembly for a file
 src/fg_cursor.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_cursor.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_cursor.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_cursor.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_cursor.c.s
 .PHONY : src/fg_cursor.c.s
 
 src/fg_display.o: src/fg_display.c.o
@@ -248,8 +248,8 @@ src/fg_display.o: src/fg_display.c.o
 
 # target to build an object file
 src/fg_display.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_display.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_display.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_display.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_display.c.o
 .PHONY : src/fg_display.c.o
 
 src/fg_display.i: src/fg_display.c.i
@@ -257,8 +257,8 @@ src/fg_display.i: src/fg_display.c.i
 
 # target to preprocess a source file
 src/fg_display.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_display.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_display.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_display.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_display.c.i
 .PHONY : src/fg_display.c.i
 
 src/fg_display.s: src/fg_display.c.s
@@ -266,8 +266,8 @@ src/fg_display.s: src/fg_display.c.s
 
 # target to generate assembly for a file
 src/fg_display.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_display.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_display.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_display.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_display.c.s
 .PHONY : src/fg_display.c.s
 
 src/fg_ext.o: src/fg_ext.c.o
@@ -275,8 +275,8 @@ src/fg_ext.o: src/fg_ext.c.o
 
 # target to build an object file
 src/fg_ext.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_ext.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_ext.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_ext.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_ext.c.o
 .PHONY : src/fg_ext.c.o
 
 src/fg_ext.i: src/fg_ext.c.i
@@ -284,8 +284,8 @@ src/fg_ext.i: src/fg_ext.c.i
 
 # target to preprocess a source file
 src/fg_ext.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_ext.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_ext.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_ext.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_ext.c.i
 .PHONY : src/fg_ext.c.i
 
 src/fg_ext.s: src/fg_ext.c.s
@@ -293,8 +293,8 @@ src/fg_ext.s: src/fg_ext.c.s
 
 # target to generate assembly for a file
 src/fg_ext.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_ext.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_ext.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_ext.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_ext.c.s
 .PHONY : src/fg_ext.c.s
 
 src/fg_font.o: src/fg_font.c.o
@@ -302,8 +302,8 @@ src/fg_font.o: src/fg_font.c.o
 
 # target to build an object file
 src/fg_font.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_font.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_font.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_font.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_font.c.o
 .PHONY : src/fg_font.c.o
 
 src/fg_font.i: src/fg_font.c.i
@@ -311,8 +311,8 @@ src/fg_font.i: src/fg_font.c.i
 
 # target to preprocess a source file
 src/fg_font.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_font.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_font.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_font.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_font.c.i
 .PHONY : src/fg_font.c.i
 
 src/fg_font.s: src/fg_font.c.s
@@ -320,8 +320,8 @@ src/fg_font.s: src/fg_font.c.s
 
 # target to generate assembly for a file
 src/fg_font.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_font.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_font.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_font.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_font.c.s
 .PHONY : src/fg_font.c.s
 
 src/fg_font_data.o: src/fg_font_data.c.o
@@ -329,8 +329,8 @@ src/fg_font_data.o: src/fg_font_data.c.o
 
 # target to build an object file
 src/fg_font_data.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_font_data.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_font_data.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_font_data.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_font_data.c.o
 .PHONY : src/fg_font_data.c.o
 
 src/fg_font_data.i: src/fg_font_data.c.i
@@ -338,8 +338,8 @@ src/fg_font_data.i: src/fg_font_data.c.i
 
 # target to preprocess a source file
 src/fg_font_data.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_font_data.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_font_data.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_font_data.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_font_data.c.i
 .PHONY : src/fg_font_data.c.i
 
 src/fg_font_data.s: src/fg_font_data.c.s
@@ -347,8 +347,8 @@ src/fg_font_data.s: src/fg_font_data.c.s
 
 # target to generate assembly for a file
 src/fg_font_data.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_font_data.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_font_data.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_font_data.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_font_data.c.s
 .PHONY : src/fg_font_data.c.s
 
 src/fg_gamemode.o: src/fg_gamemode.c.o
@@ -356,8 +356,8 @@ src/fg_gamemode.o: src/fg_gamemode.c.o
 
 # target to build an object file
 src/fg_gamemode.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_gamemode.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_gamemode.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_gamemode.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_gamemode.c.o
 .PHONY : src/fg_gamemode.c.o
 
 src/fg_gamemode.i: src/fg_gamemode.c.i
@@ -365,8 +365,8 @@ src/fg_gamemode.i: src/fg_gamemode.c.i
 
 # target to preprocess a source file
 src/fg_gamemode.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_gamemode.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_gamemode.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_gamemode.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_gamemode.c.i
 .PHONY : src/fg_gamemode.c.i
 
 src/fg_gamemode.s: src/fg_gamemode.c.s
@@ -374,8 +374,8 @@ src/fg_gamemode.s: src/fg_gamemode.c.s
 
 # target to generate assembly for a file
 src/fg_gamemode.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_gamemode.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_gamemode.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_gamemode.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_gamemode.c.s
 .PHONY : src/fg_gamemode.c.s
 
 src/fg_geometry.o: src/fg_geometry.c.o
@@ -383,8 +383,8 @@ src/fg_geometry.o: src/fg_geometry.c.o
 
 # target to build an object file
 src/fg_geometry.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_geometry.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_geometry.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_geometry.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_geometry.c.o
 .PHONY : src/fg_geometry.c.o
 
 src/fg_geometry.i: src/fg_geometry.c.i
@@ -392,8 +392,8 @@ src/fg_geometry.i: src/fg_geometry.c.i
 
 # target to preprocess a source file
 src/fg_geometry.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_geometry.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_geometry.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_geometry.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_geometry.c.i
 .PHONY : src/fg_geometry.c.i
 
 src/fg_geometry.s: src/fg_geometry.c.s
@@ -401,8 +401,8 @@ src/fg_geometry.s: src/fg_geometry.c.s
 
 # target to generate assembly for a file
 src/fg_geometry.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_geometry.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_geometry.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_geometry.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_geometry.c.s
 .PHONY : src/fg_geometry.c.s
 
 src/fg_gl2.o: src/fg_gl2.c.o
@@ -410,8 +410,8 @@ src/fg_gl2.o: src/fg_gl2.c.o
 
 # target to build an object file
 src/fg_gl2.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_gl2.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_gl2.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_gl2.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_gl2.c.o
 .PHONY : src/fg_gl2.c.o
 
 src/fg_gl2.i: src/fg_gl2.c.i
@@ -419,8 +419,8 @@ src/fg_gl2.i: src/fg_gl2.c.i
 
 # target to preprocess a source file
 src/fg_gl2.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_gl2.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_gl2.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_gl2.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_gl2.c.i
 .PHONY : src/fg_gl2.c.i
 
 src/fg_gl2.s: src/fg_gl2.c.s
@@ -428,8 +428,8 @@ src/fg_gl2.s: src/fg_gl2.c.s
 
 # target to generate assembly for a file
 src/fg_gl2.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_gl2.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_gl2.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_gl2.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_gl2.c.s
 .PHONY : src/fg_gl2.c.s
 
 src/fg_init.o: src/fg_init.c.o
@@ -437,8 +437,8 @@ src/fg_init.o: src/fg_init.c.o
 
 # target to build an object file
 src/fg_init.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_init.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_init.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_init.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_init.c.o
 .PHONY : src/fg_init.c.o
 
 src/fg_init.i: src/fg_init.c.i
@@ -446,8 +446,8 @@ src/fg_init.i: src/fg_init.c.i
 
 # target to preprocess a source file
 src/fg_init.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_init.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_init.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_init.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_init.c.i
 .PHONY : src/fg_init.c.i
 
 src/fg_init.s: src/fg_init.c.s
@@ -455,8 +455,8 @@ src/fg_init.s: src/fg_init.c.s
 
 # target to generate assembly for a file
 src/fg_init.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_init.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_init.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_init.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_init.c.s
 .PHONY : src/fg_init.c.s
 
 src/fg_input_devices.o: src/fg_input_devices.c.o
@@ -464,8 +464,8 @@ src/fg_input_devices.o: src/fg_input_devices.c.o
 
 # target to build an object file
 src/fg_input_devices.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_input_devices.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_input_devices.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_input_devices.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_input_devices.c.o
 .PHONY : src/fg_input_devices.c.o
 
 src/fg_input_devices.i: src/fg_input_devices.c.i
@@ -473,8 +473,8 @@ src/fg_input_devices.i: src/fg_input_devices.c.i
 
 # target to preprocess a source file
 src/fg_input_devices.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_input_devices.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_input_devices.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_input_devices.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_input_devices.c.i
 .PHONY : src/fg_input_devices.c.i
 
 src/fg_input_devices.s: src/fg_input_devices.c.s
@@ -482,8 +482,8 @@ src/fg_input_devices.s: src/fg_input_devices.c.s
 
 # target to generate assembly for a file
 src/fg_input_devices.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_input_devices.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_input_devices.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_input_devices.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_input_devices.c.s
 .PHONY : src/fg_input_devices.c.s
 
 src/fg_joystick.o: src/fg_joystick.c.o
@@ -491,8 +491,8 @@ src/fg_joystick.o: src/fg_joystick.c.o
 
 # target to build an object file
 src/fg_joystick.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_joystick.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_joystick.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_joystick.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_joystick.c.o
 .PHONY : src/fg_joystick.c.o
 
 src/fg_joystick.i: src/fg_joystick.c.i
@@ -500,8 +500,8 @@ src/fg_joystick.i: src/fg_joystick.c.i
 
 # target to preprocess a source file
 src/fg_joystick.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_joystick.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_joystick.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_joystick.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_joystick.c.i
 .PHONY : src/fg_joystick.c.i
 
 src/fg_joystick.s: src/fg_joystick.c.s
@@ -509,8 +509,8 @@ src/fg_joystick.s: src/fg_joystick.c.s
 
 # target to generate assembly for a file
 src/fg_joystick.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_joystick.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_joystick.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_joystick.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_joystick.c.s
 .PHONY : src/fg_joystick.c.s
 
 src/fg_main.o: src/fg_main.c.o
@@ -518,8 +518,8 @@ src/fg_main.o: src/fg_main.c.o
 
 # target to build an object file
 src/fg_main.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_main.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_main.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_main.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_main.c.o
 .PHONY : src/fg_main.c.o
 
 src/fg_main.i: src/fg_main.c.i
@@ -527,8 +527,8 @@ src/fg_main.i: src/fg_main.c.i
 
 # target to preprocess a source file
 src/fg_main.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_main.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_main.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_main.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_main.c.i
 .PHONY : src/fg_main.c.i
 
 src/fg_main.s: src/fg_main.c.s
@@ -536,8 +536,8 @@ src/fg_main.s: src/fg_main.c.s
 
 # target to generate assembly for a file
 src/fg_main.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_main.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_main.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_main.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_main.c.s
 .PHONY : src/fg_main.c.s
 
 src/fg_menu.o: src/fg_menu.c.o
@@ -545,8 +545,8 @@ src/fg_menu.o: src/fg_menu.c.o
 
 # target to build an object file
 src/fg_menu.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_menu.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_menu.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_menu.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_menu.c.o
 .PHONY : src/fg_menu.c.o
 
 src/fg_menu.i: src/fg_menu.c.i
@@ -554,8 +554,8 @@ src/fg_menu.i: src/fg_menu.c.i
 
 # target to preprocess a source file
 src/fg_menu.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_menu.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_menu.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_menu.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_menu.c.i
 .PHONY : src/fg_menu.c.i
 
 src/fg_menu.s: src/fg_menu.c.s
@@ -563,8 +563,8 @@ src/fg_menu.s: src/fg_menu.c.s
 
 # target to generate assembly for a file
 src/fg_menu.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_menu.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_menu.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_menu.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_menu.c.s
 .PHONY : src/fg_menu.c.s
 
 src/fg_misc.o: src/fg_misc.c.o
@@ -572,8 +572,8 @@ src/fg_misc.o: src/fg_misc.c.o
 
 # target to build an object file
 src/fg_misc.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_misc.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_misc.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_misc.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_misc.c.o
 .PHONY : src/fg_misc.c.o
 
 src/fg_misc.i: src/fg_misc.c.i
@@ -581,8 +581,8 @@ src/fg_misc.i: src/fg_misc.c.i
 
 # target to preprocess a source file
 src/fg_misc.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_misc.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_misc.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_misc.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_misc.c.i
 .PHONY : src/fg_misc.c.i
 
 src/fg_misc.s: src/fg_misc.c.s
@@ -590,8 +590,8 @@ src/fg_misc.s: src/fg_misc.c.s
 
 # target to generate assembly for a file
 src/fg_misc.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_misc.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_misc.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_misc.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_misc.c.s
 .PHONY : src/fg_misc.c.s
 
 src/fg_overlay.o: src/fg_overlay.c.o
@@ -599,8 +599,8 @@ src/fg_overlay.o: src/fg_overlay.c.o
 
 # target to build an object file
 src/fg_overlay.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_overlay.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_overlay.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_overlay.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_overlay.c.o
 .PHONY : src/fg_overlay.c.o
 
 src/fg_overlay.i: src/fg_overlay.c.i
@@ -608,8 +608,8 @@ src/fg_overlay.i: src/fg_overlay.c.i
 
 # target to preprocess a source file
 src/fg_overlay.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_overlay.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_overlay.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_overlay.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_overlay.c.i
 .PHONY : src/fg_overlay.c.i
 
 src/fg_overlay.s: src/fg_overlay.c.s
@@ -617,8 +617,8 @@ src/fg_overlay.s: src/fg_overlay.c.s
 
 # target to generate assembly for a file
 src/fg_overlay.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_overlay.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_overlay.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_overlay.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_overlay.c.s
 .PHONY : src/fg_overlay.c.s
 
 src/fg_spaceball.o: src/fg_spaceball.c.o
@@ -626,8 +626,8 @@ src/fg_spaceball.o: src/fg_spaceball.c.o
 
 # target to build an object file
 src/fg_spaceball.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_spaceball.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_spaceball.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_spaceball.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_spaceball.c.o
 .PHONY : src/fg_spaceball.c.o
 
 src/fg_spaceball.i: src/fg_spaceball.c.i
@@ -635,8 +635,8 @@ src/fg_spaceball.i: src/fg_spaceball.c.i
 
 # target to preprocess a source file
 src/fg_spaceball.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_spaceball.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_spaceball.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_spaceball.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_spaceball.c.i
 .PHONY : src/fg_spaceball.c.i
 
 src/fg_spaceball.s: src/fg_spaceball.c.s
@@ -644,8 +644,8 @@ src/fg_spaceball.s: src/fg_spaceball.c.s
 
 # target to generate assembly for a file
 src/fg_spaceball.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_spaceball.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_spaceball.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_spaceball.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_spaceball.c.s
 .PHONY : src/fg_spaceball.c.s
 
 src/fg_state.o: src/fg_state.c.o
@@ -653,8 +653,8 @@ src/fg_state.o: src/fg_state.c.o
 
 # target to build an object file
 src/fg_state.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_state.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_state.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_state.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_state.c.o
 .PHONY : src/fg_state.c.o
 
 src/fg_state.i: src/fg_state.c.i
@@ -662,8 +662,8 @@ src/fg_state.i: src/fg_state.c.i
 
 # target to preprocess a source file
 src/fg_state.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_state.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_state.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_state.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_state.c.i
 .PHONY : src/fg_state.c.i
 
 src/fg_state.s: src/fg_state.c.s
@@ -671,8 +671,8 @@ src/fg_state.s: src/fg_state.c.s
 
 # target to generate assembly for a file
 src/fg_state.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_state.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_state.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_state.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_state.c.s
 .PHONY : src/fg_state.c.s
 
 src/fg_stroke_mono_roman.o: src/fg_stroke_mono_roman.c.o
@@ -680,8 +680,8 @@ src/fg_stroke_mono_roman.o: src/fg_stroke_mono_roman.c.o
 
 # target to build an object file
 src/fg_stroke_mono_roman.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_mono_roman.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_mono_roman.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_mono_roman.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_mono_roman.c.o
 .PHONY : src/fg_stroke_mono_roman.c.o
 
 src/fg_stroke_mono_roman.i: src/fg_stroke_mono_roman.c.i
@@ -689,8 +689,8 @@ src/fg_stroke_mono_roman.i: src/fg_stroke_mono_roman.c.i
 
 # target to preprocess a source file
 src/fg_stroke_mono_roman.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_mono_roman.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_mono_roman.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_mono_roman.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_mono_roman.c.i
 .PHONY : src/fg_stroke_mono_roman.c.i
 
 src/fg_stroke_mono_roman.s: src/fg_stroke_mono_roman.c.s
@@ -698,8 +698,8 @@ src/fg_stroke_mono_roman.s: src/fg_stroke_mono_roman.c.s
 
 # target to generate assembly for a file
 src/fg_stroke_mono_roman.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_mono_roman.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_mono_roman.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_mono_roman.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_mono_roman.c.s
 .PHONY : src/fg_stroke_mono_roman.c.s
 
 src/fg_stroke_roman.o: src/fg_stroke_roman.c.o
@@ -707,8 +707,8 @@ src/fg_stroke_roman.o: src/fg_stroke_roman.c.o
 
 # target to build an object file
 src/fg_stroke_roman.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_roman.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_roman.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_roman.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_roman.c.o
 .PHONY : src/fg_stroke_roman.c.o
 
 src/fg_stroke_roman.i: src/fg_stroke_roman.c.i
@@ -716,8 +716,8 @@ src/fg_stroke_roman.i: src/fg_stroke_roman.c.i
 
 # target to preprocess a source file
 src/fg_stroke_roman.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_roman.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_roman.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_roman.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_roman.c.i
 .PHONY : src/fg_stroke_roman.c.i
 
 src/fg_stroke_roman.s: src/fg_stroke_roman.c.s
@@ -725,8 +725,8 @@ src/fg_stroke_roman.s: src/fg_stroke_roman.c.s
 
 # target to generate assembly for a file
 src/fg_stroke_roman.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_roman.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_roman.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_stroke_roman.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_stroke_roman.c.s
 .PHONY : src/fg_stroke_roman.c.s
 
 src/fg_structure.o: src/fg_structure.c.o
@@ -734,8 +734,8 @@ src/fg_structure.o: src/fg_structure.c.o
 
 # target to build an object file
 src/fg_structure.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_structure.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_structure.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_structure.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_structure.c.o
 .PHONY : src/fg_structure.c.o
 
 src/fg_structure.i: src/fg_structure.c.i
@@ -743,8 +743,8 @@ src/fg_structure.i: src/fg_structure.c.i
 
 # target to preprocess a source file
 src/fg_structure.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_structure.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_structure.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_structure.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_structure.c.i
 .PHONY : src/fg_structure.c.i
 
 src/fg_structure.s: src/fg_structure.c.s
@@ -752,8 +752,8 @@ src/fg_structure.s: src/fg_structure.c.s
 
 # target to generate assembly for a file
 src/fg_structure.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_structure.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_structure.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_structure.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_structure.c.s
 .PHONY : src/fg_structure.c.s
 
 src/fg_teapot.o: src/fg_teapot.c.o
@@ -761,8 +761,8 @@ src/fg_teapot.o: src/fg_teapot.c.o
 
 # target to build an object file
 src/fg_teapot.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_teapot.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_teapot.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_teapot.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_teapot.c.o
 .PHONY : src/fg_teapot.c.o
 
 src/fg_teapot.i: src/fg_teapot.c.i
@@ -770,8 +770,8 @@ src/fg_teapot.i: src/fg_teapot.c.i
 
 # target to preprocess a source file
 src/fg_teapot.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_teapot.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_teapot.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_teapot.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_teapot.c.i
 .PHONY : src/fg_teapot.c.i
 
 src/fg_teapot.s: src/fg_teapot.c.s
@@ -779,8 +779,8 @@ src/fg_teapot.s: src/fg_teapot.c.s
 
 # target to generate assembly for a file
 src/fg_teapot.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_teapot.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_teapot.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_teapot.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_teapot.c.s
 .PHONY : src/fg_teapot.c.s
 
 src/fg_videoresize.o: src/fg_videoresize.c.o
@@ -788,8 +788,8 @@ src/fg_videoresize.o: src/fg_videoresize.c.o
 
 # target to build an object file
 src/fg_videoresize.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_videoresize.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_videoresize.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_videoresize.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_videoresize.c.o
 .PHONY : src/fg_videoresize.c.o
 
 src/fg_videoresize.i: src/fg_videoresize.c.i
@@ -797,8 +797,8 @@ src/fg_videoresize.i: src/fg_videoresize.c.i
 
 # target to preprocess a source file
 src/fg_videoresize.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_videoresize.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_videoresize.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_videoresize.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_videoresize.c.i
 .PHONY : src/fg_videoresize.c.i
 
 src/fg_videoresize.s: src/fg_videoresize.c.s
@@ -806,8 +806,8 @@ src/fg_videoresize.s: src/fg_videoresize.c.s
 
 # target to generate assembly for a file
 src/fg_videoresize.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_videoresize.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_videoresize.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_videoresize.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_videoresize.c.s
 .PHONY : src/fg_videoresize.c.s
 
 src/fg_window.o: src/fg_window.c.o
@@ -815,8 +815,8 @@ src/fg_window.o: src/fg_window.c.o
 
 # target to build an object file
 src/fg_window.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_window.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_window.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_window.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_window.c.o
 .PHONY : src/fg_window.c.o
 
 src/fg_window.i: src/fg_window.c.i
@@ -824,8 +824,8 @@ src/fg_window.i: src/fg_window.c.i
 
 # target to preprocess a source file
 src/fg_window.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_window.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_window.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_window.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_window.c.i
 .PHONY : src/fg_window.c.i
 
 src/fg_window.s: src/fg_window.c.s
@@ -833,8 +833,8 @@ src/fg_window.s: src/fg_window.c.s
 
 # target to generate assembly for a file
 src/fg_window.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_window.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_window.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/fg_window.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/fg_window.c.s
 .PHONY : src/fg_window.c.s
 
 src/util/xparsegeometry_repl.o: src/util/xparsegeometry_repl.c.o
@@ -842,8 +842,8 @@ src/util/xparsegeometry_repl.o: src/util/xparsegeometry_repl.c.o
 
 # target to build an object file
 src/util/xparsegeometry_repl.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/util/xparsegeometry_repl.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/util/xparsegeometry_repl.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/util/xparsegeometry_repl.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/util/xparsegeometry_repl.c.o
 .PHONY : src/util/xparsegeometry_repl.c.o
 
 src/util/xparsegeometry_repl.i: src/util/xparsegeometry_repl.c.i
@@ -851,8 +851,8 @@ src/util/xparsegeometry_repl.i: src/util/xparsegeometry_repl.c.i
 
 # target to preprocess a source file
 src/util/xparsegeometry_repl.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/util/xparsegeometry_repl.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/util/xparsegeometry_repl.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/util/xparsegeometry_repl.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/util/xparsegeometry_repl.c.i
 .PHONY : src/util/xparsegeometry_repl.c.i
 
 src/util/xparsegeometry_repl.s: src/util/xparsegeometry_repl.c.s
@@ -860,8 +860,8 @@ src/util/xparsegeometry_repl.s: src/util/xparsegeometry_repl.c.s
 
 # target to generate assembly for a file
 src/util/xparsegeometry_repl.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/util/xparsegeometry_repl.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/util/xparsegeometry_repl.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/util/xparsegeometry_repl.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/util/xparsegeometry_repl.c.s
 .PHONY : src/util/xparsegeometry_repl.c.s
 
 src/x11/fg_cursor_x11.o: src/x11/fg_cursor_x11.c.o
@@ -869,8 +869,8 @@ src/x11/fg_cursor_x11.o: src/x11/fg_cursor_x11.c.o
 
 # target to build an object file
 src/x11/fg_cursor_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_cursor_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_cursor_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_cursor_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_cursor_x11.c.o
 .PHONY : src/x11/fg_cursor_x11.c.o
 
 src/x11/fg_cursor_x11.i: src/x11/fg_cursor_x11.c.i
@@ -878,8 +878,8 @@ src/x11/fg_cursor_x11.i: src/x11/fg_cursor_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_cursor_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_cursor_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_cursor_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_cursor_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_cursor_x11.c.i
 .PHONY : src/x11/fg_cursor_x11.c.i
 
 src/x11/fg_cursor_x11.s: src/x11/fg_cursor_x11.c.s
@@ -887,8 +887,8 @@ src/x11/fg_cursor_x11.s: src/x11/fg_cursor_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_cursor_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_cursor_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_cursor_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_cursor_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_cursor_x11.c.s
 .PHONY : src/x11/fg_cursor_x11.c.s
 
 src/x11/fg_display_x11_glx.o: src/x11/fg_display_x11_glx.c.o
@@ -896,8 +896,8 @@ src/x11/fg_display_x11_glx.o: src/x11/fg_display_x11_glx.c.o
 
 # target to build an object file
 src/x11/fg_display_x11_glx.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_display_x11_glx.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_display_x11_glx.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_display_x11_glx.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_display_x11_glx.c.o
 .PHONY : src/x11/fg_display_x11_glx.c.o
 
 src/x11/fg_display_x11_glx.i: src/x11/fg_display_x11_glx.c.i
@@ -905,8 +905,8 @@ src/x11/fg_display_x11_glx.i: src/x11/fg_display_x11_glx.c.i
 
 # target to preprocess a source file
 src/x11/fg_display_x11_glx.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_display_x11_glx.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_display_x11_glx.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_display_x11_glx.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_display_x11_glx.c.i
 .PHONY : src/x11/fg_display_x11_glx.c.i
 
 src/x11/fg_display_x11_glx.s: src/x11/fg_display_x11_glx.c.s
@@ -914,8 +914,8 @@ src/x11/fg_display_x11_glx.s: src/x11/fg_display_x11_glx.c.s
 
 # target to generate assembly for a file
 src/x11/fg_display_x11_glx.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_display_x11_glx.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_display_x11_glx.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_display_x11_glx.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_display_x11_glx.c.s
 .PHONY : src/x11/fg_display_x11_glx.c.s
 
 src/x11/fg_ext_x11.o: src/x11/fg_ext_x11.c.o
@@ -923,8 +923,8 @@ src/x11/fg_ext_x11.o: src/x11/fg_ext_x11.c.o
 
 # target to build an object file
 src/x11/fg_ext_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_ext_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_ext_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_ext_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_ext_x11.c.o
 .PHONY : src/x11/fg_ext_x11.c.o
 
 src/x11/fg_ext_x11.i: src/x11/fg_ext_x11.c.i
@@ -932,8 +932,8 @@ src/x11/fg_ext_x11.i: src/x11/fg_ext_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_ext_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_ext_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_ext_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_ext_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_ext_x11.c.i
 .PHONY : src/x11/fg_ext_x11.c.i
 
 src/x11/fg_ext_x11.s: src/x11/fg_ext_x11.c.s
@@ -941,8 +941,8 @@ src/x11/fg_ext_x11.s: src/x11/fg_ext_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_ext_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_ext_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_ext_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_ext_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_ext_x11.c.s
 .PHONY : src/x11/fg_ext_x11.c.s
 
 src/x11/fg_gamemode_x11.o: src/x11/fg_gamemode_x11.c.o
@@ -950,8 +950,8 @@ src/x11/fg_gamemode_x11.o: src/x11/fg_gamemode_x11.c.o
 
 # target to build an object file
 src/x11/fg_gamemode_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_gamemode_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_gamemode_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_gamemode_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_gamemode_x11.c.o
 .PHONY : src/x11/fg_gamemode_x11.c.o
 
 src/x11/fg_gamemode_x11.i: src/x11/fg_gamemode_x11.c.i
@@ -959,8 +959,8 @@ src/x11/fg_gamemode_x11.i: src/x11/fg_gamemode_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_gamemode_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_gamemode_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_gamemode_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_gamemode_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_gamemode_x11.c.i
 .PHONY : src/x11/fg_gamemode_x11.c.i
 
 src/x11/fg_gamemode_x11.s: src/x11/fg_gamemode_x11.c.s
@@ -968,8 +968,8 @@ src/x11/fg_gamemode_x11.s: src/x11/fg_gamemode_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_gamemode_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_gamemode_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_gamemode_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_gamemode_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_gamemode_x11.c.s
 .PHONY : src/x11/fg_gamemode_x11.c.s
 
 src/x11/fg_glutfont_definitions_x11.o: src/x11/fg_glutfont_definitions_x11.c.o
@@ -977,8 +977,8 @@ src/x11/fg_glutfont_definitions_x11.o: src/x11/fg_glutfont_definitions_x11.c.o
 
 # target to build an object file
 src/x11/fg_glutfont_definitions_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_glutfont_definitions_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_glutfont_definitions_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_glutfont_definitions_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_glutfont_definitions_x11.c.o
 .PHONY : src/x11/fg_glutfont_definitions_x11.c.o
 
 src/x11/fg_glutfont_definitions_x11.i: src/x11/fg_glutfont_definitions_x11.c.i
@@ -986,8 +986,8 @@ src/x11/fg_glutfont_definitions_x11.i: src/x11/fg_glutfont_definitions_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_glutfont_definitions_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_glutfont_definitions_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_glutfont_definitions_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_glutfont_definitions_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_glutfont_definitions_x11.c.i
 .PHONY : src/x11/fg_glutfont_definitions_x11.c.i
 
 src/x11/fg_glutfont_definitions_x11.s: src/x11/fg_glutfont_definitions_x11.c.s
@@ -995,8 +995,8 @@ src/x11/fg_glutfont_definitions_x11.s: src/x11/fg_glutfont_definitions_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_glutfont_definitions_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_glutfont_definitions_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_glutfont_definitions_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_glutfont_definitions_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_glutfont_definitions_x11.c.s
 .PHONY : src/x11/fg_glutfont_definitions_x11.c.s
 
 src/x11/fg_init_x11.o: src/x11/fg_init_x11.c.o
@@ -1004,8 +1004,8 @@ src/x11/fg_init_x11.o: src/x11/fg_init_x11.c.o
 
 # target to build an object file
 src/x11/fg_init_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_init_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_init_x11.c.o
 .PHONY : src/x11/fg_init_x11.c.o
 
 src/x11/fg_init_x11.i: src/x11/fg_init_x11.c.i
@@ -1013,8 +1013,8 @@ src/x11/fg_init_x11.i: src/x11/fg_init_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_init_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_init_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_init_x11.c.i
 .PHONY : src/x11/fg_init_x11.c.i
 
 src/x11/fg_init_x11.s: src/x11/fg_init_x11.c.s
@@ -1022,8 +1022,8 @@ src/x11/fg_init_x11.s: src/x11/fg_init_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_init_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_init_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_init_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_init_x11.c.s
 .PHONY : src/x11/fg_init_x11.c.s
 
 src/x11/fg_input_devices_x11.o: src/x11/fg_input_devices_x11.c.o
@@ -1031,8 +1031,8 @@ src/x11/fg_input_devices_x11.o: src/x11/fg_input_devices_x11.c.o
 
 # target to build an object file
 src/x11/fg_input_devices_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_input_devices_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_input_devices_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_input_devices_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_input_devices_x11.c.o
 .PHONY : src/x11/fg_input_devices_x11.c.o
 
 src/x11/fg_input_devices_x11.i: src/x11/fg_input_devices_x11.c.i
@@ -1040,8 +1040,8 @@ src/x11/fg_input_devices_x11.i: src/x11/fg_input_devices_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_input_devices_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_input_devices_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_input_devices_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_input_devices_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_input_devices_x11.c.i
 .PHONY : src/x11/fg_input_devices_x11.c.i
 
 src/x11/fg_input_devices_x11.s: src/x11/fg_input_devices_x11.c.s
@@ -1049,8 +1049,8 @@ src/x11/fg_input_devices_x11.s: src/x11/fg_input_devices_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_input_devices_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_input_devices_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_input_devices_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_input_devices_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_input_devices_x11.c.s
 .PHONY : src/x11/fg_input_devices_x11.c.s
 
 src/x11/fg_joystick_x11.o: src/x11/fg_joystick_x11.c.o
@@ -1058,8 +1058,8 @@ src/x11/fg_joystick_x11.o: src/x11/fg_joystick_x11.c.o
 
 # target to build an object file
 src/x11/fg_joystick_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_joystick_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_joystick_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_joystick_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_joystick_x11.c.o
 .PHONY : src/x11/fg_joystick_x11.c.o
 
 src/x11/fg_joystick_x11.i: src/x11/fg_joystick_x11.c.i
@@ -1067,8 +1067,8 @@ src/x11/fg_joystick_x11.i: src/x11/fg_joystick_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_joystick_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_joystick_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_joystick_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_joystick_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_joystick_x11.c.i
 .PHONY : src/x11/fg_joystick_x11.c.i
 
 src/x11/fg_joystick_x11.s: src/x11/fg_joystick_x11.c.s
@@ -1076,8 +1076,8 @@ src/x11/fg_joystick_x11.s: src/x11/fg_joystick_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_joystick_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_joystick_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_joystick_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_joystick_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_joystick_x11.c.s
 .PHONY : src/x11/fg_joystick_x11.c.s
 
 src/x11/fg_main_x11.o: src/x11/fg_main_x11.c.o
@@ -1085,8 +1085,8 @@ src/x11/fg_main_x11.o: src/x11/fg_main_x11.c.o
 
 # target to build an object file
 src/x11/fg_main_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_main_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_main_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_main_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_main_x11.c.o
 .PHONY : src/x11/fg_main_x11.c.o
 
 src/x11/fg_main_x11.i: src/x11/fg_main_x11.c.i
@@ -1094,8 +1094,8 @@ src/x11/fg_main_x11.i: src/x11/fg_main_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_main_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_main_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_main_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_main_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_main_x11.c.i
 .PHONY : src/x11/fg_main_x11.c.i
 
 src/x11/fg_main_x11.s: src/x11/fg_main_x11.c.s
@@ -1103,8 +1103,8 @@ src/x11/fg_main_x11.s: src/x11/fg_main_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_main_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_main_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_main_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_main_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_main_x11.c.s
 .PHONY : src/x11/fg_main_x11.c.s
 
 src/x11/fg_menu_x11.o: src/x11/fg_menu_x11.c.o
@@ -1112,8 +1112,8 @@ src/x11/fg_menu_x11.o: src/x11/fg_menu_x11.c.o
 
 # target to build an object file
 src/x11/fg_menu_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_menu_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_menu_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_menu_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_menu_x11.c.o
 .PHONY : src/x11/fg_menu_x11.c.o
 
 src/x11/fg_menu_x11.i: src/x11/fg_menu_x11.c.i
@@ -1121,8 +1121,8 @@ src/x11/fg_menu_x11.i: src/x11/fg_menu_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_menu_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_menu_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_menu_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_menu_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_menu_x11.c.i
 .PHONY : src/x11/fg_menu_x11.c.i
 
 src/x11/fg_menu_x11.s: src/x11/fg_menu_x11.c.s
@@ -1130,8 +1130,8 @@ src/x11/fg_menu_x11.s: src/x11/fg_menu_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_menu_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_menu_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_menu_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_menu_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_menu_x11.c.s
 .PHONY : src/x11/fg_menu_x11.c.s
 
 src/x11/fg_spaceball_x11.o: src/x11/fg_spaceball_x11.c.o
@@ -1139,8 +1139,8 @@ src/x11/fg_spaceball_x11.o: src/x11/fg_spaceball_x11.c.o
 
 # target to build an object file
 src/x11/fg_spaceball_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_spaceball_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_spaceball_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_spaceball_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_spaceball_x11.c.o
 .PHONY : src/x11/fg_spaceball_x11.c.o
 
 src/x11/fg_spaceball_x11.i: src/x11/fg_spaceball_x11.c.i
@@ -1148,8 +1148,8 @@ src/x11/fg_spaceball_x11.i: src/x11/fg_spaceball_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_spaceball_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_spaceball_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_spaceball_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_spaceball_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_spaceball_x11.c.i
 .PHONY : src/x11/fg_spaceball_x11.c.i
 
 src/x11/fg_spaceball_x11.s: src/x11/fg_spaceball_x11.c.s
@@ -1157,8 +1157,8 @@ src/x11/fg_spaceball_x11.s: src/x11/fg_spaceball_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_spaceball_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_spaceball_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_spaceball_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_spaceball_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_spaceball_x11.c.s
 .PHONY : src/x11/fg_spaceball_x11.c.s
 
 src/x11/fg_state_x11.o: src/x11/fg_state_x11.c.o
@@ -1166,8 +1166,8 @@ src/x11/fg_state_x11.o: src/x11/fg_state_x11.c.o
 
 # target to build an object file
 src/x11/fg_state_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11.c.o
 .PHONY : src/x11/fg_state_x11.c.o
 
 src/x11/fg_state_x11.i: src/x11/fg_state_x11.c.i
@@ -1175,8 +1175,8 @@ src/x11/fg_state_x11.i: src/x11/fg_state_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_state_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11.c.i
 .PHONY : src/x11/fg_state_x11.c.i
 
 src/x11/fg_state_x11.s: src/x11/fg_state_x11.c.s
@@ -1184,8 +1184,8 @@ src/x11/fg_state_x11.s: src/x11/fg_state_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_state_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11.c.s
 .PHONY : src/x11/fg_state_x11.c.s
 
 src/x11/fg_state_x11_glx.o: src/x11/fg_state_x11_glx.c.o
@@ -1193,8 +1193,8 @@ src/x11/fg_state_x11_glx.o: src/x11/fg_state_x11_glx.c.o
 
 # target to build an object file
 src/x11/fg_state_x11_glx.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11_glx.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11_glx.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11_glx.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11_glx.c.o
 .PHONY : src/x11/fg_state_x11_glx.c.o
 
 src/x11/fg_state_x11_glx.i: src/x11/fg_state_x11_glx.c.i
@@ -1202,8 +1202,8 @@ src/x11/fg_state_x11_glx.i: src/x11/fg_state_x11_glx.c.i
 
 # target to preprocess a source file
 src/x11/fg_state_x11_glx.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11_glx.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11_glx.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11_glx.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11_glx.c.i
 .PHONY : src/x11/fg_state_x11_glx.c.i
 
 src/x11/fg_state_x11_glx.s: src/x11/fg_state_x11_glx.c.s
@@ -1211,8 +1211,8 @@ src/x11/fg_state_x11_glx.s: src/x11/fg_state_x11_glx.c.s
 
 # target to generate assembly for a file
 src/x11/fg_state_x11_glx.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11_glx.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11_glx.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_state_x11_glx.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_state_x11_glx.c.s
 .PHONY : src/x11/fg_state_x11_glx.c.s
 
 src/x11/fg_structure_x11.o: src/x11/fg_structure_x11.c.o
@@ -1220,8 +1220,8 @@ src/x11/fg_structure_x11.o: src/x11/fg_structure_x11.c.o
 
 # target to build an object file
 src/x11/fg_structure_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_structure_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_structure_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_structure_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_structure_x11.c.o
 .PHONY : src/x11/fg_structure_x11.c.o
 
 src/x11/fg_structure_x11.i: src/x11/fg_structure_x11.c.i
@@ -1229,8 +1229,8 @@ src/x11/fg_structure_x11.i: src/x11/fg_structure_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_structure_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_structure_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_structure_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_structure_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_structure_x11.c.i
 .PHONY : src/x11/fg_structure_x11.c.i
 
 src/x11/fg_structure_x11.s: src/x11/fg_structure_x11.c.s
@@ -1238,8 +1238,8 @@ src/x11/fg_structure_x11.s: src/x11/fg_structure_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_structure_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_structure_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_structure_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_structure_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_structure_x11.c.s
 .PHONY : src/x11/fg_structure_x11.c.s
 
 src/x11/fg_window_x11.o: src/x11/fg_window_x11.c.o
@@ -1247,8 +1247,8 @@ src/x11/fg_window_x11.o: src/x11/fg_window_x11.c.o
 
 # target to build an object file
 src/x11/fg_window_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11.c.o
 .PHONY : src/x11/fg_window_x11.c.o
 
 src/x11/fg_window_x11.i: src/x11/fg_window_x11.c.i
@@ -1256,8 +1256,8 @@ src/x11/fg_window_x11.i: src/x11/fg_window_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_window_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11.c.i
 .PHONY : src/x11/fg_window_x11.c.i
 
 src/x11/fg_window_x11.s: src/x11/fg_window_x11.c.s
@@ -1265,8 +1265,8 @@ src/x11/fg_window_x11.s: src/x11/fg_window_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_window_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11.c.s
 .PHONY : src/x11/fg_window_x11.c.s
 
 src/x11/fg_window_x11_glx.o: src/x11/fg_window_x11_glx.c.o
@@ -1274,8 +1274,8 @@ src/x11/fg_window_x11_glx.o: src/x11/fg_window_x11_glx.c.o
 
 # target to build an object file
 src/x11/fg_window_x11_glx.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11_glx.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11_glx.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11_glx.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11_glx.c.o
 .PHONY : src/x11/fg_window_x11_glx.c.o
 
 src/x11/fg_window_x11_glx.i: src/x11/fg_window_x11_glx.c.i
@@ -1283,8 +1283,8 @@ src/x11/fg_window_x11_glx.i: src/x11/fg_window_x11_glx.c.i
 
 # target to preprocess a source file
 src/x11/fg_window_x11_glx.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11_glx.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11_glx.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11_glx.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11_glx.c.i
 .PHONY : src/x11/fg_window_x11_glx.c.i
 
 src/x11/fg_window_x11_glx.s: src/x11/fg_window_x11_glx.c.s
@@ -1292,8 +1292,8 @@ src/x11/fg_window_x11_glx.s: src/x11/fg_window_x11_glx.c.s
 
 # target to generate assembly for a file
 src/x11/fg_window_x11_glx.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11_glx.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11_glx.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_window_x11_glx.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_window_x11_glx.c.s
 .PHONY : src/x11/fg_window_x11_glx.c.s
 
 src/x11/fg_xinput_x11.o: src/x11/fg_xinput_x11.c.o
@@ -1301,8 +1301,8 @@ src/x11/fg_xinput_x11.o: src/x11/fg_xinput_x11.c.o
 
 # target to build an object file
 src/x11/fg_xinput_x11.c.o:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_xinput_x11.c.o
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_xinput_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_xinput_x11.c.o
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_xinput_x11.c.o
 .PHONY : src/x11/fg_xinput_x11.c.o
 
 src/x11/fg_xinput_x11.i: src/x11/fg_xinput_x11.c.i
@@ -1310,8 +1310,8 @@ src/x11/fg_xinput_x11.i: src/x11/fg_xinput_x11.c.i
 
 # target to preprocess a source file
 src/x11/fg_xinput_x11.c.i:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_xinput_x11.c.i
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_xinput_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_xinput_x11.c.i
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_xinput_x11.c.i
 .PHONY : src/x11/fg_xinput_x11.c.i
 
 src/x11/fg_xinput_x11.s: src/x11/fg_xinput_x11.c.s
@@ -1319,8 +1319,8 @@ src/x11/fg_xinput_x11.s: src/x11/fg_xinput_x11.c.s
 
 # target to generate assembly for a file
 src/x11/fg_xinput_x11.c.s:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_xinput_x11.c.s
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_xinput_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/src/x11/fg_xinput_x11.c.s
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/src/x11/fg_xinput_x11.c.s
 .PHONY : src/x11/fg_xinput_x11.c.s
 
 # Help Target
@@ -1474,6 +1474,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kituro/workflow/cs100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

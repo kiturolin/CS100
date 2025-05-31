@@ -3,8 +3,11 @@
 #include "pvz/GameWorld/GameWorld.hpp"
 #include "pvz/utils.hpp"
 
+#include <cmath>
 #include <cstdint>
 #include <memory>
+
+std::vector<std::vector<std::shared_ptr<Zombie>>> Zombie::zombies (5);
 
 GameObject::GameObject (ImageID imageID,
 			int x,
@@ -93,6 +96,7 @@ Pea::Pea (int x, int y) :
     GameObject (
 	ImageID::PEA, x, y, LayerID::PROJECTILES, 28, 28, AnimID::NO_ANIMATION)
 {
+  std::cout << "Spawn at :" << x << " " << y << "\n";
 }
 
 void
@@ -313,6 +317,13 @@ Plant::OnClick ()
 }
 
 void
+Plant::AdjustHp (int delta)
+{
+  m_hp += delta;
+  CheckHpDead ();
+}
+
+void
 PlantingSpot::OnClick ()
 {
   GameWorld::spotClickEvent->Execute (m_x, m_y);
@@ -380,6 +391,123 @@ GenericPlantExecution<T_PlantType>::ExecutePlanting (int x, int y)
 {
   auto plant = std::make_shared<T_PlantType> (x, y);
   GameWorld::AddNewObject (plant);
+}
+
+Zombie::Zombie (ImageID imageID,
+		int row,
+		int x,
+		int y,
+		int hp,
+		ZombieType type,
+		AnimID animeID) :
+    GameObject (imageID, x, y, LayerID::ZOMBIES, 20, 80, animeID),
+    type (type),
+    row (row),
+    hp (hp)
+{
+  zombies[row].push_back (shared_from_this ());
+}
+
+void
+Zombie::RemoveZombie (int row, std::shared_ptr<Zombie> &zombie)
+{
+  for (auto it = Zombie::zombies[row].begin ();
+       it != Zombie::zombies[row].end ();
+       it++) {
+    if (*it == zombie) {
+      Zombie::zombies[row].erase (it);
+      break;
+    }
+  }
+}
+
+void
+Zombie::CheckCollision ()
+{
+  for (auto &object : GameWorld::m_GameObjects) {
+    if (object->GetY () == GetY () && GetX () - object->GetX () < 10) {
+      if (object->IsPea ()) {
+	object->SetDead ();
+	hp -= 20;
+	return;
+      }
+
+      if (object->IsPlant ()) {
+	auto plant = std::dynamic_pointer_cast<Plant> (object);
+	plant->AdjustHp (-3);
+	PlayAnimation (AnimID::EAT);
+	return;
+      }
+    }
+    if (abs (object->GetY () - GetY ()) <= LAWN_GRID_HEIGHT
+	&& abs (object->GetX () - GetX ()) <= LAWN_GRID_WIDTH)
+      if (object->IsExplosion ()) {
+	SetDead ();
+	return;
+      }
+  }
+  // 运行到这里说明没有检测到任何碰撞
+  PlayAnimation (AnimID::RUN);
+}
+
+RegularZombie::RegularZombie (int row, int x, int y) :
+    Zombie (ImageID::REGULAR_ZOMBIE,
+	    row,
+	    x,
+	    y,
+	    200,
+	    Zombie::ZombieType::REGULAR,
+	    AnimID::WALK)
+{
+}
+
+BucketZombie::BucketZombie (int row, int x, int y) :
+    Zombie (ImageID::BUCKET_HEAD_ZOMBIE,
+	    row,
+	    x,
+	    y,
+	    1300,
+	    Zombie::ZombieType::BUCKET,
+	    AnimID::WALK)
+{
+}
+
+PoleZombie::PoleZombie (int row, int x, int y) :
+    Zombie (ImageID::POLE_VAULTING_ZOMBIE,
+	    row,
+	    x,
+	    y,
+	    340,
+	    Zombie::ZombieType::POLE,
+	    AnimID::RUN),
+    running (true)
+{
+}
+
+void
+RegularZombie::Update ()
+{
+  if (hp <= 0) {
+    SetDead ();
+    return;
+  }
+  if (GetCurrentAnimation () == AnimID::WALK) { MoveTo (GetX () - 1, GetY ()); }
+}
+
+void
+BucketZombie::Update ()
+{
+  if (hp <= 0) {
+    SetDead ();
+    return;
+  }
+  if (GetCurrentAnimation () == AnimID::WALK) { MoveTo (GetX () - 1, GetY ()); }
+  if (hp <= 300) ChangeImage (ImageID::REGULAR_ZOMBIE);
+}
+
+void
+PoleZombie::Update ()
+{
 }
 
 // Your everything begins from here.
