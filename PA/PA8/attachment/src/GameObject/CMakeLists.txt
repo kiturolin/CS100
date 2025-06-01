@@ -4,6 +4,9 @@ add_library(
   GameObject
   STATIC
   GameObject.cpp
+  Zombie.cpp
+  Plant.cpp
+  Other.cpp
 )
 
 target_link_libraries(

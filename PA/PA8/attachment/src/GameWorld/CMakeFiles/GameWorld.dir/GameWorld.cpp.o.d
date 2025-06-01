@@ -198,6 +198,9 @@ src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.o: \
  /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
  /usr/include/c++/14.2.1/backward/auto_ptr.h \
  /usr/include/c++/14.2.1/pstl/glue_memory_defs.h \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/GameObject/Other.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/GameObject/Plant.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/GameObject/Zombie.hpp \
  /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/GameWorld/GameWorld.hpp \
  /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/WorldBase.hpp \
  /usr/include/c++/14.2.1/list /usr/include/c++/14.2.1/bits/stl_list.h \

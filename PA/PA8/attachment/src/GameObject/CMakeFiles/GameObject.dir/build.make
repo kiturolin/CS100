@@ -86,17 +86,65 @@ src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/GameObject.cpp.s"
 	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/GameObject.cpp -o CMakeFiles/GameObject.dir/GameObject.cpp.s
 
+src/GameObject/CMakeFiles/GameObject.dir/Zombie.cpp.o: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/Zombie.cpp.o: src/GameObject/Zombie.cpp
+src/GameObject/CMakeFiles/GameObject.dir/Zombie.cpp.o: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/Zombie.cpp.o"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/Zombie.cpp.o -MF CMakeFiles/GameObject.dir/Zombie.cpp.o.d -o CMakeFiles/GameObject.dir/Zombie.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Zombie.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/Zombie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/Zombie.cpp.i"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Zombie.cpp > CMakeFiles/GameObject.dir/Zombie.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/Zombie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/Zombie.cpp.s"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Zombie.cpp -o CMakeFiles/GameObject.dir/Zombie.cpp.s
+
+src/GameObject/CMakeFiles/GameObject.dir/Plant.cpp.o: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/Plant.cpp.o: src/GameObject/Plant.cpp
+src/GameObject/CMakeFiles/GameObject.dir/Plant.cpp.o: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/Plant.cpp.o"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/Plant.cpp.o -MF CMakeFiles/GameObject.dir/Plant.cpp.o.d -o CMakeFiles/GameObject.dir/Plant.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Plant.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/Plant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/Plant.cpp.i"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Plant.cpp > CMakeFiles/GameObject.dir/Plant.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/Plant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/Plant.cpp.s"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Plant.cpp -o CMakeFiles/GameObject.dir/Plant.cpp.s
+
+src/GameObject/CMakeFiles/GameObject.dir/Other.cpp.o: src/GameObject/CMakeFiles/GameObject.dir/flags.make
+src/GameObject/CMakeFiles/GameObject.dir/Other.cpp.o: src/GameObject/Other.cpp
+src/GameObject/CMakeFiles/GameObject.dir/Other.cpp.o: src/GameObject/CMakeFiles/GameObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/GameObject/CMakeFiles/GameObject.dir/Other.cpp.o"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/GameObject/CMakeFiles/GameObject.dir/Other.cpp.o -MF CMakeFiles/GameObject.dir/Other.cpp.o.d -o CMakeFiles/GameObject.dir/Other.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Other.cpp
+
+src/GameObject/CMakeFiles/GameObject.dir/Other.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameObject.dir/Other.cpp.i"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Other.cpp > CMakeFiles/GameObject.dir/Other.cpp.i
+
+src/GameObject/CMakeFiles/GameObject.dir/Other.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameObject.dir/Other.cpp.s"
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Other.cpp -o CMakeFiles/GameObject.dir/Other.cpp.s
+
 # Object files for target GameObject
 GameObject_OBJECTS = \
-"CMakeFiles/GameObject.dir/GameObject.cpp.o"
+"CMakeFiles/GameObject.dir/GameObject.cpp.o" \
+"CMakeFiles/GameObject.dir/Zombie.cpp.o" \
+"CMakeFiles/GameObject.dir/Plant.cpp.o" \
+"CMakeFiles/GameObject.dir/Other.cpp.o"
 
 # External object files for target GameObject
 GameObject_EXTERNAL_OBJECTS =
 
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/Zombie.cpp.o
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/Plant.cpp.o
+lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/Other.cpp.o
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/build.make
 lib/libGameObject.a: src/GameObject/CMakeFiles/GameObject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libGameObject.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../lib/libGameObject.a"
 	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && $(CMAKE_COMMAND) -P CMakeFiles/GameObject.dir/cmake_clean_target.cmake
 	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameObject.dir/link.txt --verbose=$(VERBOSE)
 

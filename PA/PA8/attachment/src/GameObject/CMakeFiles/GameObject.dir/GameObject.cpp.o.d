@@ -197,7 +197,10 @@ src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o: \
  /usr/include/c++/14.2.1/bits/stl_numeric.h \
  /usr/include/c++/14.2.1/pstl/glue_numeric_defs.h \
  /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/GameWorld/GameWorld.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/GameObject/Other.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/GameObject/Plant.hpp \
  /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/TextBase.hpp \
  /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/WorldBase.hpp \
  /usr/include/c++/14.2.1/list /usr/include/c++/14.2.1/bits/stl_list.h \
- /usr/include/c++/14.2.1/bits/list.tcc
+ /usr/include/c++/14.2.1/bits/list.tcc \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/GameObject/Zombie.hpp

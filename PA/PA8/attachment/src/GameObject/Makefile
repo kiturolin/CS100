@@ -199,6 +199,78 @@ GameObject.cpp.s:
 	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.s
 .PHONY : GameObject.cpp.s
 
+Other.o: Other.cpp.o
+.PHONY : Other.o
+
+# target to build an object file
+Other.cpp.o:
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/Other.cpp.o
+.PHONY : Other.cpp.o
+
+Other.i: Other.cpp.i
+.PHONY : Other.i
+
+# target to preprocess a source file
+Other.cpp.i:
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/Other.cpp.i
+.PHONY : Other.cpp.i
+
+Other.s: Other.cpp.s
+.PHONY : Other.s
+
+# target to generate assembly for a file
+Other.cpp.s:
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/Other.cpp.s
+.PHONY : Other.cpp.s
+
+Plant.o: Plant.cpp.o
+.PHONY : Plant.o
+
+# target to build an object file
+Plant.cpp.o:
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/Plant.cpp.o
+.PHONY : Plant.cpp.o
+
+Plant.i: Plant.cpp.i
+.PHONY : Plant.i
+
+# target to preprocess a source file
+Plant.cpp.i:
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/Plant.cpp.i
+.PHONY : Plant.cpp.i
+
+Plant.s: Plant.cpp.s
+.PHONY : Plant.s
+
+# target to generate assembly for a file
+Plant.cpp.s:
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/Plant.cpp.s
+.PHONY : Plant.cpp.s
+
+Zombie.o: Zombie.cpp.o
+.PHONY : Zombie.o
+
+# target to build an object file
+Zombie.cpp.o:
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/Zombie.cpp.o
+.PHONY : Zombie.cpp.o
+
+Zombie.i: Zombie.cpp.i
+.PHONY : Zombie.i
+
+# target to preprocess a source file
+Zombie.cpp.i:
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/Zombie.cpp.i
+.PHONY : Zombie.cpp.i
+
+Zombie.s: Zombie.cpp.s
+.PHONY : Zombie.s
+
+# target to generate assembly for a file
+Zombie.cpp.s:
+	cd /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment && $(MAKE) $(MAKESILENT) -f src/GameObject/CMakeFiles/GameObject.dir/build.make src/GameObject/CMakeFiles/GameObject.dir/Zombie.cpp.s
+.PHONY : Zombie.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -215,6 +287,15 @@ help:
 	@echo "... GameObject.o"
 	@echo "... GameObject.i"
 	@echo "... GameObject.s"
+	@echo "... Other.o"
+	@echo "... Other.i"
+	@echo "... Other.s"
+	@echo "... Plant.o"
+	@echo "... Plant.i"
+	@echo "... Plant.s"
+	@echo "... Zombie.o"
+	@echo "... Zombie.i"
+	@echo "... Zombie.s"
 .PHONY : help
 
 

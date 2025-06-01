@@ -1,2 +1,2 @@
-/usr/bin/ar qc ../../lib/libGameObject.a CMakeFiles/GameObject.dir/GameObject.cpp.o
+/usr/bin/ar qc ../../lib/libGameObject.a CMakeFiles/GameObject.dir/GameObject.cpp.o CMakeFiles/GameObject.dir/Zombie.cpp.o CMakeFiles/GameObject.dir/Plant.cpp.o CMakeFiles/GameObject.dir/Other.cpp.o
 /usr/bin/ranlib ../../lib/libGameObject.a

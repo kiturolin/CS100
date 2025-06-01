@@ -564,6 +564,24 @@
   "output": "src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o"
 },
 {
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject",
+  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include -g -std=gnu++17 -o CMakeFiles/GameObject.dir/Zombie.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Zombie.cpp",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Zombie.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/Zombie.cpp.o"
+},
+{
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject",
+  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include -g -std=gnu++17 -o CMakeFiles/GameObject.dir/Plant.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Plant.cpp",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Plant.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/Plant.cpp.o"
+},
+{
+  "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject",
+  "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include -g -std=gnu++17 -o CMakeFiles/GameObject.dir/Other.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Other.cpp",
+  "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/Other.cpp",
+  "output": "src/GameObject/CMakeFiles/GameObject.dir/Other.cpp.o"
+},
+{
   "directory": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld",
   "command": "/usr/bin/c++  -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include -g -std=gnu++17 -o CMakeFiles/GameWorld.dir/GameWorld.cpp.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld/GameWorld.cpp",
   "file": "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameWorld/GameWorld.cpp",

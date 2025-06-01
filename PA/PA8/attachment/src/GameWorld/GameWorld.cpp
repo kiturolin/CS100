@@ -1,5 +1,7 @@
 #include "pvz/Framework/TextBase.hpp"
 #include "pvz/GameObject/GameObject.hpp"
+#include "pvz/GameObject/Other.hpp"
+#include "pvz/GameObject/Zombie.hpp"
 #include "pvz/GameWorld/GameWorld.hpp"
 #include "pvz/utils.hpp"
 

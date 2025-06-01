@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-wODoo1"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-wODoo1"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-eLWtNR"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-eLWtNR"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,13 +71,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-wODoo1'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-eLWtNR'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_23dd0/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_23dd0.dir/build.make CMakeFiles/cmTC_23dd0.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-wODoo1'
-        Building C object CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50773/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_50773.dir/build.make CMakeFiles/cmTC_50773.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-eLWtNR'
+        Building C object CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -85,8 +85,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.1 20250207 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_23dd0.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_23dd0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccG7oviz.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50773.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_50773.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccPCZniJ.s
         GNU C17 (GCC) version 14.2.1 20250207 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 14.2.1 20250207, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -100,14 +100,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 26a734649dd11ad41e6b2b442beb07a7
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_23dd0.dir/'
-         as -v --64 -o CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o /tmp/ccG7oviz.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50773.dir/'
+         as -v --64 -o CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o /tmp/ccPCZniJ.s
         GNU assembler version 2.43.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.1
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_23dd0
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23dd0.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_50773
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50773.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper
@@ -118,14 +118,14 @@ events:
         gcc version 14.2.1 20250207 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23dd0' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_23dd0.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNTfOhz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_23dd0 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50773' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50773.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccS5A2rd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_50773 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
         collect2 version 14.2.1 20250207
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNTfOhz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_23dd0 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccS5A2rd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_50773 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23dd0' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_23dd0.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o -o cmTC_23dd0
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-wODoo1'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50773' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50773.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o -o cmTC_50773
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-eLWtNR'
         
       exitCode: 0
   -
@@ -160,13 +160,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-wODoo1']
+        ignore line: [Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-eLWtNR']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_23dd0/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_23dd0.dir/build.make CMakeFiles/cmTC_23dd0.dir/build]
-        ignore line: [make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-wODoo1']
-        ignore line: [Building C object CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50773/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_50773.dir/build.make CMakeFiles/cmTC_50773.dir/build]
+        ignore line: [make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-eLWtNR']
+        ignore line: [Building C object CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -174,8 +174,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.1 20250207 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_23dd0.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_23dd0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccG7oviz.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50773.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_50773.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccPCZniJ.s]
         ignore line: [GNU C17 (GCC) version 14.2.1 20250207 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 14.2.1 20250207  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -189,14 +189,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 26a734649dd11ad41e6b2b442beb07a7]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_23dd0.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o /tmp/ccG7oviz.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50773.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o /tmp/ccPCZniJ.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.1]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_23dd0]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23dd0.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_50773]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50773.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper]
@@ -207,13 +207,13 @@ events:
         ignore line: [gcc version 14.2.1 20250207 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23dd0' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_23dd0.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNTfOhz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_23dd0 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50773' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50773.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccS5A2rd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_50773 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccNTfOhz.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccS5A2rd.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -228,7 +228,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_23dd0] ==> ignore
+          arg [cmTC_50773] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o]
@@ -238,7 +238,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -253,7 +253,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 14.2.1 20250207]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNTfOhz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_23dd0 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_23dd0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccS5A2rd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_50773 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_50773.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -288,8 +288,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fSEn4n"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fSEn4n"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xmWQvs"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xmWQvs"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -299,13 +299,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fSEn4n'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xmWQvs'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_47ec4/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_47ec4.dir/build.make CMakeFiles/cmTC_47ec4.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fSEn4n'
-        Building CXX object CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_27b8a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_27b8a.dir/build.make CMakeFiles/cmTC_27b8a.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xmWQvs'
+        Building CXX object CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -313,8 +313,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.1 20250207 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47ec4.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_47ec4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccyCXnhb.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_27b8a.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_27b8a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc07I36Z.s
         GNU C++17 (GCC) version 14.2.1 20250207 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 14.2.1 20250207, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -331,14 +331,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: bbdc9fcb26e32fbe61551147f27ba644
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47ec4.dir/'
-         as -v --64 -o CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccyCXnhb.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_27b8a.dir/'
+         as -v --64 -o CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc07I36Z.s
         GNU assembler version 2.43.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.1
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_47ec4
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47ec4.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_27b8a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27b8a.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper
@@ -349,14 +349,14 @@ events:
         gcc version 14.2.1 20250207 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47ec4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47ec4.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIPrCuT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47ec4 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27b8a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_27b8a.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccB4dt9k.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_27b8a /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
         collect2 version 14.2.1 20250207
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIPrCuT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47ec4 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccB4dt9k.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_27b8a /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47ec4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47ec4.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_47ec4
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fSEn4n'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27b8a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_27b8a.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_27b8a
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xmWQvs'
         
       exitCode: 0
   -
@@ -397,13 +397,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fSEn4n']
+        ignore line: [Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xmWQvs']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_47ec4/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_47ec4.dir/build.make CMakeFiles/cmTC_47ec4.dir/build]
-        ignore line: [make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fSEn4n']
-        ignore line: [Building CXX object CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_27b8a/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_27b8a.dir/build.make CMakeFiles/cmTC_27b8a.dir/build]
+        ignore line: [make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xmWQvs']
+        ignore line: [Building CXX object CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -411,8 +411,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.1 20250207 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47ec4.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_47ec4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccyCXnhb.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_27b8a.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_27b8a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc07I36Z.s]
         ignore line: [GNU C++17 (GCC) version 14.2.1 20250207 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 14.2.1 20250207  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -429,14 +429,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: bbdc9fcb26e32fbe61551147f27ba644]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47ec4.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccyCXnhb.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_27b8a.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc07I36Z.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.1]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_47ec4]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47ec4.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_27b8a]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27b8a.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper]
@@ -447,13 +447,13 @@ events:
         ignore line: [gcc version 14.2.1 20250207 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47ec4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47ec4.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIPrCuT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47ec4 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27b8a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_27b8a.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccB4dt9k.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_27b8a /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccIPrCuT.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccB4dt9k.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -468,7 +468,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_47ec4] ==> ignore
+          arg [cmTC_27b8a] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o]
@@ -478,7 +478,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -489,7 +489,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 14.2.1 20250207]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIPrCuT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47ec4 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_47ec4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccB4dt9k.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_27b8a /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_27b8a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -524,8 +524,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-IeQXUa"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-IeQXUa"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AUmjpz"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AUmjpz"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -534,17 +534,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-IeQXUa'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AUmjpz'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8b1c4/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_8b1c4.dir/build.make CMakeFiles/cmTC_8b1c4.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-IeQXUa'
-        Building C object CMakeFiles/cmTC_8b1c4.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_8b1c4.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-IeQXUa/CheckFunctionExists.c
-        Linking C executable cmTC_8b1c4
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b1c4.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_8b1c4.dir/CheckFunctionExists.c.o -o cmTC_8b1c4  /usr/lib/libX11.so /usr/lib/libXext.so -lm
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-IeQXUa'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ba897/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ba897.dir/build.make CMakeFiles/cmTC_ba897.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AUmjpz'
+        Building C object CMakeFiles/cmTC_ba897.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_ba897.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AUmjpz/CheckFunctionExists.c
+        Linking C executable cmTC_ba897
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba897.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_ba897.dir/CheckFunctionExists.c.o -o cmTC_ba897  /usr/lib/libX11.so /usr/lib/libXext.so -lm
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AUmjpz'
         
       exitCode: 0
   -
@@ -556,8 +556,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-g2wtQs"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-g2wtQs"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-lHHe4h"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-lHHe4h"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -566,17 +566,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-g2wtQs'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-lHHe4h'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d94d2/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_d94d2.dir/build.make CMakeFiles/cmTC_d94d2.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-g2wtQs'
-        Building C object CMakeFiles/cmTC_d94d2.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_d94d2.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-g2wtQs/CheckFunctionExists.c
-        Linking C executable cmTC_d94d2
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d94d2.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_d94d2.dir/CheckFunctionExists.c.o -o cmTC_d94d2  -lm
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-g2wtQs'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_142f1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_142f1.dir/build.make CMakeFiles/cmTC_142f1.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-lHHe4h'
+        Building C object CMakeFiles/cmTC_142f1.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_142f1.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-lHHe4h/CheckFunctionExists.c
+        Linking C executable cmTC_142f1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_142f1.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_142f1.dir/CheckFunctionExists.c.o -o cmTC_142f1  -lm
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-lHHe4h'
         
       exitCode: 0
   -
@@ -588,8 +588,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-zMSLwH"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-zMSLwH"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-QFaCtO"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-QFaCtO"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -598,17 +598,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-zMSLwH'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-QFaCtO'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eaa7c/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_eaa7c.dir/build.make CMakeFiles/cmTC_eaa7c.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-zMSLwH'
-        Building C object CMakeFiles/cmTC_eaa7c.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_eaa7c.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-zMSLwH/CheckFunctionExists.c
-        Linking C executable cmTC_eaa7c
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaa7c.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_eaa7c.dir/CheckFunctionExists.c.o -o cmTC_eaa7c  -lm
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-zMSLwH'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cbcd9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_cbcd9.dir/build.make CMakeFiles/cmTC_cbcd9.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-QFaCtO'
+        Building C object CMakeFiles/cmTC_cbcd9.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_cbcd9.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-QFaCtO/CheckFunctionExists.c
+        Linking C executable cmTC_cbcd9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbcd9.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_cbcd9.dir/CheckFunctionExists.c.o -o cmTC_cbcd9  -lm
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-QFaCtO'
         
       exitCode: 0
   -
@@ -620,8 +620,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4pzDd2"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4pzDd2"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-8aUq1k"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-8aUq1k"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -630,17 +630,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4pzDd2'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-8aUq1k'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2004a/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_2004a.dir/build.make CMakeFiles/cmTC_2004a.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4pzDd2'
-        Building C object CMakeFiles/cmTC_2004a.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_2004a.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4pzDd2/CheckFunctionExists.c
-        Linking C executable cmTC_2004a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2004a.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_2004a.dir/CheckFunctionExists.c.o -o cmTC_2004a  -lm
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4pzDd2'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1992e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1992e.dir/build.make CMakeFiles/cmTC_1992e.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-8aUq1k'
+        Building C object CMakeFiles/cmTC_1992e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_1992e.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-8aUq1k/CheckFunctionExists.c
+        Linking C executable cmTC_1992e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1992e.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_1992e.dir/CheckFunctionExists.c.o -o cmTC_1992e  -lm
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-8aUq1k'
         
       exitCode: 0
   -
@@ -652,8 +652,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-8oD5yR"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-8oD5yR"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AV2Fcb"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AV2Fcb"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -662,17 +662,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-8oD5yR'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AV2Fcb'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3c3e7/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_3c3e7.dir/build.make CMakeFiles/cmTC_3c3e7.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-8oD5yR'
-        Building C object CMakeFiles/cmTC_3c3e7.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_3c3e7.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-8oD5yR/CheckFunctionExists.c
-        Linking C executable cmTC_3c3e7
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c3e7.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_3c3e7.dir/CheckFunctionExists.c.o -o cmTC_3c3e7  -lm
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-8oD5yR'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9ae2a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9ae2a.dir/build.make CMakeFiles/cmTC_9ae2a.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AV2Fcb'
+        Building C object CMakeFiles/cmTC_9ae2a.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_9ae2a.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AV2Fcb/CheckFunctionExists.c
+        Linking C executable cmTC_9ae2a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ae2a.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_9ae2a.dir/CheckFunctionExists.c.o -o cmTC_9ae2a  -lm
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AV2Fcb'
         
       exitCode: 0
   -
@@ -684,8 +684,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xRH1Yp"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xRH1Yp"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-M162M9"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-M162M9"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -694,17 +694,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xRH1Yp'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-M162M9'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6c24f/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_6c24f.dir/build.make CMakeFiles/cmTC_6c24f.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xRH1Yp'
-        Building C object CMakeFiles/cmTC_6c24f.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_6c24f.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xRH1Yp/CheckFunctionExists.c
-        Linking C executable cmTC_6c24f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c24f.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_6c24f.dir/CheckFunctionExists.c.o -o cmTC_6c24f  -lICE -lm
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-xRH1Yp'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6982e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6982e.dir/build.make CMakeFiles/cmTC_6982e.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-M162M9'
+        Building C object CMakeFiles/cmTC_6982e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_6982e.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-M162M9/CheckFunctionExists.c
+        Linking C executable cmTC_6982e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6982e.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_6982e.dir/CheckFunctionExists.c.o -o cmTC_6982e  -lICE -lm
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-M162M9'
         
       exitCode: 0
   -
@@ -715,8 +715,8 @@ events:
     checks:
       - "Looking for include file /usr/include/X11/extensions/XInput2.h"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-DvDYbw"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-DvDYbw"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-ynSOxw"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-ynSOxw"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -725,17 +725,17 @@ events:
       variable: "HAVE_X11_EXTENSIONS_XINPUT2_H"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-DvDYbw'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-ynSOxw'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_20b47/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_20b47.dir/build.make CMakeFiles/cmTC_20b47.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-DvDYbw'
-        Building C object CMakeFiles/cmTC_20b47.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_20b47.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-DvDYbw/HAVE_X11_EXTENSIONS_XINPUT2_H.c
-        Linking C executable cmTC_20b47
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20b47.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_20b47.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o -o cmTC_20b47
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-DvDYbw'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d212c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d212c.dir/build.make CMakeFiles/cmTC_d212c.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-ynSOxw'
+        Building C object CMakeFiles/cmTC_d212c.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_d212c.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-ynSOxw/HAVE_X11_EXTENSIONS_XINPUT2_H.c
+        Linking C executable cmTC_d212c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d212c.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_d212c.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o -o cmTC_d212c
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-ynSOxw'
         
       exitCode: 0
   -
@@ -746,8 +746,8 @@ events:
     checks:
       - "Looking for include file sys/types.h"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-1z9ZV5"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-1z9ZV5"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-E5y6BF"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-E5y6BF"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -756,17 +756,17 @@ events:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-1z9ZV5'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-E5y6BF'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_73800/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_73800.dir/build.make CMakeFiles/cmTC_73800.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-1z9ZV5'
-        Building C object CMakeFiles/cmTC_73800.dir/HAVE_SYS_TYPES_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_73800.dir/HAVE_SYS_TYPES_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-1z9ZV5/HAVE_SYS_TYPES_H.c
-        Linking C executable cmTC_73800
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73800.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_73800.dir/HAVE_SYS_TYPES_H.c.o -o cmTC_73800
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-1z9ZV5'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1a947/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1a947.dir/build.make CMakeFiles/cmTC_1a947.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-E5y6BF'
+        Building C object CMakeFiles/cmTC_1a947.dir/HAVE_SYS_TYPES_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_1a947.dir/HAVE_SYS_TYPES_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-E5y6BF/HAVE_SYS_TYPES_H.c
+        Linking C executable cmTC_1a947
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a947.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_1a947.dir/HAVE_SYS_TYPES_H.c.o -o cmTC_1a947
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-E5y6BF'
         
       exitCode: 0
   -
@@ -777,8 +777,8 @@ events:
     checks:
       - "Looking for include file unistd.h"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-hR4yGr"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-hR4yGr"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-LWKlCG"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-LWKlCG"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -787,17 +787,17 @@ events:
       variable: "HAVE_UNISTD_H"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-hR4yGr'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-LWKlCG'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f35c9/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_f35c9.dir/build.make CMakeFiles/cmTC_f35c9.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-hR4yGr'
-        Building C object CMakeFiles/cmTC_f35c9.dir/HAVE_UNISTD_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_f35c9.dir/HAVE_UNISTD_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-hR4yGr/HAVE_UNISTD_H.c
-        Linking C executable cmTC_f35c9
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f35c9.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_f35c9.dir/HAVE_UNISTD_H.c.o -o cmTC_f35c9
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-hR4yGr'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fb9eb/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_fb9eb.dir/build.make CMakeFiles/cmTC_fb9eb.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-LWKlCG'
+        Building C object CMakeFiles/cmTC_fb9eb.dir/HAVE_UNISTD_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_fb9eb.dir/HAVE_UNISTD_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-LWKlCG/HAVE_UNISTD_H.c
+        Linking C executable cmTC_fb9eb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb9eb.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_fb9eb.dir/HAVE_UNISTD_H.c.o -o cmTC_fb9eb
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-LWKlCG'
         
       exitCode: 0
   -
@@ -808,8 +808,8 @@ events:
     checks:
       - "Looking for include file sys/time.h"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-CHybGb"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-CHybGb"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-3nSINN"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-3nSINN"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -818,17 +818,17 @@ events:
       variable: "HAVE_SYS_TIME_H"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-CHybGb'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-3nSINN'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_91bb8/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_91bb8.dir/build.make CMakeFiles/cmTC_91bb8.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-CHybGb'
-        Building C object CMakeFiles/cmTC_91bb8.dir/HAVE_SYS_TIME_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_91bb8.dir/HAVE_SYS_TIME_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-CHybGb/HAVE_SYS_TIME_H.c
-        Linking C executable cmTC_91bb8
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91bb8.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_91bb8.dir/HAVE_SYS_TIME_H.c.o -o cmTC_91bb8
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-CHybGb'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e3978/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e3978.dir/build.make CMakeFiles/cmTC_e3978.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-3nSINN'
+        Building C object CMakeFiles/cmTC_e3978.dir/HAVE_SYS_TIME_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_e3978.dir/HAVE_SYS_TIME_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-3nSINN/HAVE_SYS_TIME_H.c
+        Linking C executable cmTC_e3978
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3978.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_e3978.dir/HAVE_SYS_TIME_H.c.o -o cmTC_e3978
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-3nSINN'
         
       exitCode: 0
   -
@@ -839,8 +839,8 @@ events:
     checks:
       - "Looking for include file stdbool.h"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-sIw6y3"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-sIw6y3"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-cfBrXx"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-cfBrXx"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -849,17 +849,17 @@ events:
       variable: "HAVE_STDBOOL_H"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-sIw6y3'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-cfBrXx'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ca0b4/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_ca0b4.dir/build.make CMakeFiles/cmTC_ca0b4.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-sIw6y3'
-        Building C object CMakeFiles/cmTC_ca0b4.dir/HAVE_STDBOOL_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_ca0b4.dir/HAVE_STDBOOL_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-sIw6y3/HAVE_STDBOOL_H.c
-        Linking C executable cmTC_ca0b4
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca0b4.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_ca0b4.dir/HAVE_STDBOOL_H.c.o -o cmTC_ca0b4
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-sIw6y3'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7105e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7105e.dir/build.make CMakeFiles/cmTC_7105e.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-cfBrXx'
+        Building C object CMakeFiles/cmTC_7105e.dir/HAVE_STDBOOL_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_7105e.dir/HAVE_STDBOOL_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-cfBrXx/HAVE_STDBOOL_H.c
+        Linking C executable cmTC_7105e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7105e.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_7105e.dir/HAVE_STDBOOL_H.c.o -o cmTC_7105e
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-cfBrXx'
         
       exitCode: 0
   -
@@ -870,8 +870,8 @@ events:
     checks:
       - "Looking for include file sys/param.h"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-O3tfGD"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-O3tfGD"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-nK5qKx"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-nK5qKx"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -880,17 +880,17 @@ events:
       variable: "HAVE_SYS_PARAM_H"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-O3tfGD'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-nK5qKx'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_291b8/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_291b8.dir/build.make CMakeFiles/cmTC_291b8.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-O3tfGD'
-        Building C object CMakeFiles/cmTC_291b8.dir/HAVE_SYS_PARAM_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_291b8.dir/HAVE_SYS_PARAM_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-O3tfGD/HAVE_SYS_PARAM_H.c
-        Linking C executable cmTC_291b8
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_291b8.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_291b8.dir/HAVE_SYS_PARAM_H.c.o -o cmTC_291b8
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-O3tfGD'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a88b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4a88b.dir/build.make CMakeFiles/cmTC_4a88b.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-nK5qKx'
+        Building C object CMakeFiles/cmTC_4a88b.dir/HAVE_SYS_PARAM_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_4a88b.dir/HAVE_SYS_PARAM_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-nK5qKx/HAVE_SYS_PARAM_H.c
+        Linking C executable cmTC_4a88b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a88b.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_4a88b.dir/HAVE_SYS_PARAM_H.c.o -o cmTC_4a88b
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-nK5qKx'
         
       exitCode: 0
   -
@@ -901,8 +901,8 @@ events:
     checks:
       - "Looking for include file sys/ioctl.h"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JOIPpi"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JOIPpi"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AYX9Nk"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AYX9Nk"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -911,17 +911,17 @@ events:
       variable: "HAVE_SYS_IOCTL_H"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JOIPpi'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AYX9Nk'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_44792/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_44792.dir/build.make CMakeFiles/cmTC_44792.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JOIPpi'
-        Building C object CMakeFiles/cmTC_44792.dir/HAVE_SYS_IOCTL_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_44792.dir/HAVE_SYS_IOCTL_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JOIPpi/HAVE_SYS_IOCTL_H.c
-        Linking C executable cmTC_44792
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44792.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_44792.dir/HAVE_SYS_IOCTL_H.c.o -o cmTC_44792
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JOIPpi'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9505d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9505d.dir/build.make CMakeFiles/cmTC_9505d.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AYX9Nk'
+        Building C object CMakeFiles/cmTC_9505d.dir/HAVE_SYS_IOCTL_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_9505d.dir/HAVE_SYS_IOCTL_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AYX9Nk/HAVE_SYS_IOCTL_H.c
+        Linking C executable cmTC_9505d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9505d.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_9505d.dir/HAVE_SYS_IOCTL_H.c.o -o cmTC_9505d
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-AYX9Nk'
         
       exitCode: 0
   -
@@ -932,8 +932,8 @@ events:
     checks:
       - "Looking for include file fcntl.h"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4K4yet"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4K4yet"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-5IzF9t"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-5IzF9t"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -942,17 +942,17 @@ events:
       variable: "HAVE_FCNTL_H"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4K4yet'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-5IzF9t'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0ac85/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_0ac85.dir/build.make CMakeFiles/cmTC_0ac85.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4K4yet'
-        Building C object CMakeFiles/cmTC_0ac85.dir/HAVE_FCNTL_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_0ac85.dir/HAVE_FCNTL_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4K4yet/HAVE_FCNTL_H.c
-        Linking C executable cmTC_0ac85
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ac85.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_0ac85.dir/HAVE_FCNTL_H.c.o -o cmTC_0ac85
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4K4yet'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4d19f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4d19f.dir/build.make CMakeFiles/cmTC_4d19f.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-5IzF9t'
+        Building C object CMakeFiles/cmTC_4d19f.dir/HAVE_FCNTL_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_4d19f.dir/HAVE_FCNTL_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-5IzF9t/HAVE_FCNTL_H.c
+        Linking C executable cmTC_4d19f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d19f.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_4d19f.dir/HAVE_FCNTL_H.c.o -o cmTC_4d19f
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-5IzF9t'
         
       exitCode: 0
   -
@@ -963,8 +963,8 @@ events:
     checks:
       - "Looking for include file usbhid.h"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JaJKYw"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JaJKYw"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-VUgIZ8"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-VUgIZ8"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -973,20 +973,20 @@ events:
       variable: "HAVE_USBHID_H"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JaJKYw'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-VUgIZ8'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8f2de/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_8f2de.dir/build.make CMakeFiles/cmTC_8f2de.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JaJKYw'
-        Building C object CMakeFiles/cmTC_8f2de.dir/HAVE_USBHID_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_8f2de.dir/HAVE_USBHID_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JaJKYw/HAVE_USBHID_H.c
-        /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JaJKYw/HAVE_USBHID_H.c:2:10: fatal error: usbhid.h: No such file or directory
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5b356/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5b356.dir/build.make CMakeFiles/cmTC_5b356.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-VUgIZ8'
+        Building C object CMakeFiles/cmTC_5b356.dir/HAVE_USBHID_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_5b356.dir/HAVE_USBHID_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-VUgIZ8/HAVE_USBHID_H.c
+        /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-VUgIZ8/HAVE_USBHID_H.c:2:10: fatal error: usbhid.h: No such file or directory
             2 | #include <usbhid.h>
               |          ^~~~~~~~~~
         compilation terminated.
-        make[1]: *** [CMakeFiles/cmTC_8f2de.dir/build.make:81: CMakeFiles/cmTC_8f2de.dir/HAVE_USBHID_H.c.o] Error 1
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-JaJKYw'
-        make: *** [Makefile:134: cmTC_8f2de/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_5b356.dir/build.make:81: CMakeFiles/cmTC_5b356.dir/HAVE_USBHID_H.c.o] Error 1
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-VUgIZ8'
+        make: *** [Makefile:134: cmTC_5b356/fast] Error 2
         
       exitCode: 2
   -
@@ -997,8 +997,8 @@ events:
     checks:
       - "Looking for gettimeofday"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-bBHYAo"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-bBHYAo"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-3PfFqN"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-3PfFqN"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1007,17 +1007,17 @@ events:
       variable: "HAVE_GETTIMEOFDAY"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-bBHYAo'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-3PfFqN'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_612dc/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_612dc.dir/build.make CMakeFiles/cmTC_612dc.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-bBHYAo'
-        Building C object CMakeFiles/cmTC_612dc.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -o CMakeFiles/cmTC_612dc.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-bBHYAo/CheckFunctionExists.c
-        Linking C executable cmTC_612dc
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_612dc.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday CMakeFiles/cmTC_612dc.dir/CheckFunctionExists.c.o -o cmTC_612dc  -lm
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-bBHYAo'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6ffcb/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6ffcb.dir/build.make CMakeFiles/cmTC_6ffcb.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-3PfFqN'
+        Building C object CMakeFiles/cmTC_6ffcb.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -o CMakeFiles/cmTC_6ffcb.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-3PfFqN/CheckFunctionExists.c
+        Linking C executable cmTC_6ffcb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ffcb.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday CMakeFiles/cmTC_6ffcb.dir/CheckFunctionExists.c.o -o cmTC_6ffcb  -lm
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-3PfFqN'
         
       exitCode: 0
   -
@@ -1028,8 +1028,8 @@ events:
     checks:
       - "Looking for XParseGeometry"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-XWRUlr"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-XWRUlr"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4Os8gK"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4Os8gK"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1038,22 +1038,22 @@ events:
       variable: "HAVE_XPARSEGEOMETRY"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-XWRUlr'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4Os8gK'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f43d/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_5f43d.dir/build.make CMakeFiles/cmTC_5f43d.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-XWRUlr'
-        Building C object CMakeFiles/cmTC_5f43d.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -o CMakeFiles/cmTC_5f43d.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-XWRUlr/CheckFunctionExists.c
-        Linking C executable cmTC_5f43d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f43d.dir/link.txt --verbose=1
-        /usr/bin/ld: CMakeFiles/cmTC_5f43d.dir/CheckFunctionExists.c.o: in function `main':
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_63744/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_63744.dir/build.make CMakeFiles/cmTC_63744.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4Os8gK'
+        Building C object CMakeFiles/cmTC_63744.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -o CMakeFiles/cmTC_63744.dir/CheckFunctionExists.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4Os8gK/CheckFunctionExists.c
+        Linking C executable cmTC_63744
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63744.dir/link.txt --verbose=1
+        /usr/bin/ld: CMakeFiles/cmTC_63744.dir/CheckFunctionExists.c.o: in function `main':
         CheckFunctionExists.c:(.text+0x10): undefined reference to `XParseGeometry'
         collect2: error: ld returned 1 exit status
-        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry CMakeFiles/cmTC_5f43d.dir/CheckFunctionExists.c.o -o cmTC_5f43d  -lm
-        make[1]: *** [CMakeFiles/cmTC_5f43d.dir/build.make:102: cmTC_5f43d] Error 1
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-XWRUlr'
-        make: *** [Makefile:134: cmTC_5f43d/fast] Error 2
+        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry CMakeFiles/cmTC_63744.dir/CheckFunctionExists.c.o -o cmTC_63744  -lm
+        make[1]: *** [CMakeFiles/cmTC_63744.dir/build.make:102: cmTC_63744] Error 1
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-4Os8gK'
+        make: *** [Makefile:134: cmTC_63744/fast] Error 2
         
       exitCode: 2
   -
@@ -1064,8 +1064,8 @@ events:
     checks:
       - "Looking for include file stdint.h"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fiq85w"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fiq85w"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-hhG007"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-hhG007"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1074,17 +1074,17 @@ events:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fiq85w'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-hhG007'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a1979/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_a1979.dir/build.make CMakeFiles/cmTC_a1979.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fiq85w'
-        Building C object CMakeFiles/cmTC_a1979.dir/HAVE_STDINT_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_a1979.dir/HAVE_STDINT_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fiq85w/HAVE_STDINT_H.c
-        Linking C executable cmTC_a1979
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1979.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_a1979.dir/HAVE_STDINT_H.c.o -o cmTC_a1979
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fiq85w'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7f1f1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7f1f1.dir/build.make CMakeFiles/cmTC_7f1f1.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-hhG007'
+        Building C object CMakeFiles/cmTC_7f1f1.dir/HAVE_STDINT_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_7f1f1.dir/HAVE_STDINT_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-hhG007/HAVE_STDINT_H.c
+        Linking C executable cmTC_7f1f1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f1f1.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_7f1f1.dir/HAVE_STDINT_H.c.o -o cmTC_7f1f1
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-hhG007'
         
       exitCode: 0
   -
@@ -1095,8 +1095,8 @@ events:
     checks:
       - "Looking for include file inttypes.h"
     directories:
-      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-2R99IH"
-      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-2R99IH"
+      source: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fbTk3W"
+      binary: "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fbTk3W"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1105,17 +1105,17 @@ events:
       variable: "HAVE_INTTYPES_H"
       cached: true
       stdout: |
-        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-2R99IH'
+        Change Dir: '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fbTk3W'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8eb12/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_8eb12.dir/build.make CMakeFiles/cmTC_8eb12.dir/build
-        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-2R99IH'
-        Building C object CMakeFiles/cmTC_8eb12.dir/HAVE_INTTYPES_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_8eb12.dir/HAVE_INTTYPES_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-2R99IH/HAVE_INTTYPES_H.c
-        Linking C executable cmTC_8eb12
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8eb12.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_8eb12.dir/HAVE_INTTYPES_H.c.o -o cmTC_8eb12
-        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-2R99IH'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_538ee/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_538ee.dir/build.make CMakeFiles/cmTC_538ee.dir/build
+        make[1]: Entering directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fbTk3W'
+        Building C object CMakeFiles/cmTC_538ee.dir/HAVE_INTTYPES_H.c.o
+        /usr/bin/cc   -Wall -pedantic  -o CMakeFiles/cmTC_538ee.dir/HAVE_INTTYPES_H.c.o -c /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fbTk3W/HAVE_INTTYPES_H.c
+        Linking C executable cmTC_538ee
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_538ee.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -pedantic  CMakeFiles/cmTC_538ee.dir/HAVE_INTTYPES_H.c.o -o cmTC_538ee
+        make[1]: Leaving directory '/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/CMakeFiles/CMakeScratch/TryCompile-fbTk3W'
         
       exitCode: 0
 ...

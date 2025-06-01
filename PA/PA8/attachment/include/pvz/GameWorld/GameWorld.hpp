@@ -1,6 +1,7 @@
 #ifndef GAMEWORLD_HPP__
 #define GAMEWORLD_HPP__
 
+#include "pvz/GameObject/Other.hpp"
 #include "pvz/Framework/TextBase.hpp"
 #include "pvz/Framework/WorldBase.hpp"
 #include "pvz/GameObject/GameObject.hpp"
@@ -33,12 +34,12 @@ public:
   static void InitializeSeedPacks ();
   static void InitializePlatingSpots ();
   static void SetShovel ();
-  static void SetWaves();
+  static void SetWaves ();
   static bool ZombiesOnRight (int);
   void GenerateSun ();
   void GenerateSun (int x, int y);
-  void SetLose();
-  static void GenerateZombies();
+  void SetLose ();
+  static void GenerateZombies ();
   void GetSun ();
 
   LevelStatus Update () override;
