@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/freeglut/include -I/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/third_party/SOIL/include
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -g -std=gnu++17
 

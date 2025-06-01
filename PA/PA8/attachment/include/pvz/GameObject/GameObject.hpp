@@ -36,6 +36,7 @@ public:
 
   virtual bool IsPlant () { return false; };
 
+
 private:
   bool m_is_dead;
 };
@@ -75,11 +76,13 @@ public:
   void OnClick () override;
 };
 
-
 class Pea : public GameObject
 {
 public:
   Pea (int x, int y);
+
+  bool IsPea () override { return true; };
+
   void Update () override;
   void OnClick () override {};
 };
@@ -297,7 +300,10 @@ public:
   std::shared_ptr<GameObject> CheckCollision ();
   static void RemoveZombie (int row, std::shared_ptr<Zombie> &zombie);
   void OnClick () override {};
-  void HandleCollision(std::shared_ptr<GameObject> &);
+  void HandleCollision (std::shared_ptr<GameObject> &);
+  void CheckLose();
+  virtual bool IsPole() {return false;}
+  virtual bool IsRunning() {return false;}
   ZombieType type;
   int row;
   int hp;
@@ -324,8 +330,13 @@ class PoleZombie : public Zombie
 public:
   PoleZombie (int row, int x, int y);
   void Update () override;
-  void HandleJump();
+  void HandleJump ();
+  
   bool jumping;
+  bool running;
+  bool IsPole() override {return true;};
+  bool IsRunning() override {return jumping;}
+  
   int jump_anime_countdown;
 };
 #endif	  // !GAMEOBJECT_HPP__

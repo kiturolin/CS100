@@ -1,10 +1,10 @@
-#include "pvz/Framework/GameManager.hpp"
 #include "pvz/GameObject/GameObject.hpp"
 #include "pvz/GameWorld/GameWorld.hpp"
 #include "pvz/utils.hpp"
 
 #include <cmath>
 #include <cstdint>
+#include <cstdio>
 #include <memory>
 
 std::vector<std::vector<std::shared_ptr<Zombie>>> Zombie::zombies (5);
@@ -33,12 +33,6 @@ GameObject::IsDead () const
   return m_is_dead;
 }
 
-void
-Actions::ExecuteCallback ()
-{
-  GameWorld::spotClickEvent = std::make_shared<NoAction> ();
-}
-
 GameBackground::GameBackground () :
     GameObject (ImageID::BACKGROUND,
 		WINDOW_WIDTH / 2,
@@ -58,6 +52,20 @@ CooldownMask::CooldownMask (int x, int y, int _cooldown_time) :
 		AnimID::NO_ANIMATION),
     cooldown_time (_cooldown_time)
 {
+}
+
+void
+Actions::ExecuteCallback ()
+{
+  GameWorld::spotClickEvent = std::make_shared<NoAction> ();
+}
+
+template <typename T_PlantType>
+void
+GenericPlantExecution<T_PlantType>::ExecutePlanting (int x, int y)
+{
+  auto plant = std::make_shared<T_PlantType> (x, y);
+  GameWorld::AddNewObject (plant);
 }
 
 void
@@ -173,6 +181,62 @@ PlantingSpot::PlantingSpot (int row, int col) :
     m_x (col * LAWN_GRID_WIDTH + FIRST_ROW_CENTER),
     m_y (row * LAWN_GRID_HEIGHT + FIRST_COL_CENTER)
 {
+}
+
+Seed::Seed (ImageID imageID,
+	    PlantType _type,
+	    int _cost,
+	    int _num_pos,
+	    int _cooldown_time) :
+    GameObject (imageID, 0, 0, LayerID::UI, 50, 70, AnimID::NO_ANIMATION),
+    type (_type),
+    cost (_cost),
+    num_pos (_num_pos),
+    cooldown_time (_cooldown_time)
+{
+  MoveTo (130 + _num_pos * 60, WINDOW_HEIGHT - 44);
+}
+
+void
+Seed::CoolDown ()
+{
+  auto mask = std::make_shared<CooldownMask> (GetX (), GetY (), cooldown_time);
+  GameWorld::AddNewObject (mask);
+}
+
+void
+Seed::OnClick ()
+{
+  // 如果手中拿着铲子或植物种子
+  if (!GameWorld::spotClickEvent->IsNoAction ()) return;
+  // 如果阳光不够
+  if (GameWorld::num_sun < cost) return;
+  // 阳光足够, 则准备下一次种植
+  GameWorld::num_sun -= cost;
+  switch (type) {
+  case PlantType::PEASHOOTER:
+    GameWorld::spotClickEvent
+	= std::make_shared<PlantAction<GenericPlantExecution<Peashooter>>> ();
+    break;
+  case PlantType::WALLNUT:
+    GameWorld::spotClickEvent
+	= std::make_shared<PlantAction<GenericPlantExecution<Wallnut>>> ();
+    break;
+  case PlantType::CHERRYBOMB:
+    GameWorld::spotClickEvent
+	= std::make_shared<PlantAction<GenericPlantExecution<CherryBomb>>> ();
+    break;
+  case PlantType::REPEATER:
+    GameWorld::spotClickEvent
+	= std::make_shared<PlantAction<GenericPlantExecution<Repeater>>> ();
+    break;
+  case PlantType::SUNFLOWER:
+    GameWorld::spotClickEvent
+	= std::make_shared<PlantAction<GenericPlantExecution<Sunflower>>> ();
+    break;
+  }
+  // 给出冷却时间
+  CoolDown ();
 }
 
 Plant::Plant (ImageID imageID, int x, int y, AnimID animID, int hp) :
@@ -328,69 +392,6 @@ PlantingSpot::OnClick ()
   GameWorld::spotClickEvent->Execute (m_x, m_y);
 }
 
-Seed::Seed (ImageID imageID,
-	    PlantType _type,
-	    int _cost,
-	    int _num_pos,
-	    int _cooldown_time) :
-    GameObject (imageID, 0, 0, LayerID::UI, 50, 70, AnimID::NO_ANIMATION),
-    type (_type),
-    cost (_cost),
-    num_pos (_num_pos),
-    cooldown_time (_cooldown_time)
-{
-  MoveTo (130 + _num_pos * 60, WINDOW_HEIGHT - 44);
-}
-
-void
-Seed::CoolDown ()
-{
-  auto mask = std::make_shared<CooldownMask> (GetX (), GetY (), cooldown_time);
-  GameWorld::AddNewObject (mask);
-}
-
-void
-Seed::OnClick ()
-{
-  // 如果手中拿着铲子或植物种子
-  if (!GameWorld::spotClickEvent->IsNoAction ()) return;
-  // 如果阳光不够
-  if (GameWorld::num_sun < cost) return;
-  // 阳光足够, 则准备下一次种植
-  GameWorld::num_sun -= cost;
-  switch (type) {
-  case PlantType::PEASHOOTER:
-    GameWorld::spotClickEvent
-	= std::make_shared<PlantAction<GenericPlantExecution<Peashooter>>> ();
-    break;
-  case PlantType::WALLNUT:
-    GameWorld::spotClickEvent
-	= std::make_shared<PlantAction<GenericPlantExecution<Wallnut>>> ();
-    break;
-  case PlantType::CHERRYBOMB:
-    GameWorld::spotClickEvent
-	= std::make_shared<PlantAction<GenericPlantExecution<CherryBomb>>> ();
-    break;
-  case PlantType::REPEATER:
-    GameWorld::spotClickEvent
-	= std::make_shared<PlantAction<GenericPlantExecution<Repeater>>> ();
-    break;
-  case PlantType::SUNFLOWER:
-    GameWorld::spotClickEvent
-	= std::make_shared<PlantAction<GenericPlantExecution<Sunflower>>> ();
-    break;
-  }
-  // 给出冷却时间
-  CoolDown ();
-}
-
-template <typename T_PlantType>
-void
-GenericPlantExecution<T_PlantType>::ExecutePlanting (int x, int y)
-{
-  auto plant = std::make_shared<T_PlantType> (x, y);
-  GameWorld::AddNewObject (plant);
-}
 
 Zombie::Zombie (ImageID imageID,
 		int row,
@@ -404,7 +405,13 @@ Zombie::Zombie (ImageID imageID,
     row (row),
     hp (hp)
 {
-  zombies[row].push_back (shared_from_this ());
+  zombies[row].push_back (nullptr);
+}
+
+void
+Zombie::CheckLose ()
+{
+  if (GetX () < 0) world->SetLose ();
 }
 
 void
@@ -424,16 +431,18 @@ std::shared_ptr<GameObject>
 Zombie::CheckCollision ()
 {
   for (auto &object : GameWorld::m_GameObjects) {
-    // 常规的Pea与Plant的监测
-    if (abs (object->GetY () - GetY ()) <= 25
-	&& abs (GetX () - object->GetX ()) < 10)
-      return object;
-
-    // Explosion的监测
+    // Explosion的监测需要优先
     if (abs (object->GetY () - GetY ()) <= LAWN_GRID_HEIGHT
 	&& abs (object->GetX () - GetX ()) <= LAWN_GRID_WIDTH
-	&& object->IsExplosion ())
+	&& object->IsExplosion ()) {
       return object;
+    }
+    // 常规的Pea与Plant的监测
+    if (abs (object->GetY () - GetY ()) <= 25
+	&& abs (GetX () - object->GetX ()) < 20 && !object->IsZombie ()
+	&& !object->IsDead () && (object->IsPea () || object->IsPlant ())) {
+      return object;
+    }
   }
   // 运行到这里说明没有检测到任何碰撞
   return nullptr;
@@ -454,8 +463,11 @@ Zombie::HandleCollision (std::shared_ptr<GameObject> &object)
     if (object->IsPlant ()) {
       auto plant = std::dynamic_pointer_cast<Plant> (object);
       plant->AdjustHp (-3);
-      if (plant->IsDead ()) PlayAnimation (AnimID::WALK);
-      else PlayAnimation (AnimID::EAT);
+      if (plant->IsDead ()) {
+	if (IsPole () && IsRunning ()) {
+	  PlayAnimation (AnimID::RUN);
+	} else PlayAnimation (AnimID::WALK);
+      } else PlayAnimation (AnimID::EAT);
     }
   }
 }
@@ -491,6 +503,7 @@ PoleZombie::PoleZombie (int row, int x, int y) :
 	    Zombie::ZombieType::POLE,
 	    AnimID::RUN),
     jumping (false),
+    running (true),
     jump_anime_countdown (42)
 {
 }
@@ -502,6 +515,7 @@ RegularZombie::Update ()
     SetDead ();
     return;
   }
+  CheckLose ();
   auto object = CheckCollision ();
   HandleCollision (object);
   if (GetCurrentAnimation () == AnimID::WALK) { MoveTo (GetX () - 1, GetY ()); }
@@ -514,6 +528,7 @@ BucketZombie::Update ()
     SetDead ();
     return;
   }
+  CheckLose ();
   auto object = CheckCollision ();
   HandleCollision (object);
   if (GetCurrentAnimation () == AnimID::WALK) { MoveTo (GetX () - 1, GetY ()); }
@@ -527,14 +542,17 @@ PoleZombie::HandleJump ()
   if (!jumping) {
     MoveTo (GetX () - 40, GetY ());
     auto object = CheckCollision ();
+    if (object != nullptr) printf ("find some object\n");
     MoveTo (GetX () + 40, GetY ());
   }
   if (object != nullptr && object->IsPlant ()) {
+    if (object != nullptr) printf ("ready to jump\n");
     jumping = true;
     PlayAnimation (AnimID::JUMP);
   }
   if (jumping) jump_anime_countdown--;
   if (jump_anime_countdown <= 0) {
+    running = false;
     jumping = false;
     PlayAnimation (AnimID::WALK);
     MoveTo (GetX () - 150, GetY ());
@@ -548,12 +566,12 @@ PoleZombie::Update ()
     SetDead ();
     return;
   }
+  CheckLose ();
   HandleJump ();
   if (GetCurrentAnimation () == AnimID::RUN) MoveTo (GetX () - 2, GetY ());
-  if (GetCurrentAnimation () == AnimID::WALK) {
+  if (!jumping) {
     auto object = CheckCollision ();
     HandleCollision (object);
-    MoveTo (GetX () - 1, GetY ());
   }
 }
 

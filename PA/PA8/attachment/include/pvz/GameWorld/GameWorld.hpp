@@ -37,6 +37,8 @@ public:
   static bool ZombiesOnRight (int);
   void GenerateSun ();
   void GenerateSun (int x, int y);
+  void SetLose();
+  static void GenerateZombies();
   void GetSun ();
 
   LevelStatus Update () override;
@@ -44,6 +46,7 @@ public:
   void CleanUp () override;
 
 private:
+  bool m_isLosing;
 };
 
 #endif	  // !GAMEWORLD_HPP__

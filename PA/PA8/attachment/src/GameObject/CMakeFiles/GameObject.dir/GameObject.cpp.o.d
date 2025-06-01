@@ -1,7 +1,7 @@
 src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o: \
  /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/src/GameObject/GameObject.cpp \
  /usr/include/stdc-predef.h \
- /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/GameManager.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/GameObject/GameObject.hpp \
  /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/ObjectBase.hpp \
  /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
@@ -196,11 +196,8 @@ src/GameObject/CMakeFiles/GameObject.dir/GameObject.cpp.o: \
  /usr/include/c++/14.2.1/bits/random.tcc /usr/include/c++/14.2.1/numeric \
  /usr/include/c++/14.2.1/bits/stl_numeric.h \
  /usr/include/c++/14.2.1/pstl/glue_numeric_defs.h \
- /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/WorldBase.hpp \
- /usr/include/c++/14.2.1/map /usr/include/c++/14.2.1/bits/stl_map.h \
- /usr/include/c++/14.2.1/bits/stl_multimap.h \
- /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/GameObject/GameObject.hpp \
  /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/GameWorld/GameWorld.hpp \
  /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/TextBase.hpp \
+ /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/WorldBase.hpp \
  /usr/include/c++/14.2.1/list /usr/include/c++/14.2.1/bits/stl_list.h \
  /usr/include/c++/14.2.1/bits/list.tcc

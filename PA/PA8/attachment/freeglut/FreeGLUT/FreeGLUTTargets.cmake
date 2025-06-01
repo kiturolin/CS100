@@ -60,18 +60,18 @@ set_target_properties(FreeGLUT::freeglut_static PROPERTIES
   INTERFACE_LINK_LIBRARIES "/usr/lib/libGL.so;m;/usr/lib/libX11.so;/usr/lib/libXrandr.so;/usr/lib/libXxf86vm.so;/usr/lib/libXi.so"
 )
 
-# Import target "FreeGLUT::freeglut" for configuration ""
-set_property(TARGET FreeGLUT::freeglut APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
+# Import target "FreeGLUT::freeglut" for configuration "Debug"
+set_property(TARGET FreeGLUT::freeglut APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(FreeGLUT::freeglut PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/lib/libglut.so.3.11.1"
-  IMPORTED_SONAME_NOCONFIG "libglut.so.3"
+  IMPORTED_LOCATION_DEBUG "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/lib/libglut.so.3.11.1"
+  IMPORTED_SONAME_DEBUG "libglut.so.3"
   )
 
-# Import target "FreeGLUT::freeglut_static" for configuration ""
-set_property(TARGET FreeGLUT::freeglut_static APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
+# Import target "FreeGLUT::freeglut_static" for configuration "Debug"
+set_property(TARGET FreeGLUT::freeglut_static APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(FreeGLUT::freeglut_static PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
-  IMPORTED_LOCATION_NOCONFIG "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/lib/libglut.a"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
+  IMPORTED_LOCATION_DEBUG "/home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/lib/libglut.a"
   )
 
 # This file does not depend on other imported targets which have

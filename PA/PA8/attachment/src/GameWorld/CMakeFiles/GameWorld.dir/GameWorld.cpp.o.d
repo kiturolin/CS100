@@ -201,4 +201,8 @@ src/GameWorld/CMakeFiles/GameWorld.dir/GameWorld.cpp.o: \
  /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/GameWorld/GameWorld.hpp \
  /home/kituro/workflow/cs100/PA-cloned/CS100/PA/PA8/attachment/include/pvz/Framework/WorldBase.hpp \
  /usr/include/c++/14.2.1/list /usr/include/c++/14.2.1/bits/stl_list.h \
- /usr/include/c++/14.2.1/bits/list.tcc
+ /usr/include/c++/14.2.1/bits/list.tcc /usr/include/c++/14.2.1/algorithm \
+ /usr/include/c++/14.2.1/bits/stl_algo.h \
+ /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+ /usr/include/c++/14.2.1/bits/stl_heap.h \
+ /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h
