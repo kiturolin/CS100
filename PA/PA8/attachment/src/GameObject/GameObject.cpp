@@ -96,7 +96,6 @@ Pea::Pea (int x, int y) :
     GameObject (
 	ImageID::PEA, x, y, LayerID::PROJECTILES, 28, 28, AnimID::NO_ANIMATION)
 {
-  std::cout << "Spawn at :" << x << " " << y << "\n";
 }
 
 void
@@ -421,33 +420,44 @@ Zombie::RemoveZombie (int row, std::shared_ptr<Zombie> &zombie)
   }
 }
 
-void
+std::shared_ptr<GameObject>
 Zombie::CheckCollision ()
 {
   for (auto &object : GameWorld::m_GameObjects) {
-    if (object->GetY () == GetY () && GetX () - object->GetX () < 10) {
-      if (object->IsPea ()) {
-	object->SetDead ();
-	hp -= 20;
-	return;
-      }
+    // 常规的Pea与Plant的监测
+    if (abs (object->GetY () - GetY ()) <= 25
+	&& abs (GetX () - object->GetX ()) < 10)
+      return object;
 
-      if (object->IsPlant ()) {
-	auto plant = std::dynamic_pointer_cast<Plant> (object);
-	plant->AdjustHp (-3);
-	PlayAnimation (AnimID::EAT);
-	return;
-      }
-    }
+    // Explosion的监测
     if (abs (object->GetY () - GetY ()) <= LAWN_GRID_HEIGHT
-	&& abs (object->GetX () - GetX ()) <= LAWN_GRID_WIDTH)
-      if (object->IsExplosion ()) {
-	SetDead ();
-	return;
-      }
+	&& abs (object->GetX () - GetX ()) <= LAWN_GRID_WIDTH
+	&& object->IsExplosion ())
+      return object;
   }
   // 运行到这里说明没有检测到任何碰撞
-  PlayAnimation (AnimID::RUN);
+  return nullptr;
+}
+
+void
+Zombie::HandleCollision (std::shared_ptr<GameObject> &object)
+{
+  if (object != nullptr) {
+    if (object->IsExplosion ()) {
+      SetDead ();
+      return;
+    }
+    if (object->IsPea ()) {
+      object->SetDead ();
+      hp -= 20;
+    }
+    if (object->IsPlant ()) {
+      auto plant = std::dynamic_pointer_cast<Plant> (object);
+      plant->AdjustHp (-3);
+      if (plant->IsDead ()) PlayAnimation (AnimID::WALK);
+      else PlayAnimation (AnimID::EAT);
+    }
+  }
 }
 
 RegularZombie::RegularZombie (int row, int x, int y) :
@@ -480,7 +490,8 @@ PoleZombie::PoleZombie (int row, int x, int y) :
 	    340,
 	    Zombie::ZombieType::POLE,
 	    AnimID::RUN),
-    running (true)
+    jumping (false),
+    jump_anime_countdown (42)
 {
 }
 
@@ -491,6 +502,8 @@ RegularZombie::Update ()
     SetDead ();
     return;
   }
+  auto object = CheckCollision ();
+  HandleCollision (object);
   if (GetCurrentAnimation () == AnimID::WALK) { MoveTo (GetX () - 1, GetY ()); }
 }
 
@@ -501,13 +514,47 @@ BucketZombie::Update ()
     SetDead ();
     return;
   }
+  auto object = CheckCollision ();
+  HandleCollision (object);
   if (GetCurrentAnimation () == AnimID::WALK) { MoveTo (GetX () - 1, GetY ()); }
   if (hp <= 300) ChangeImage (ImageID::REGULAR_ZOMBIE);
 }
 
 void
+PoleZombie::HandleJump ()
+{
+  std::shared_ptr<GameObject> object = nullptr;
+  if (!jumping) {
+    MoveTo (GetX () - 40, GetY ());
+    auto object = CheckCollision ();
+    MoveTo (GetX () + 40, GetY ());
+  }
+  if (object != nullptr && object->IsPlant ()) {
+    jumping = true;
+    PlayAnimation (AnimID::JUMP);
+  }
+  if (jumping) jump_anime_countdown--;
+  if (jump_anime_countdown <= 0) {
+    jumping = false;
+    PlayAnimation (AnimID::WALK);
+    MoveTo (GetX () - 150, GetY ());
+  }
+}
+
+void
 PoleZombie::Update ()
 {
+  if (hp <= 0) {
+    SetDead ();
+    return;
+  }
+  HandleJump ();
+  if (GetCurrentAnimation () == AnimID::RUN) MoveTo (GetX () - 2, GetY ());
+  if (GetCurrentAnimation () == AnimID::WALK) {
+    auto object = CheckCollision ();
+    HandleCollision (object);
+    MoveTo (GetX () - 1, GetY ());
+  }
 }
 
 // Your everything begins from here.

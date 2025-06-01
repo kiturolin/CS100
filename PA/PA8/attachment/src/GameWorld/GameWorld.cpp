@@ -4,8 +4,10 @@
 #include "pvz/utils.hpp"
 
 #include <memory>
+#include <string>
 
 int GameWorld::num_sun			     = 0;
+int GameWorld::waves = 3;
 uint32_t GameWorld::sun_time_interval	     = 0;
 std::shared_ptr<GameWorld> GameObject::world = nullptr;
 std::shared_ptr<Actions> GameWorld::spotClickEvent
@@ -13,6 +15,7 @@ std::shared_ptr<Actions> GameWorld::spotClickEvent
 std::list<std::shared_ptr<GameObject>> GameWorld::m_GameObjects;
 std::shared_ptr<TextBase> GameWorld::sunText
     = std::make_shared<TextBase> (60, WINDOW_HEIGHT - 78);
+std::shared_ptr<TextBase> GameWorld::waveText = std::make_shared<TextBase>(WINDOW_HEIGHT - 160, 8);
 
 void
 GameWorld::AddNewObject (const std::shared_ptr<GameObject> &sPtr)
@@ -23,10 +26,12 @@ GameWorld::AddNewObject (const std::shared_ptr<GameObject> &sPtr)
 void
 GameWorld::GenerateSun ()
 {
-  if (!((sun_time_interval++) % 150)) {
+  static int first_sun_interval = 180;
+  first_sun_interval--;
+  if (first_sun_interval < 0 && !((sun_time_interval++) % 300)) {
     auto sun
-	= std::make_shared<Sun> (randInt (FIRST_COL_CENTER, WINDOW_WIDTH - 10),
-				 WINDOW_HEIGHT - 10,
+	= std::make_shared<Sun> (randInt (75, WINDOW_WIDTH - 75),
+				 WINDOW_HEIGHT - 1,
 				 Sun::SunType::Sky,
 				 shared_from_this ());
     AddNewObject (sun);
@@ -48,10 +53,9 @@ GameWorld::GetSun ()
 }
 
 bool
-GameWorld::ZombiesOnRight (int)
+GameWorld::ZombiesOnRight (int row)
 {
-  // TODO: Logic
-  return true;
+  return !Zombie::zombies[row].empty ();
 }
 
 void
@@ -91,6 +95,7 @@ GameWorld::SetShovel ()
   GameWorld::AddNewObject (shovel);
 }
 
+
 void
 GameWorld::Init ()
 {
@@ -107,6 +112,7 @@ GameWorld::Update ()
 {
   GenerateSun ();
   sunText->SetText (std::to_string (GameWorld::num_sun));
+  waveText->SetText("Waves remaining: " + std::to_string(GameWorld::waves));
   for (auto &gameObject_it : m_GameObjects) {
     gameObject_it->Update ();
   }

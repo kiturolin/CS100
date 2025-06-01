@@ -75,6 +75,7 @@ public:
   void OnClick () override;
 };
 
+
 class Pea : public GameObject
 {
 public:
@@ -292,9 +293,11 @@ public:
 	  int hp,
 	  ZombieType type,
 	  AnimID animeID);
-  void CheckCollision ();
+
+  std::shared_ptr<GameObject> CheckCollision ();
   static void RemoveZombie (int row, std::shared_ptr<Zombie> &zombie);
   void OnClick () override {};
+  void HandleCollision(std::shared_ptr<GameObject> &);
   ZombieType type;
   int row;
   int hp;
@@ -309,17 +312,20 @@ public:
   void Update () override;
 };
 
-class BucketZombie: public Zombie
+class BucketZombie : public Zombie
 {
 public:
-  BucketZombie(int row, int x, int y);
+  BucketZombie (int row, int x, int y);
   void Update () override;
 };
+
 class PoleZombie : public Zombie
 {
 public:
   PoleZombie (int row, int x, int y);
   void Update () override;
-  bool running;
+  void HandleJump();
+  bool jumping;
+  int jump_anime_countdown;
 };
 #endif	  // !GAMEOBJECT_HPP__

@@ -17,7 +17,9 @@ public:
   // Use shared_from_this() instead of "this" to create a pointer to oneself?
   // Use unique_ptr<> / shared_ptr<> to manage GameObjects?
   static int num_sun;
+  static int waves;
   static std::shared_ptr<TextBase> sunText;
+  static std::shared_ptr<TextBase> waveText;
   static uint32_t sun_time_interval;
   static std::shared_ptr<Actions> spotClickEvent;
   static std::list<std::shared_ptr<GameObject>> m_GameObjects;
@@ -31,6 +33,7 @@ public:
   static void InitializeSeedPacks ();
   static void InitializePlatingSpots ();
   static void SetShovel ();
+  static void SetWaves();
   static bool ZombiesOnRight (int);
   void GenerateSun ();
   void GenerateSun (int x, int y);
